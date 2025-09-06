@@ -1,1176 +1,1176 @@
-2025-09-05 00:01:06,635 - INFO - NumExpr defaulting to 4 threads.
-2025-09-05 00:01:09,289 - DEBUG - Processing session: /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-Experiment/data/polarhrcsv/Supervised
-2025-09-05 00:01:24,866 - DEBUG - running missing check
-2025-09-05 00:01:24,978 - DEBUG - running phantom zone qc
-2025-09-05 00:01:25,646 - DEBUG - running missing check
-2025-09-05 00:01:25,658 - DEBUG - running phantom zone qc
-2025-09-05 00:01:26,039 - DEBUG - running missing check
-2025-09-05 00:01:26,057 - DEBUG - running phantom zone qc
-2025-09-05 00:01:26,303 - DEBUG - running missing check
-2025-09-05 00:01:26,317 - DEBUG - running phantom zone qc
-2025-09-05 00:01:26,578 - DEBUG - running missing check
-2025-09-05 00:01:26,590 - DEBUG - running phantom zone qc
-2025-09-05 00:01:26,887 - DEBUG - running missing check
-2025-09-05 00:01:26,898 - DEBUG - running phantom zone qc
-2025-09-05 00:01:27,159 - DEBUG - running missing check
-2025-09-05 00:01:27,172 - DEBUG - running phantom zone qc
-2025-09-05 00:01:27,838 - DEBUG - running missing check
-2025-09-05 00:01:27,850 - DEBUG - running phantom zone qc
-2025-09-05 00:01:28,370 - DEBUG - running missing check
-2025-09-05 00:01:28,389 - DEBUG - running phantom zone qc
-2025-09-05 00:01:28,802 - DEBUG - running missing check
-2025-09-05 00:01:28,821 - DEBUG - running phantom zone qc
-2025-09-05 00:01:29,340 - DEBUG - running missing check
-2025-09-05 00:01:29,372 - DEBUG - running phantom zone qc
-2025-09-05 00:01:29,671 - DEBUG - running missing check
-2025-09-05 00:01:29,680 - DEBUG - running phantom zone qc
-2025-09-05 00:01:30,149 - DEBUG - running missing check
-2025-09-05 00:01:30,159 - DEBUG - running phantom zone qc
-2025-09-05 00:01:30,515 - DEBUG - running missing check
-2025-09-05 00:01:30,538 - DEBUG - running phantom zone qc
-2025-09-05 00:01:30,912 - DEBUG - running missing check
-2025-09-05 00:01:30,923 - DEBUG - running phantom zone qc
-2025-09-05 00:01:31,421 - DEBUG - running missing check
-2025-09-05 00:01:31,430 - DEBUG - running phantom zone qc
-2025-09-05 00:01:31,710 - DEBUG - running missing check
-2025-09-05 00:01:31,722 - DEBUG - running phantom zone qc
-2025-09-05 00:01:31,924 - DEBUG - running missing check
-2025-09-05 00:01:31,933 - DEBUG - running phantom zone qc
-2025-09-05 00:01:32,214 - DEBUG - running missing check
-2025-09-05 00:01:32,223 - DEBUG - running phantom zone qc
-2025-09-05 00:01:32,414 - DEBUG - running missing check
-2025-09-05 00:01:32,423 - DEBUG - running phantom zone qc
-2025-09-05 00:01:32,714 - DEBUG - running missing check
-2025-09-05 00:01:32,722 - DEBUG - running phantom zone qc
-2025-09-05 00:01:33,220 - DEBUG - running missing check
-2025-09-05 00:01:33,230 - DEBUG - running phantom zone qc
-2025-09-05 00:01:33,497 - DEBUG - running missing check
-2025-09-05 00:01:33,506 - DEBUG - running phantom zone qc
-2025-09-05 00:01:33,780 - DEBUG - running missing check
-2025-09-05 00:01:33,806 - DEBUG - running phantom zone qc
-2025-09-05 00:01:34,209 - DEBUG - running missing check
-2025-09-05 00:01:34,218 - DEBUG - running phantom zone qc
-2025-09-05 00:01:34,452 - DEBUG - running missing check
-2025-09-05 00:01:34,462 - DEBUG - running phantom zone qc
-2025-09-05 00:01:34,782 - DEBUG - running missing check
-2025-09-05 00:01:34,793 - DEBUG - running phantom zone qc
-2025-09-05 00:01:35,082 - DEBUG - running missing check
-2025-09-05 00:01:35,106 - DEBUG - running phantom zone qc
-2025-09-05 00:01:35,394 - DEBUG - running missing check
-2025-09-05 00:01:35,409 - DEBUG - running phantom zone qc
-2025-09-05 00:01:35,481 - DEBUG - running missing check
-2025-09-05 00:01:35,490 - DEBUG - running phantom zone qc
-2025-09-05 00:01:35,642 - DEBUG - running missing check
-2025-09-05 00:01:35,651 - DEBUG - running phantom zone qc
-2025-09-05 00:01:35,753 - DEBUG - running missing check
-2025-09-05 00:01:35,763 - DEBUG - running phantom zone qc
-2025-09-05 00:01:35,878 - DEBUG - running missing check
-2025-09-05 00:01:35,888 - DEBUG - running phantom zone qc
-2025-09-05 00:01:36,045 - DEBUG - running missing check
-2025-09-05 00:01:36,054 - DEBUG - running phantom zone qc
-2025-09-05 00:01:36,217 - DEBUG - running missing check
-2025-09-05 00:01:36,226 - DEBUG - running phantom zone qc
-2025-09-05 00:01:36,441 - DEBUG - running missing check
-2025-09-05 00:01:36,451 - DEBUG - running phantom zone qc
-2025-09-05 00:01:36,657 - DEBUG - running missing check
-2025-09-05 00:01:36,666 - DEBUG - running phantom zone qc
-2025-09-05 00:01:36,945 - DEBUG - running missing check
-2025-09-05 00:01:36,954 - DEBUG - running phantom zone qc
-2025-09-05 00:01:37,106 - DEBUG - running missing check
-2025-09-05 00:01:37,118 - DEBUG - running phantom zone qc
-2025-09-05 00:01:37,324 - DEBUG - running missing check
-2025-09-05 00:01:37,334 - DEBUG - running phantom zone qc
-2025-09-05 00:01:37,405 - DEBUG - running missing check
-2025-09-05 00:01:37,414 - DEBUG - running phantom zone qc
-2025-09-05 00:01:37,628 - DEBUG - running missing check
-2025-09-05 00:01:37,638 - DEBUG - running phantom zone qc
-2025-09-05 00:01:37,852 - DEBUG - running missing check
-2025-09-05 00:01:37,861 - DEBUG - running phantom zone qc
-2025-09-05 00:01:38,011 - DEBUG - running missing check
-2025-09-05 00:01:38,025 - DEBUG - running phantom zone qc
-2025-09-05 00:01:38,257 - DEBUG - running missing check
-2025-09-05 00:01:38,267 - DEBUG - running phantom zone qc
-2025-09-05 00:01:38,493 - DEBUG - running missing check
-2025-09-05 00:01:38,503 - DEBUG - running phantom zone qc
-2025-09-05 00:01:38,724 - DEBUG - running missing check
-2025-09-05 00:01:38,735 - DEBUG - running phantom zone qc
-2025-09-05 00:01:38,960 - DEBUG - running missing check
-2025-09-05 00:01:38,971 - DEBUG - running phantom zone qc
-2025-09-05 00:01:39,239 - DEBUG - running missing check
-2025-09-05 00:01:39,249 - DEBUG - running phantom zone qc
-2025-09-05 00:01:39,438 - DEBUG - running missing check
-2025-09-05 00:01:39,448 - DEBUG - running phantom zone qc
-2025-09-05 00:01:39,681 - DEBUG - running missing check
-2025-09-05 00:01:39,691 - DEBUG - running phantom zone qc
-2025-09-05 00:01:39,925 - DEBUG - running missing check
-2025-09-05 00:01:39,935 - DEBUG - running phantom zone qc
-2025-09-05 00:01:40,061 - DEBUG - running missing check
-2025-09-05 00:01:40,072 - DEBUG - running phantom zone qc
-2025-09-05 00:01:40,208 - DEBUG - running missing check
-2025-09-05 00:01:40,218 - DEBUG - running phantom zone qc
-2025-09-05 00:01:40,429 - DEBUG - running missing check
-2025-09-05 00:01:40,438 - DEBUG - running phantom zone qc
-2025-09-05 00:01:41,486 - DEBUG - running missing check
-2025-09-05 00:01:41,496 - DEBUG - running phantom zone qc
-2025-09-05 00:01:41,818 - DEBUG - running missing check
-2025-09-05 00:01:41,828 - DEBUG - running phantom zone qc
-2025-09-05 00:01:41,918 - DEBUG - running missing check
-2025-09-05 00:01:41,927 - DEBUG - running phantom zone qc
-2025-09-05 00:01:41,971 - DEBUG - running missing check
-2025-09-05 00:01:41,982 - DEBUG - running phantom zone qc
-2025-09-05 00:01:42,164 - DEBUG - running missing check
-2025-09-05 00:01:42,173 - DEBUG - running phantom zone qc
-2025-09-05 00:01:42,432 - DEBUG - running missing check
-2025-09-05 00:01:42,441 - DEBUG - running phantom zone qc
-2025-09-05 00:01:42,611 - DEBUG - running missing check
-2025-09-05 00:01:42,621 - DEBUG - running phantom zone qc
-2025-09-05 00:01:42,845 - DEBUG - running missing check
-2025-09-05 00:01:42,854 - DEBUG - running phantom zone qc
-2025-09-05 00:01:43,006 - DEBUG - running missing check
-2025-09-05 00:01:43,015 - DEBUG - running phantom zone qc
-2025-09-05 00:01:43,212 - DEBUG - running missing check
-2025-09-05 00:01:43,221 - DEBUG - running phantom zone qc
-2025-09-05 00:01:43,399 - DEBUG - running missing check
-2025-09-05 00:01:43,408 - DEBUG - running phantom zone qc
-2025-09-05 00:01:43,569 - DEBUG - running missing check
-2025-09-05 00:01:43,578 - DEBUG - running phantom zone qc
-2025-09-05 00:01:43,757 - DEBUG - running missing check
-2025-09-05 00:01:43,779 - DEBUG - running phantom zone qc
-2025-09-05 00:01:43,998 - DEBUG - running missing check
-2025-09-05 00:01:44,008 - DEBUG - running phantom zone qc
-2025-09-05 00:01:44,177 - DEBUG - running missing check
-2025-09-05 00:01:44,186 - DEBUG - running phantom zone qc
-2025-09-05 00:01:44,392 - DEBUG - running missing check
-2025-09-05 00:01:44,401 - DEBUG - running phantom zone qc
-2025-09-05 00:01:44,573 - DEBUG - running missing check
-2025-09-05 00:01:44,582 - DEBUG - running phantom zone qc
-2025-09-05 00:01:44,722 - DEBUG - running missing check
-2025-09-05 00:01:44,732 - DEBUG - running phantom zone qc
-2025-09-05 00:01:45,272 - DEBUG - running missing check
-2025-09-05 00:01:45,281 - DEBUG - running phantom zone qc
-2025-09-05 00:01:46,096 - DEBUG - running missing check
-2025-09-05 00:01:46,105 - DEBUG - running phantom zone qc
-2025-09-05 00:01:46,706 - DEBUG - running missing check
-2025-09-05 00:01:46,734 - DEBUG - running phantom zone qc
-2025-09-05 00:01:48,567 - DEBUG - running missing check
-2025-09-05 00:01:48,578 - DEBUG - running phantom zone qc
-2025-09-05 00:01:50,972 - DEBUG - running missing check
-2025-09-05 00:01:51,007 - DEBUG - running phantom zone qc
-2025-09-05 00:01:53,062 - DEBUG - running missing check
-2025-09-05 00:01:53,072 - DEBUG - running phantom zone qc
-2025-09-05 00:01:53,489 - DEBUG - running missing check
-2025-09-05 00:01:53,498 - DEBUG - running phantom zone qc
-2025-09-05 00:01:53,721 - DEBUG - running missing check
-2025-09-05 00:01:53,736 - DEBUG - running phantom zone qc
-2025-09-05 00:01:53,980 - DEBUG - running missing check
-2025-09-05 00:01:53,991 - DEBUG - running phantom zone qc
-2025-09-05 00:01:54,060 - DEBUG - running missing check
-2025-09-05 00:01:54,072 - DEBUG - running phantom zone qc
-2025-09-05 00:01:54,445 - DEBUG - running missing check
-2025-09-05 00:01:54,480 - DEBUG - running phantom zone qc
-2025-09-05 00:01:54,984 - DEBUG - running missing check
-2025-09-05 00:01:54,998 - DEBUG - running phantom zone qc
-2025-09-05 00:01:55,155 - DEBUG - running missing check
-2025-09-05 00:01:55,186 - DEBUG - running phantom zone qc
-2025-09-05 00:01:55,384 - DEBUG - running missing check
-2025-09-05 00:01:55,398 - DEBUG - running phantom zone qc
-2025-09-05 00:01:55,605 - DEBUG - running missing check
-2025-09-05 00:01:55,624 - DEBUG - running phantom zone qc
-2025-09-05 00:01:56,074 - DEBUG - running missing check
-2025-09-05 00:01:56,083 - DEBUG - running phantom zone qc
-2025-09-05 00:01:56,435 - DEBUG - running missing check
-2025-09-05 00:01:56,455 - DEBUG - running phantom zone qc
-2025-09-05 00:01:56,527 - DEBUG - running missing check
-2025-09-05 00:01:56,538 - DEBUG - running phantom zone qc
-2025-09-05 00:01:56,605 - DEBUG - running missing check
-2025-09-05 00:01:56,615 - DEBUG - running phantom zone qc
-2025-09-05 00:01:56,765 - DEBUG - running missing check
-2025-09-05 00:01:56,774 - DEBUG - running phantom zone qc
-2025-09-05 00:01:57,007 - DEBUG - running missing check
-2025-09-05 00:01:57,016 - DEBUG - running phantom zone qc
-2025-09-05 00:01:57,194 - DEBUG - running missing check
-2025-09-05 00:01:57,203 - DEBUG - running phantom zone qc
-2025-09-05 00:01:57,346 - DEBUG - running missing check
-2025-09-05 00:01:57,356 - DEBUG - running phantom zone qc
-2025-09-05 00:01:57,516 - DEBUG - running missing check
-2025-09-05 00:01:57,525 - DEBUG - running phantom zone qc
-2025-09-05 00:01:57,686 - DEBUG - running missing check
-2025-09-05 00:01:57,695 - DEBUG - running phantom zone qc
-2025-09-05 00:01:57,847 - DEBUG - running missing check
-2025-09-05 00:01:57,856 - DEBUG - running phantom zone qc
-2025-09-05 00:01:58,097 - DEBUG - running missing check
-2025-09-05 00:01:58,106 - DEBUG - running phantom zone qc
-2025-09-05 00:01:58,293 - DEBUG - running missing check
-2025-09-05 00:01:58,302 - DEBUG - running phantom zone qc
-2025-09-05 00:01:58,454 - DEBUG - running missing check
-2025-09-05 00:01:58,463 - DEBUG - running phantom zone qc
-2025-09-05 00:01:58,615 - DEBUG - running missing check
-2025-09-05 00:01:58,624 - DEBUG - running phantom zone qc
-2025-09-05 00:01:58,785 - DEBUG - running missing check
-2025-09-05 00:01:58,794 - DEBUG - running phantom zone qc
-2025-09-05 00:01:58,946 - DEBUG - running missing check
-2025-09-05 00:01:58,955 - DEBUG - running phantom zone qc
-2025-09-05 00:01:59,160 - DEBUG - running missing check
-2025-09-05 00:01:59,169 - DEBUG - running phantom zone qc
-2025-09-05 00:01:59,281 - DEBUG - running missing check
-2025-09-05 00:01:59,290 - DEBUG - running phantom zone qc
-2025-09-05 00:01:59,432 - DEBUG - running missing check
-2025-09-05 00:01:59,442 - DEBUG - running phantom zone qc
-2025-09-05 00:01:59,593 - DEBUG - running missing check
-2025-09-05 00:01:59,603 - DEBUG - running phantom zone qc
-2025-09-05 00:01:59,754 - DEBUG - running missing check
-2025-09-05 00:01:59,764 - DEBUG - running phantom zone qc
-2025-09-05 00:01:59,933 - DEBUG - running missing check
-2025-09-05 00:01:59,943 - DEBUG - running phantom zone qc
-2025-09-05 00:02:00,094 - DEBUG - running missing check
-2025-09-05 00:02:00,117 - DEBUG - running phantom zone qc
-2025-09-05 00:02:00,278 - DEBUG - running missing check
-2025-09-05 00:02:00,289 - DEBUG - running phantom zone qc
-2025-09-05 00:02:00,438 - DEBUG - running missing check
-2025-09-05 00:02:00,447 - DEBUG - running phantom zone qc
-2025-09-05 00:02:00,590 - DEBUG - running missing check
-2025-09-05 00:02:00,599 - DEBUG - running phantom zone qc
-2025-09-05 00:02:00,709 - DEBUG - running missing check
-2025-09-05 00:02:00,719 - DEBUG - running phantom zone qc
-2025-09-05 00:02:00,879 - DEBUG - running missing check
-2025-09-05 00:02:00,888 - DEBUG - running phantom zone qc
-2025-09-05 00:02:01,049 - DEBUG - running missing check
-2025-09-05 00:02:01,058 - DEBUG - running phantom zone qc
-2025-09-05 00:02:01,117 - DEBUG - running missing check
-2025-09-05 00:02:01,126 - DEBUG - running phantom zone qc
-2025-09-05 00:02:01,243 - DEBUG - running missing check
-2025-09-05 00:02:01,253 - DEBUG - running phantom zone qc
-2025-09-05 00:02:01,568 - DEBUG - running missing check
-2025-09-05 00:02:01,577 - DEBUG - running phantom zone qc
-2025-09-05 00:02:01,653 - DEBUG - running missing check
-2025-09-05 00:02:01,662 - DEBUG - running phantom zone qc
-2025-09-05 00:02:01,756 - DEBUG - running missing check
-2025-09-05 00:02:01,765 - DEBUG - running phantom zone qc
-2025-09-05 00:02:01,908 - DEBUG - running missing check
-2025-09-05 00:02:01,917 - DEBUG - running phantom zone qc
-2025-09-05 00:02:02,069 - DEBUG - running missing check
-2025-09-05 00:02:02,078 - DEBUG - running phantom zone qc
-2025-09-05 00:02:02,230 - DEBUG - running missing check
-2025-09-05 00:02:02,239 - DEBUG - running phantom zone qc
-2025-09-05 00:02:02,381 - DEBUG - running missing check
-2025-09-05 00:02:02,392 - DEBUG - running phantom zone qc
-2025-09-05 00:02:02,649 - DEBUG - running missing check
-2025-09-05 00:02:02,659 - DEBUG - running phantom zone qc
-2025-09-05 00:02:02,787 - DEBUG - running missing check
-2025-09-05 00:02:02,796 - DEBUG - running phantom zone qc
-2025-09-05 00:02:02,947 - DEBUG - running missing check
-2025-09-05 00:02:02,957 - DEBUG - running phantom zone qc
-2025-09-05 00:02:03,099 - DEBUG - running missing check
-2025-09-05 00:02:03,109 - DEBUG - running phantom zone qc
-2025-09-05 00:02:03,224 - DEBUG - running missing check
-2025-09-05 00:02:03,234 - DEBUG - running phantom zone qc
-2025-09-05 00:02:03,394 - DEBUG - running missing check
-2025-09-05 00:02:03,403 - DEBUG - running phantom zone qc
-2025-09-05 00:02:03,691 - DEBUG - running missing check
-2025-09-05 00:02:03,700 - DEBUG - running phantom zone qc
-2025-09-05 00:02:03,843 - DEBUG - running missing check
-2025-09-05 00:02:03,852 - DEBUG - running phantom zone qc
-2025-09-05 00:02:03,994 - DEBUG - running missing check
-2025-09-05 00:02:04,004 - DEBUG - running phantom zone qc
-2025-09-05 00:02:04,155 - DEBUG - running missing check
-2025-09-05 00:02:04,164 - DEBUG - running phantom zone qc
-2025-09-05 00:02:04,316 - DEBUG - running missing check
-2025-09-05 00:02:04,325 - DEBUG - running phantom zone qc
-2025-09-05 00:02:04,477 - DEBUG - running missing check
-2025-09-05 00:02:04,486 - DEBUG - running phantom zone qc
-2025-09-05 00:02:04,799 - DEBUG - running missing check
-2025-09-05 00:02:04,808 - DEBUG - running phantom zone qc
-2025-09-05 00:02:05,247 - DEBUG - running missing check
-2025-09-05 00:02:05,261 - DEBUG - running phantom zone qc
-2025-09-05 00:02:05,547 - DEBUG - running missing check
-2025-09-05 00:02:05,561 - DEBUG - running phantom zone qc
-2025-09-05 00:02:06,406 - DEBUG - running missing check
-2025-09-05 00:02:06,419 - DEBUG - running phantom zone qc
-2025-09-05 00:02:07,016 - DEBUG - running missing check
-2025-09-05 00:02:07,029 - DEBUG - running phantom zone qc
-2025-09-05 00:02:07,843 - DEBUG - running missing check
-2025-09-05 00:02:07,856 - DEBUG - running phantom zone qc
-2025-09-05 00:02:08,451 - DEBUG - running missing check
-2025-09-05 00:02:08,464 - DEBUG - running phantom zone qc
-2025-09-05 00:02:09,309 - DEBUG - running missing check
-2025-09-05 00:02:09,323 - DEBUG - running phantom zone qc
-2025-09-05 00:02:09,810 - DEBUG - running missing check
-2025-09-05 00:02:09,824 - DEBUG - running phantom zone qc
-2025-09-05 00:02:10,705 - DEBUG - running missing check
-2025-09-05 00:02:10,718 - DEBUG - running phantom zone qc
-2025-09-05 00:02:11,206 - DEBUG - running missing check
-2025-09-05 00:02:11,220 - DEBUG - running phantom zone qc
-2025-09-05 00:02:12,137 - DEBUG - running missing check
-2025-09-05 00:02:12,174 - DEBUG - running phantom zone qc
-2025-09-05 00:02:12,925 - DEBUG - running missing check
-2025-09-05 00:02:12,968 - DEBUG - running phantom zone qc
-2025-09-05 00:02:13,638 - DEBUG - running missing check
-2025-09-05 00:02:13,651 - DEBUG - running phantom zone qc
-2025-09-05 00:02:14,008 - DEBUG - running missing check
-2025-09-05 00:02:14,040 - DEBUG - running phantom zone qc
-2025-09-05 00:02:14,487 - DEBUG - running missing check
-2025-09-05 00:02:14,511 - DEBUG - running phantom zone qc
-2025-09-05 00:02:14,817 - DEBUG - running missing check
-2025-09-05 00:02:14,848 - DEBUG - running phantom zone qc
-2025-09-05 00:02:15,122 - DEBUG - running missing check
-2025-09-05 00:02:15,137 - DEBUG - running phantom zone qc
-2025-09-05 00:02:15,416 - DEBUG - running missing check
-2025-09-05 00:02:15,453 - DEBUG - running phantom zone qc
-2025-09-05 00:02:15,834 - DEBUG - running missing check
-2025-09-05 00:02:15,849 - DEBUG - running phantom zone qc
-2025-09-05 00:02:16,311 - DEBUG - running missing check
-2025-09-05 00:02:16,328 - DEBUG - running phantom zone qc
-2025-09-05 00:02:16,422 - DEBUG - running missing check
-2025-09-05 00:02:16,436 - DEBUG - running phantom zone qc
-2025-09-05 00:02:16,557 - DEBUG - running missing check
-2025-09-05 00:02:16,571 - DEBUG - running phantom zone qc
-2025-09-05 00:02:16,736 - DEBUG - running missing check
-2025-09-05 00:02:16,750 - DEBUG - running phantom zone qc
-2025-09-05 00:02:16,871 - DEBUG - running missing check
-2025-09-05 00:02:16,884 - DEBUG - running phantom zone qc
-2025-09-05 00:02:17,051 - DEBUG - running missing check
-2025-09-05 00:02:17,065 - DEBUG - running phantom zone qc
-2025-09-05 00:02:17,277 - DEBUG - running missing check
-2025-09-05 00:02:17,288 - DEBUG - running phantom zone qc
-2025-09-05 00:02:17,474 - DEBUG - running missing check
-2025-09-05 00:02:17,484 - DEBUG - running phantom zone qc
-2025-09-05 00:02:17,624 - DEBUG - running missing check
-2025-09-05 00:02:17,634 - DEBUG - running phantom zone qc
-2025-09-05 00:02:17,799 - DEBUG - running missing check
-2025-09-05 00:02:17,809 - DEBUG - running phantom zone qc
-2025-09-05 00:02:17,977 - DEBUG - running missing check
-2025-09-05 00:02:17,988 - DEBUG - running phantom zone qc
-2025-09-05 00:02:18,044 - DEBUG - running missing check
-2025-09-05 00:02:18,054 - DEBUG - running phantom zone qc
-2025-09-05 00:02:18,162 - DEBUG - running missing check
-2025-09-05 00:02:18,173 - DEBUG - running phantom zone qc
-2025-09-05 00:02:18,372 - DEBUG - running missing check
-2025-09-05 00:02:18,382 - DEBUG - running phantom zone qc
-2025-09-05 00:02:18,569 - DEBUG - running missing check
-2025-09-05 00:02:18,579 - DEBUG - running phantom zone qc
-2025-09-05 00:02:18,734 - DEBUG - running missing check
-2025-09-05 00:02:18,744 - DEBUG - running phantom zone qc
-2025-09-05 00:02:18,886 - DEBUG - running missing check
-2025-09-05 00:02:18,896 - DEBUG - running phantom zone qc
-2025-09-05 00:02:19,026 - DEBUG - running missing check
-2025-09-05 00:02:19,036 - DEBUG - running phantom zone qc
-2025-09-05 00:02:19,136 - DEBUG - running missing check
-2025-09-05 00:02:19,147 - DEBUG - running phantom zone qc
-2025-09-05 00:02:19,353 - DEBUG - running missing check
-2025-09-05 00:02:19,363 - DEBUG - running phantom zone qc
-2025-09-05 00:02:19,518 - DEBUG - running missing check
-2025-09-05 00:02:19,529 - DEBUG - running phantom zone qc
-2025-09-05 00:02:19,631 - DEBUG - running missing check
-2025-09-05 00:02:19,640 - DEBUG - running phantom zone qc
-2025-09-05 00:02:19,782 - DEBUG - running missing check
-2025-09-05 00:02:19,792 - DEBUG - running phantom zone qc
-2025-09-05 00:02:19,912 - DEBUG - running missing check
-2025-09-05 00:02:19,923 - DEBUG - running phantom zone qc
-2025-09-05 00:02:20,062 - DEBUG - running missing check
-2025-09-05 00:02:20,072 - DEBUG - running phantom zone qc
-2025-09-05 00:02:20,174 - DEBUG - running missing check
-2025-09-05 00:02:20,185 - DEBUG - running phantom zone qc
-2025-09-05 00:02:20,406 - DEBUG - running missing check
-2025-09-05 00:02:20,416 - DEBUG - running phantom zone qc
-2025-09-05 00:02:20,597 - DEBUG - running missing check
-2025-09-05 00:02:20,607 - DEBUG - running phantom zone qc
-2025-09-05 00:02:20,740 - DEBUG - running missing check
-2025-09-05 00:02:20,751 - DEBUG - running phantom zone qc
-2025-09-05 00:02:20,927 - DEBUG - running missing check
-2025-09-05 00:02:20,937 - DEBUG - running phantom zone qc
-2025-09-05 00:02:21,106 - DEBUG - running missing check
-2025-09-05 00:02:21,116 - DEBUG - running phantom zone qc
-2025-09-05 00:02:21,267 - DEBUG - running missing check
-2025-09-05 00:02:21,276 - DEBUG - running phantom zone qc
-2025-09-05 00:02:21,483 - DEBUG - running missing check
-2025-09-05 00:02:21,493 - DEBUG - running phantom zone qc
-2025-09-05 00:02:21,706 - DEBUG - running missing check
-2025-09-05 00:02:21,716 - DEBUG - running phantom zone qc
-2025-09-05 00:02:21,791 - DEBUG - running missing check
-2025-09-05 00:02:21,801 - DEBUG - running phantom zone qc
-2025-09-05 00:02:21,971 - DEBUG - running missing check
-2025-09-05 00:02:21,981 - DEBUG - running phantom zone qc
-2025-09-05 00:02:22,096 - DEBUG - running missing check
-2025-09-05 00:02:22,105 - DEBUG - running phantom zone qc
-2025-09-05 00:02:22,139 - DEBUG - running missing check
-2025-09-05 00:02:22,148 - DEBUG - running phantom zone qc
-2025-09-05 00:02:22,187 - DEBUG - running missing check
-2025-09-05 00:02:22,196 - DEBUG - running phantom zone qc
-2025-09-05 00:02:22,358 - DEBUG - running missing check
-2025-09-05 00:02:22,367 - DEBUG - running phantom zone qc
-2025-09-05 00:02:22,565 - DEBUG - running missing check
-2025-09-05 00:02:22,588 - DEBUG - running phantom zone qc
-2025-09-05 00:02:22,689 - DEBUG - running missing check
-2025-09-05 00:02:22,698 - DEBUG - running phantom zone qc
-2025-09-05 00:02:22,814 - DEBUG - running missing check
-2025-09-05 00:02:22,823 - DEBUG - running phantom zone qc
-2025-09-05 00:02:23,067 - DEBUG - running missing check
-2025-09-05 00:02:23,101 - DEBUG - running phantom zone qc
-2025-09-05 00:02:23,814 - DEBUG - running missing check
-2025-09-05 00:02:23,823 - DEBUG - running phantom zone qc
-2025-09-05 00:02:24,566 - DEBUG - running missing check
-2025-09-05 00:02:24,576 - DEBUG - running phantom zone qc
-2025-09-05 00:02:25,321 - DEBUG - running missing check
-2025-09-05 00:02:25,331 - DEBUG - running phantom zone qc
-2025-09-05 00:02:26,144 - DEBUG - running missing check
-2025-09-05 00:02:26,156 - DEBUG - running phantom zone qc
-2025-09-05 00:02:26,788 - DEBUG - running missing check
-2025-09-05 00:02:26,800 - DEBUG - running phantom zone qc
-2025-09-05 00:02:27,653 - DEBUG - running missing check
-2025-09-05 00:02:27,665 - DEBUG - running phantom zone qc
-2025-09-05 00:02:28,439 - DEBUG - running missing check
-2025-09-05 00:02:28,467 - DEBUG - running phantom zone qc
-2025-09-05 00:02:29,188 - DEBUG - running missing check
-2025-09-05 00:02:29,198 - DEBUG - running phantom zone qc
-2025-09-05 00:02:29,482 - DEBUG - running missing check
-2025-09-05 00:02:29,492 - DEBUG - running phantom zone qc
-2025-09-05 00:02:29,525 - DEBUG - running missing check
-2025-09-05 00:02:29,533 - DEBUG - running phantom zone qc
-2025-09-05 00:02:29,830 - DEBUG - running missing check
-2025-09-05 00:02:29,840 - DEBUG - running phantom zone qc
-2025-09-05 00:02:30,045 - DEBUG - running missing check
-2025-09-05 00:02:30,055 - DEBUG - running phantom zone qc
-2025-09-05 00:02:30,224 - DEBUG - running missing check
-2025-09-05 00:02:30,234 - DEBUG - running phantom zone qc
-2025-09-05 00:02:30,448 - DEBUG - running missing check
-2025-09-05 00:02:30,457 - DEBUG - running phantom zone qc
-2025-09-05 00:02:30,585 - DEBUG - running missing check
-2025-09-05 00:02:30,595 - DEBUG - running phantom zone qc
-2025-09-05 00:02:30,764 - DEBUG - running missing check
-2025-09-05 00:02:30,773 - DEBUG - running phantom zone qc
-2025-09-05 00:02:30,934 - DEBUG - running missing check
-2025-09-05 00:02:30,944 - DEBUG - running phantom zone qc
-2025-09-05 00:02:31,124 - DEBUG - running missing check
-2025-09-05 00:02:31,133 - DEBUG - running phantom zone qc
-2025-09-05 00:02:31,293 - DEBUG - running missing check
-2025-09-05 00:02:31,303 - DEBUG - running phantom zone qc
-2025-09-05 00:02:31,499 - DEBUG - running missing check
-2025-09-05 00:02:31,508 - DEBUG - running phantom zone qc
-2025-09-05 00:02:31,651 - DEBUG - running missing check
-2025-09-05 00:02:31,661 - DEBUG - running phantom zone qc
-2025-09-05 00:02:31,830 - DEBUG - running missing check
-2025-09-05 00:02:31,839 - DEBUG - running phantom zone qc
-2025-09-05 00:02:32,000 - DEBUG - running missing check
-2025-09-05 00:02:32,010 - DEBUG - running phantom zone qc
-2025-09-05 00:02:32,058 - DEBUG - running missing check
-2025-09-05 00:02:32,067 - DEBUG - running phantom zone qc
-2025-09-05 00:02:32,150 - DEBUG - running missing check
-2025-09-05 00:02:32,161 - DEBUG - running phantom zone qc
-2025-09-05 00:02:32,338 - DEBUG - running missing check
-2025-09-05 00:02:32,348 - DEBUG - running phantom zone qc
-2025-09-05 00:02:32,561 - DEBUG - running missing check
-2025-09-05 00:02:32,571 - DEBUG - running phantom zone qc
-2025-09-05 00:02:32,722 - DEBUG - running missing check
-2025-09-05 00:02:32,732 - DEBUG - running phantom zone qc
-2025-09-05 00:02:32,901 - DEBUG - running missing check
-2025-09-05 00:02:32,911 - DEBUG - running phantom zone qc
-2025-09-05 00:02:33,091 - DEBUG - running missing check
-2025-09-05 00:02:33,105 - DEBUG - running phantom zone qc
-2025-09-05 00:02:33,297 - DEBUG - running missing check
-2025-09-05 00:02:33,307 - DEBUG - running phantom zone qc
-2025-09-05 00:02:33,411 - DEBUG - running missing check
-2025-09-05 00:02:33,421 - DEBUG - running phantom zone qc
-2025-09-05 00:02:33,547 - DEBUG - running missing check
-2025-09-05 00:02:33,557 - DEBUG - running phantom zone qc
-2025-09-05 00:02:33,710 - DEBUG - running missing check
-2025-09-05 00:02:33,721 - DEBUG - running phantom zone qc
-2025-09-05 00:02:33,880 - DEBUG - running missing check
-2025-09-05 00:02:33,889 - DEBUG - running phantom zone qc
-2025-09-05 00:02:34,009 - DEBUG - running missing check
-2025-09-05 00:02:34,018 - DEBUG - running phantom zone qc
-2025-09-05 00:02:34,118 - DEBUG - running missing check
-2025-09-05 00:02:34,127 - DEBUG - running phantom zone qc
-2025-09-05 00:02:34,267 - DEBUG - running missing check
-2025-09-05 00:02:34,276 - DEBUG - running phantom zone qc
-2025-09-05 00:02:34,446 - DEBUG - running missing check
-2025-09-05 00:02:34,455 - DEBUG - running phantom zone qc
-2025-09-05 00:02:34,661 - DEBUG - running missing check
-2025-09-05 00:02:34,671 - DEBUG - running phantom zone qc
-2025-09-05 00:02:34,813 - DEBUG - running missing check
-2025-09-05 00:02:34,837 - DEBUG - running phantom zone qc
-2025-09-05 00:02:34,881 - DEBUG - running missing check
-2025-09-05 00:02:34,891 - DEBUG - running phantom zone qc
-2025-09-05 00:02:35,043 - DEBUG - running missing check
-2025-09-05 00:02:35,053 - DEBUG - running phantom zone qc
-2025-09-05 00:02:35,222 - DEBUG - running missing check
-2025-09-05 00:02:35,232 - DEBUG - running phantom zone qc
-2025-09-05 00:02:35,427 - DEBUG - running missing check
-2025-09-05 00:02:35,438 - DEBUG - running phantom zone qc
-2025-09-05 00:02:35,642 - DEBUG - running missing check
-2025-09-05 00:02:35,652 - DEBUG - running phantom zone qc
-2025-09-05 00:02:35,838 - DEBUG - running missing check
-2025-09-05 00:02:35,848 - DEBUG - running phantom zone qc
-2025-09-05 00:02:36,017 - DEBUG - running missing check
-2025-09-05 00:02:36,027 - DEBUG - running phantom zone qc
-2025-09-05 00:02:36,058 - DEBUG - running missing check
-2025-09-05 00:02:36,067 - DEBUG - running phantom zone qc
-2025-09-05 00:02:36,101 - DEBUG - running missing check
-2025-09-05 00:02:36,110 - DEBUG - running phantom zone qc
-2025-09-05 00:02:36,145 - DEBUG - running missing check
-2025-09-05 00:02:36,154 - DEBUG - running phantom zone qc
-2025-09-05 00:02:36,299 - DEBUG - running missing check
-2025-09-05 00:02:36,309 - DEBUG - running phantom zone qc
-2025-09-05 00:02:36,487 - DEBUG - running missing check
-2025-09-05 00:02:36,497 - DEBUG - running phantom zone qc
-2025-09-05 00:02:36,701 - DEBUG - running missing check
-2025-09-05 00:02:36,710 - DEBUG - running phantom zone qc
-2025-09-05 00:02:36,880 - DEBUG - running missing check
-2025-09-05 00:02:36,889 - DEBUG - running phantom zone qc
-2025-09-05 00:02:37,059 - DEBUG - running missing check
-2025-09-05 00:02:37,068 - DEBUG - running phantom zone qc
-2025-09-05 00:02:37,220 - DEBUG - running missing check
-2025-09-05 00:02:37,230 - DEBUG - running phantom zone qc
-2025-09-05 00:02:37,390 - DEBUG - running missing check
-2025-09-05 00:02:37,400 - DEBUG - running phantom zone qc
-2025-09-05 00:02:37,577 - DEBUG - running missing check
-2025-09-05 00:02:37,587 - DEBUG - running phantom zone qc
-2025-09-05 00:02:37,774 - DEBUG - running missing check
-2025-09-05 00:02:37,783 - DEBUG - running phantom zone qc
-2025-09-05 00:02:37,901 - DEBUG - running missing check
-2025-09-05 00:02:37,911 - DEBUG - running phantom zone qc
-2025-09-05 00:02:37,998 - DEBUG - running missing check
-2025-09-05 00:02:38,008 - DEBUG - running phantom zone qc
-2025-09-05 00:02:38,080 - DEBUG - running missing check
-2025-09-05 00:02:38,089 - DEBUG - running phantom zone qc
-2025-09-05 00:02:38,302 - DEBUG - running missing check
-2025-09-05 00:02:38,311 - DEBUG - running phantom zone qc
-2025-09-05 00:02:38,636 - DEBUG - running missing check
-2025-09-05 00:02:38,645 - DEBUG - running phantom zone qc
-2025-09-05 00:02:39,352 - DEBUG - running missing check
-2025-09-05 00:02:39,361 - DEBUG - running phantom zone qc
-2025-09-05 00:02:39,960 - DEBUG - running missing check
-2025-09-05 00:02:39,969 - DEBUG - running phantom zone qc
-2025-09-05 00:02:40,858 - DEBUG - running missing check
-2025-09-05 00:02:40,869 - DEBUG - running phantom zone qc
-2025-09-05 00:02:41,608 - DEBUG - running missing check
-2025-09-05 00:02:41,618 - DEBUG - running phantom zone qc
-2025-09-05 00:02:42,362 - DEBUG - running missing check
-2025-09-05 00:02:42,372 - DEBUG - running phantom zone qc
-2025-09-05 00:02:43,149 - DEBUG - running missing check
-2025-09-05 00:02:43,160 - DEBUG - running phantom zone qc
-2025-09-05 00:02:44,007 - DEBUG - running missing check
-2025-09-05 00:02:44,019 - DEBUG - running phantom zone qc
-2025-09-05 00:02:44,655 - DEBUG - running missing check
-2025-09-05 00:02:44,665 - DEBUG - running phantom zone qc
-2025-09-05 00:02:45,798 - DEBUG - running missing check
-2025-09-05 00:02:45,809 - DEBUG - running phantom zone qc
-2025-09-05 00:02:46,728 - DEBUG - running missing check
-2025-09-05 00:02:46,739 - DEBUG - running phantom zone qc
-2025-09-05 00:02:47,305 - DEBUG - running missing check
-2025-09-05 00:02:47,336 - DEBUG - running phantom zone qc
-2025-09-05 00:02:47,505 - DEBUG - running missing check
-2025-09-05 00:02:47,517 - DEBUG - running phantom zone qc
-2025-09-05 00:02:47,594 - DEBUG - running missing check
-2025-09-05 00:02:47,603 - DEBUG - running phantom zone qc
-2025-09-05 00:02:47,754 - DEBUG - running missing check
-2025-09-05 00:02:47,764 - DEBUG - running phantom zone qc
-2025-09-05 00:02:47,924 - DEBUG - running missing check
-2025-09-05 00:02:47,934 - DEBUG - running phantom zone qc
-2025-09-05 00:02:48,094 - DEBUG - running missing check
-2025-09-05 00:02:48,104 - DEBUG - running phantom zone qc
-2025-09-05 00:02:48,264 - DEBUG - running missing check
-2025-09-05 00:02:48,274 - DEBUG - running phantom zone qc
-2025-09-05 00:02:48,425 - DEBUG - running missing check
-2025-09-05 00:02:48,434 - DEBUG - running phantom zone qc
-2025-09-05 00:02:48,685 - DEBUG - running missing check
-2025-09-05 00:02:48,694 - DEBUG - running phantom zone qc
-2025-09-05 00:02:48,784 - DEBUG - running missing check
-2025-09-05 00:02:48,810 - DEBUG - running phantom zone qc
-2025-09-05 00:02:48,963 - DEBUG - running missing check
-2025-09-05 00:02:48,972 - DEBUG - running phantom zone qc
-2025-09-05 00:02:49,023 - DEBUG - running missing check
-2025-09-05 00:02:49,032 - DEBUG - running phantom zone qc
-2025-09-05 00:02:49,151 - DEBUG - running missing check
-2025-09-05 00:02:49,161 - DEBUG - running phantom zone qc
-2025-09-05 00:02:49,260 - DEBUG - running missing check
-2025-09-05 00:02:49,269 - DEBUG - running phantom zone qc
-2025-09-05 00:02:49,420 - DEBUG - running missing check
-2025-09-05 00:02:49,429 - DEBUG - running phantom zone qc
-2025-09-05 00:02:49,572 - DEBUG - running missing check
-2025-09-05 00:02:49,581 - DEBUG - running phantom zone qc
-2025-09-05 00:02:49,811 - DEBUG - running missing check
-2025-09-05 00:02:49,820 - DEBUG - running phantom zone qc
-2025-09-05 00:02:49,972 - DEBUG - running missing check
-2025-09-05 00:02:49,981 - DEBUG - running phantom zone qc
-2025-09-05 00:02:50,118 - DEBUG - running missing check
-2025-09-05 00:02:50,127 - DEBUG - running phantom zone qc
-2025-09-05 00:02:50,297 - DEBUG - running missing check
-2025-09-05 00:02:50,306 - DEBUG - running phantom zone qc
-2025-09-05 00:02:50,449 - DEBUG - running missing check
-2025-09-05 00:02:50,458 - DEBUG - running phantom zone qc
-2025-09-05 00:02:50,877 - DEBUG - running missing check
-2025-09-05 00:02:50,886 - DEBUG - running phantom zone qc
-2025-09-05 00:02:51,109 - DEBUG - running missing check
-2025-09-05 00:02:51,118 - DEBUG - running phantom zone qc
-2025-09-05 00:02:51,279 - DEBUG - running missing check
-2025-09-05 00:02:51,288 - DEBUG - running phantom zone qc
-2025-09-05 00:02:51,467 - DEBUG - running missing check
-2025-09-05 00:02:51,476 - DEBUG - running phantom zone qc
-2025-09-05 00:02:51,700 - DEBUG - running missing check
-2025-09-05 00:02:51,710 - DEBUG - running phantom zone qc
-2025-09-05 00:02:51,932 - DEBUG - running missing check
-2025-09-05 00:02:51,942 - DEBUG - running phantom zone qc
-2025-09-05 00:02:52,082 - DEBUG - running missing check
-2025-09-05 00:02:52,091 - DEBUG - running phantom zone qc
-2025-09-05 00:02:52,178 - DEBUG - running missing check
-2025-09-05 00:02:52,188 - DEBUG - running phantom zone qc
-2025-09-05 00:02:52,357 - DEBUG - running missing check
-2025-09-05 00:02:52,367 - DEBUG - running phantom zone qc
-2025-09-05 00:02:52,536 - DEBUG - running missing check
-2025-09-05 00:02:52,545 - DEBUG - running phantom zone qc
-2025-09-05 00:02:52,723 - DEBUG - running missing check
-2025-09-05 00:02:52,733 - DEBUG - running phantom zone qc
-2025-09-05 00:02:52,879 - DEBUG - running missing check
-2025-09-05 00:02:52,889 - DEBUG - running phantom zone qc
-2025-09-05 00:02:53,120 - DEBUG - running missing check
-2025-09-05 00:02:53,130 - DEBUG - running phantom zone qc
-2025-09-05 00:02:53,334 - DEBUG - running missing check
-2025-09-05 00:02:53,344 - DEBUG - running phantom zone qc
-2025-09-05 00:02:53,513 - DEBUG - running missing check
-2025-09-05 00:02:53,523 - DEBUG - running phantom zone qc
-2025-09-05 00:02:53,683 - DEBUG - running missing check
-2025-09-05 00:02:53,692 - DEBUG - running phantom zone qc
-2025-09-05 00:02:54,103 - DEBUG - running missing check
-2025-09-05 00:02:54,136 - DEBUG - running phantom zone qc
-2025-09-05 00:02:55,031 - DEBUG - running missing check
-2025-09-05 00:02:55,041 - DEBUG - running phantom zone qc
-2025-09-05 00:02:55,650 - DEBUG - running missing check
-2025-09-05 00:02:55,683 - DEBUG - running phantom zone qc
-2025-09-05 00:02:56,486 - DEBUG - running missing check
-2025-09-05 00:02:56,497 - DEBUG - running phantom zone qc
-2025-09-05 00:02:57,061 - DEBUG - running missing check
-2025-09-05 00:02:57,072 - DEBUG - running phantom zone qc
-2025-09-05 00:02:58,003 - DEBUG - running missing check
-2025-09-05 00:02:58,033 - DEBUG - running phantom zone qc
-2025-09-05 00:02:58,775 - DEBUG - running missing check
-2025-09-05 00:02:58,784 - DEBUG - running phantom zone qc
-2025-09-05 00:02:59,499 - DEBUG - running missing check
-2025-09-05 00:02:59,508 - DEBUG - running phantom zone qc
-2025-09-05 00:02:59,967 - DEBUG - running missing check
-2025-09-05 00:02:59,994 - DEBUG - running phantom zone qc
-2025-09-05 00:03:00,257 - DEBUG - running missing check
-2025-09-05 00:03:00,266 - DEBUG - running phantom zone qc
-2025-09-05 00:03:00,310 - DEBUG - running missing check
-2025-09-05 00:03:00,320 - DEBUG - running phantom zone qc
-2025-09-05 00:03:00,472 - DEBUG - running missing check
-2025-09-05 00:03:00,482 - DEBUG - running phantom zone qc
-2025-09-05 00:03:00,669 - DEBUG - running missing check
-2025-09-05 00:03:00,679 - DEBUG - running phantom zone qc
-2025-09-05 00:03:00,885 - DEBUG - running missing check
-2025-09-05 00:03:00,895 - DEBUG - running phantom zone qc
-2025-09-05 00:03:01,074 - DEBUG - running missing check
-2025-09-05 00:03:01,083 - DEBUG - running phantom zone qc
-2025-09-05 00:03:01,139 - DEBUG - running missing check
-2025-09-05 00:03:01,149 - DEBUG - running phantom zone qc
-2025-09-05 00:03:01,309 - DEBUG - running missing check
-2025-09-05 00:03:01,333 - DEBUG - running phantom zone qc
-2025-09-05 00:03:01,666 - DEBUG - running missing check
-2025-09-05 00:03:01,676 - DEBUG - running phantom zone qc
-2025-09-05 00:03:01,898 - DEBUG - running missing check
-2025-09-05 00:03:01,907 - DEBUG - running phantom zone qc
-2025-09-05 00:03:02,055 - DEBUG - running missing check
-2025-09-05 00:03:02,064 - DEBUG - running phantom zone qc
-2025-09-05 00:03:02,101 - DEBUG - running missing check
-2025-09-05 00:03:02,111 - DEBUG - running phantom zone qc
-2025-09-05 00:03:02,157 - DEBUG - running missing check
-2025-09-05 00:03:02,166 - DEBUG - running phantom zone qc
-2025-09-05 00:03:02,327 - DEBUG - running missing check
-2025-09-05 00:03:02,336 - DEBUG - running phantom zone qc
-2025-09-05 00:03:02,515 - DEBUG - running missing check
-2025-09-05 00:03:02,525 - DEBUG - running phantom zone qc
-2025-09-05 00:03:02,747 - DEBUG - running missing check
-2025-09-05 00:03:02,757 - DEBUG - running phantom zone qc
-2025-09-05 00:03:02,979 - DEBUG - running missing check
-2025-09-05 00:03:02,988 - DEBUG - running phantom zone qc
-2025-09-05 00:03:03,033 - DEBUG - running missing check
-2025-09-05 00:03:03,042 - DEBUG - running phantom zone qc
-2025-09-05 00:03:03,115 - DEBUG - running missing check
-2025-09-05 00:03:03,127 - DEBUG - running phantom zone qc
-2025-09-05 00:03:03,193 - DEBUG - running missing check
-2025-09-05 00:03:03,202 - DEBUG - running phantom zone qc
-2025-09-05 00:03:03,334 - DEBUG - running missing check
-2025-09-05 00:03:03,344 - DEBUG - running phantom zone qc
-2025-09-05 00:03:03,504 - DEBUG - running missing check
-2025-09-05 00:03:03,514 - DEBUG - running phantom zone qc
-2025-09-05 00:03:03,691 - DEBUG - running missing check
-2025-09-05 00:03:03,700 - DEBUG - running phantom zone qc
-2025-09-05 00:03:03,915 - DEBUG - running missing check
-2025-09-05 00:03:03,924 - DEBUG - running phantom zone qc
-2025-09-05 00:03:04,061 - DEBUG - running missing check
-2025-09-05 00:03:04,070 - DEBUG - running phantom zone qc
-2025-09-05 00:03:04,241 - DEBUG - running missing check
-2025-09-05 00:03:04,250 - DEBUG - running phantom zone qc
-2025-09-05 00:03:04,411 - DEBUG - running missing check
-2025-09-05 00:03:04,420 - DEBUG - running phantom zone qc
-2025-09-05 00:03:04,581 - DEBUG - running missing check
-2025-09-05 00:03:04,590 - DEBUG - running phantom zone qc
-2025-09-05 00:03:04,768 - DEBUG - running missing check
-2025-09-05 00:03:04,778 - DEBUG - running phantom zone qc
-2025-09-05 00:03:04,994 - DEBUG - running missing check
-2025-09-05 00:03:05,004 - DEBUG - running phantom zone qc
-2025-09-05 00:03:05,111 - DEBUG - running missing check
-2025-09-05 00:03:05,120 - DEBUG - running phantom zone qc
-2025-09-05 00:03:05,162 - DEBUG - running missing check
-2025-09-05 00:03:05,171 - DEBUG - running phantom zone qc
-2025-09-05 00:03:05,337 - DEBUG - running missing check
-2025-09-05 00:03:05,346 - DEBUG - running phantom zone qc
-2025-09-05 00:03:05,516 - DEBUG - running missing check
-2025-09-05 00:03:05,525 - DEBUG - running phantom zone qc
-2025-09-05 00:03:05,680 - DEBUG - running missing check
-2025-09-05 00:03:05,690 - DEBUG - running phantom zone qc
-2025-09-05 00:03:05,868 - DEBUG - running missing check
-2025-09-05 00:03:05,878 - DEBUG - running phantom zone qc
-2025-09-05 00:03:06,035 - DEBUG - running missing check
-2025-09-05 00:03:06,045 - DEBUG - running phantom zone qc
-2025-09-05 00:03:06,111 - DEBUG - running missing check
-2025-09-05 00:03:06,123 - DEBUG - running phantom zone qc
-2025-09-05 00:03:06,222 - DEBUG - running missing check
-2025-09-05 00:03:06,231 - DEBUG - running phantom zone qc
-2025-09-05 00:03:06,383 - DEBUG - running missing check
-2025-09-05 00:03:06,393 - DEBUG - running phantom zone qc
-2025-09-05 00:03:06,510 - DEBUG - running missing check
-2025-09-05 00:03:06,519 - DEBUG - running phantom zone qc
-2025-09-05 00:03:06,671 - DEBUG - running missing check
-2025-09-05 00:03:06,680 - DEBUG - running phantom zone qc
-2025-09-05 00:03:06,830 - DEBUG - running missing check
-2025-09-05 00:03:06,839 - DEBUG - running phantom zone qc
-2025-09-05 00:03:07,299 - DEBUG - running missing check
-2025-09-05 00:03:07,308 - DEBUG - running phantom zone qc
-2025-09-05 00:03:08,231 - DEBUG - running missing check
-2025-09-05 00:03:08,239 - DEBUG - running phantom zone qc
-2025-09-05 00:03:08,824 - DEBUG - running missing check
-2025-09-05 00:03:08,833 - DEBUG - running phantom zone qc
-2025-09-05 00:03:09,724 - DEBUG - running missing check
-2025-09-05 00:03:09,753 - DEBUG - running phantom zone qc
-2025-09-05 00:03:10,404 - DEBUG - running missing check
-2025-09-05 00:03:10,440 - DEBUG - running phantom zone qc
-2025-09-05 00:03:11,377 - DEBUG - running missing check
-2025-09-05 00:03:11,392 - DEBUG - running phantom zone qc
-2025-09-05 00:03:11,893 - DEBUG - running missing check
-2025-09-05 00:03:11,903 - DEBUG - running phantom zone qc
-2025-09-05 00:03:12,756 - DEBUG - running missing check
-2025-09-05 00:03:12,764 - DEBUG - running phantom zone qc
-2025-09-05 00:03:13,088 - DEBUG - running missing check
-2025-09-05 00:03:13,111 - DEBUG - running phantom zone qc
-2025-09-05 00:03:13,156 - DEBUG - running missing check
-2025-09-05 00:03:13,165 - DEBUG - running phantom zone qc
-2025-09-05 00:03:13,203 - DEBUG - running missing check
-2025-09-05 00:03:13,212 - DEBUG - running phantom zone qc
-2025-09-05 00:03:13,252 - DEBUG - running missing check
-2025-09-05 00:03:13,262 - DEBUG - running phantom zone qc
-2025-09-05 00:03:13,375 - DEBUG - running missing check
-2025-09-05 00:03:13,384 - DEBUG - running phantom zone qc
-2025-09-05 00:03:13,473 - DEBUG - running missing check
-2025-09-05 00:03:13,482 - DEBUG - running phantom zone qc
-2025-09-05 00:03:13,679 - DEBUG - running missing check
-2025-09-05 00:03:13,688 - DEBUG - running phantom zone qc
-2025-09-05 00:03:13,801 - DEBUG - running missing check
-2025-09-05 00:03:13,810 - DEBUG - running phantom zone qc
-2025-09-05 00:03:14,007 - DEBUG - running missing check
-2025-09-05 00:03:14,017 - DEBUG - running phantom zone qc
-2025-09-05 00:03:14,178 - DEBUG - running missing check
-2025-09-05 00:03:14,195 - DEBUG - running phantom zone qc
-2025-09-05 00:03:14,348 - DEBUG - running missing check
-2025-09-05 00:03:14,357 - DEBUG - running phantom zone qc
-2025-09-05 00:03:14,518 - DEBUG - running missing check
-2025-09-05 00:03:14,527 - DEBUG - running phantom zone qc
-2025-09-05 00:03:14,706 - DEBUG - running missing check
-2025-09-05 00:03:14,715 - DEBUG - running phantom zone qc
-2025-09-05 00:03:14,885 - DEBUG - running missing check
-2025-09-05 00:03:14,894 - DEBUG - running phantom zone qc
-2025-09-05 00:03:15,072 - DEBUG - running missing check
-2025-09-05 00:03:15,083 - DEBUG - running phantom zone qc
-2025-09-05 00:03:15,251 - DEBUG - running missing check
-2025-09-05 00:03:15,261 - DEBUG - running phantom zone qc
-2025-09-05 00:03:15,261 - DEBUG - Processing session: /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-Experiment/data/polarhrcsv/Unsupervised
-2025-09-05 00:03:23,155 - DEBUG - running missing check
-2025-09-05 00:03:23,165 - DEBUG - running phantom zone qc
-2025-09-05 00:03:23,972 - DEBUG - running missing check
-2025-09-05 00:03:23,981 - DEBUG - running phantom zone qc
-2025-09-05 00:03:24,577 - DEBUG - running missing check
-2025-09-05 00:03:24,587 - DEBUG - running phantom zone qc
-2025-09-05 00:03:25,490 - DEBUG - running missing check
-2025-09-05 00:03:25,500 - DEBUG - running phantom zone qc
-2025-09-05 00:03:25,966 - DEBUG - running missing check
-2025-09-05 00:03:25,976 - DEBUG - running phantom zone qc
-2025-09-05 00:03:26,935 - DEBUG - running missing check
-2025-09-05 00:03:26,944 - DEBUG - running phantom zone qc
-2025-09-05 00:03:27,292 - DEBUG - running missing check
-2025-09-05 00:03:27,301 - DEBUG - running phantom zone qc
-2025-09-05 00:03:27,378 - DEBUG - running missing check
-2025-09-05 00:03:27,389 - DEBUG - running phantom zone qc
-2025-09-05 00:03:27,450 - DEBUG - running missing check
-2025-09-05 00:03:27,461 - DEBUG - running phantom zone qc
-2025-09-05 00:03:27,567 - DEBUG - running missing check
-2025-09-05 00:03:27,577 - DEBUG - running phantom zone qc
-2025-09-05 00:03:27,781 - DEBUG - running missing check
-2025-09-05 00:03:27,791 - DEBUG - running phantom zone qc
-2025-09-05 00:03:27,951 - DEBUG - running missing check
-2025-09-05 00:03:27,961 - DEBUG - running phantom zone qc
-2025-09-05 00:03:28,063 - DEBUG - running missing check
-2025-09-05 00:03:28,074 - DEBUG - running phantom zone qc
-2025-09-05 00:03:28,135 - DEBUG - running missing check
-2025-09-05 00:03:28,145 - DEBUG - running phantom zone qc
-2025-09-05 00:03:28,556 - DEBUG - running missing check
-2025-09-05 00:03:28,566 - DEBUG - running phantom zone qc
-2025-09-05 00:03:28,948 - DEBUG - running missing check
-2025-09-05 00:03:28,958 - DEBUG - running phantom zone qc
-2025-09-05 00:03:29,136 - DEBUG - running missing check
-2025-09-05 00:03:29,146 - DEBUG - running phantom zone qc
-2025-09-05 00:03:29,323 - DEBUG - running missing check
-2025-09-05 00:03:29,333 - DEBUG - running phantom zone qc
-2025-09-05 00:03:29,478 - DEBUG - running missing check
-2025-09-05 00:03:29,487 - DEBUG - running phantom zone qc
-2025-09-05 00:03:29,665 - DEBUG - running missing check
-2025-09-05 00:03:29,675 - DEBUG - running phantom zone qc
-2025-09-05 00:03:29,969 - DEBUG - running missing check
-2025-09-05 00:03:29,980 - DEBUG - running phantom zone qc
-2025-09-05 00:03:30,045 - DEBUG - running missing check
-2025-09-05 00:03:30,056 - DEBUG - running phantom zone qc
-2025-09-05 00:03:30,225 - DEBUG - running missing check
-2025-09-05 00:03:30,236 - DEBUG - running phantom zone qc
-2025-09-05 00:03:30,404 - DEBUG - running missing check
-2025-09-05 00:03:30,414 - DEBUG - running phantom zone qc
-2025-09-05 00:03:30,574 - DEBUG - running missing check
-2025-09-05 00:03:30,584 - DEBUG - running phantom zone qc
-2025-09-05 00:03:30,788 - DEBUG - running missing check
-2025-09-05 00:03:30,798 - DEBUG - running phantom zone qc
-2025-09-05 00:03:31,163 - DEBUG - running missing check
-2025-09-05 00:03:31,173 - DEBUG - running phantom zone qc
-2025-09-05 00:03:31,360 - DEBUG - running missing check
-2025-09-05 00:03:31,369 - DEBUG - running phantom zone qc
-2025-09-05 00:03:31,565 - DEBUG - running missing check
-2025-09-05 00:03:31,590 - DEBUG - running phantom zone qc
-2025-09-05 00:03:31,762 - DEBUG - running missing check
-2025-09-05 00:03:31,772 - DEBUG - running phantom zone qc
-2025-09-05 00:03:32,093 - DEBUG - running missing check
-2025-09-05 00:03:32,102 - DEBUG - running phantom zone qc
-2025-09-05 00:03:32,281 - DEBUG - running missing check
-2025-09-05 00:03:32,291 - DEBUG - running phantom zone qc
-2025-09-05 00:03:32,460 - DEBUG - running missing check
-2025-09-05 00:03:32,470 - DEBUG - running phantom zone qc
-2025-09-05 00:03:32,674 - DEBUG - running missing check
-2025-09-05 00:03:32,684 - DEBUG - running phantom zone qc
-2025-09-05 00:03:32,853 - DEBUG - running missing check
-2025-09-05 00:03:32,863 - DEBUG - running phantom zone qc
-2025-09-05 00:03:33,059 - DEBUG - running missing check
-2025-09-05 00:03:33,068 - DEBUG - running phantom zone qc
-2025-09-05 00:03:33,112 - DEBUG - running missing check
-2025-09-05 00:03:33,122 - DEBUG - running phantom zone qc
-2025-09-05 00:03:33,349 - DEBUG - running missing check
-2025-09-05 00:03:33,358 - DEBUG - running phantom zone qc
-2025-09-05 00:03:33,527 - DEBUG - running missing check
-2025-09-05 00:03:33,537 - DEBUG - running phantom zone qc
-2025-09-05 00:03:33,733 - DEBUG - running missing check
-2025-09-05 00:03:33,744 - DEBUG - running phantom zone qc
-2025-09-05 00:03:33,903 - DEBUG - running missing check
-2025-09-05 00:03:33,912 - DEBUG - running phantom zone qc
-2025-09-05 00:03:34,698 - DEBUG - running missing check
-2025-09-05 00:03:34,706 - DEBUG - running phantom zone qc
-2025-09-05 00:03:35,319 - DEBUG - running missing check
-2025-09-05 00:03:35,327 - DEBUG - running phantom zone qc
-2025-09-05 00:03:36,103 - DEBUG - running missing check
-2025-09-05 00:03:36,112 - DEBUG - running phantom zone qc
-2025-09-05 00:03:37,102 - DEBUG - running missing check
-2025-09-05 00:03:37,111 - DEBUG - running phantom zone qc
-2025-09-05 00:03:37,635 - DEBUG - running missing check
-2025-09-05 00:03:37,643 - DEBUG - running phantom zone qc
-2025-09-05 00:03:38,547 - DEBUG - running missing check
-2025-09-05 00:03:38,556 - DEBUG - running phantom zone qc
-2025-09-05 00:03:39,200 - DEBUG - running missing check
-2025-09-05 00:03:39,209 - DEBUG - running phantom zone qc
-2025-09-05 00:03:40,317 - DEBUG - running missing check
-2025-09-05 00:03:40,326 - DEBUG - running phantom zone qc
-2025-09-05 00:03:40,736 - DEBUG - running missing check
-2025-09-05 00:03:40,756 - DEBUG - running phantom zone qc
-2025-09-05 00:03:40,805 - DEBUG - running missing check
-2025-09-05 00:03:40,814 - DEBUG - running phantom zone qc
-2025-09-05 00:03:40,865 - DEBUG - running missing check
-2025-09-05 00:03:40,875 - DEBUG - running phantom zone qc
-2025-09-05 00:03:40,980 - DEBUG - running missing check
-2025-09-05 00:03:40,991 - DEBUG - running phantom zone qc
-2025-09-05 00:03:41,059 - DEBUG - running missing check
-2025-09-05 00:03:41,069 - DEBUG - running phantom zone qc
-2025-09-05 00:03:41,197 - DEBUG - running missing check
-2025-09-05 00:03:41,207 - DEBUG - running phantom zone qc
-2025-09-05 00:03:41,341 - DEBUG - running missing check
-2025-09-05 00:03:41,349 - DEBUG - running phantom zone qc
-2025-09-05 00:03:41,440 - DEBUG - running missing check
-2025-09-05 00:03:41,450 - DEBUG - running phantom zone qc
-2025-09-05 00:03:41,687 - DEBUG - running missing check
-2025-09-05 00:03:41,696 - DEBUG - running phantom zone qc
-2025-09-05 00:03:42,049 - DEBUG - running missing check
-2025-09-05 00:03:42,059 - DEBUG - running phantom zone qc
-2025-09-05 00:03:42,180 - DEBUG - running missing check
-2025-09-05 00:03:42,192 - DEBUG - running phantom zone qc
-2025-09-05 00:03:42,406 - DEBUG - running missing check
-2025-09-05 00:03:42,415 - DEBUG - running phantom zone qc
-2025-09-05 00:03:42,540 - DEBUG - running missing check
-2025-09-05 00:03:42,549 - DEBUG - running phantom zone qc
-2025-09-05 00:03:42,799 - DEBUG - running missing check
-2025-09-05 00:03:42,808 - DEBUG - running phantom zone qc
-2025-09-05 00:03:42,951 - DEBUG - running missing check
-2025-09-05 00:03:42,960 - DEBUG - running phantom zone qc
-2025-09-05 00:03:43,030 - DEBUG - running missing check
-2025-09-05 00:03:43,039 - DEBUG - running phantom zone qc
-2025-09-05 00:03:43,106 - DEBUG - running missing check
-2025-09-05 00:03:43,115 - DEBUG - running phantom zone qc
-2025-09-05 00:03:43,320 - DEBUG - running missing check
-2025-09-05 00:03:43,330 - DEBUG - running phantom zone qc
-2025-09-05 00:03:43,490 - DEBUG - running missing check
-2025-09-05 00:03:43,499 - DEBUG - running phantom zone qc
-2025-09-05 00:03:43,678 - DEBUG - running missing check
-2025-09-05 00:03:43,688 - DEBUG - running phantom zone qc
-2025-09-05 00:03:43,910 - DEBUG - running missing check
-2025-09-05 00:03:43,919 - DEBUG - running phantom zone qc
-2025-09-05 00:03:43,999 - DEBUG - running missing check
-2025-09-05 00:03:44,008 - DEBUG - running phantom zone qc
-2025-09-05 00:03:44,084 - DEBUG - running missing check
-2025-09-05 00:03:44,093 - DEBUG - running phantom zone qc
-2025-09-05 00:03:44,190 - DEBUG - running missing check
-2025-09-05 00:03:44,214 - DEBUG - running phantom zone qc
-2025-09-05 00:03:44,388 - DEBUG - running missing check
-2025-09-05 00:03:44,397 - DEBUG - running phantom zone qc
-2025-09-05 00:03:44,585 - DEBUG - running missing check
-2025-09-05 00:03:44,594 - DEBUG - running phantom zone qc
-2025-09-05 00:03:44,773 - DEBUG - running missing check
-2025-09-05 00:03:44,781 - DEBUG - running phantom zone qc
-2025-09-05 00:03:44,996 - DEBUG - running missing check
-2025-09-05 00:03:45,005 - DEBUG - running phantom zone qc
-2025-09-05 00:03:45,041 - DEBUG - running missing check
-2025-09-05 00:03:45,051 - DEBUG - running phantom zone qc
-2025-09-05 00:03:45,181 - DEBUG - running missing check
-2025-09-05 00:03:45,190 - DEBUG - running phantom zone qc
-2025-09-05 00:03:45,422 - DEBUG - running missing check
-2025-09-05 00:03:45,431 - DEBUG - running phantom zone qc
-2025-09-05 00:03:45,583 - DEBUG - running missing check
-2025-09-05 00:03:45,593 - DEBUG - running phantom zone qc
-2025-09-05 00:03:45,738 - DEBUG - running missing check
-2025-09-05 00:03:45,747 - DEBUG - running phantom zone qc
-2025-09-05 00:03:45,908 - DEBUG - running missing check
-2025-09-05 00:03:45,918 - DEBUG - running phantom zone qc
-2025-09-05 00:03:46,041 - DEBUG - running missing check
-2025-09-05 00:03:46,051 - DEBUG - running phantom zone qc
-2025-09-05 00:03:46,094 - DEBUG - running missing check
-2025-09-05 00:03:46,104 - DEBUG - running phantom zone qc
-2025-09-05 00:03:46,270 - DEBUG - running missing check
-2025-09-05 00:03:46,279 - DEBUG - running phantom zone qc
-2025-09-05 00:03:46,538 - DEBUG - running missing check
-2025-09-05 00:03:46,547 - DEBUG - running phantom zone qc
-2025-09-05 00:03:46,725 - DEBUG - running missing check
-2025-09-05 00:03:46,734 - DEBUG - running phantom zone qc
-2025-09-05 00:03:46,895 - DEBUG - running missing check
-2025-09-05 00:03:46,904 - DEBUG - running phantom zone qc
-2025-09-05 00:03:47,032 - DEBUG - running missing check
-2025-09-05 00:03:47,042 - DEBUG - running phantom zone qc
-2025-09-05 00:03:47,155 - DEBUG - running missing check
-2025-09-05 00:03:47,164 - DEBUG - running phantom zone qc
-2025-09-05 00:03:47,275 - DEBUG - running missing check
-2025-09-05 00:03:47,284 - DEBUG - running phantom zone qc
-2025-09-05 00:03:47,507 - DEBUG - running missing check
-2025-09-05 00:03:47,516 - DEBUG - running phantom zone qc
-2025-09-05 00:03:47,957 - DEBUG - running missing check
-2025-09-05 00:03:47,966 - DEBUG - running phantom zone qc
-2025-09-05 00:03:48,610 - DEBUG - running missing check
-2025-09-05 00:03:48,619 - DEBUG - running phantom zone qc
-2025-09-05 00:03:49,441 - DEBUG - running missing check
-2025-09-05 00:03:49,454 - DEBUG - running phantom zone qc
-2025-09-05 00:03:50,265 - DEBUG - running missing check
-2025-09-05 00:03:50,275 - DEBUG - running phantom zone qc
-2025-09-05 00:03:51,373 - DEBUG - running missing check
-2025-09-05 00:03:51,384 - DEBUG - running phantom zone qc
-2025-09-05 00:03:52,259 - DEBUG - running missing check
-2025-09-05 00:03:52,268 - DEBUG - running phantom zone qc
-2025-09-05 00:03:52,885 - DEBUG - running missing check
-2025-09-05 00:03:52,893 - DEBUG - running phantom zone qc
-2025-09-05 00:03:53,842 - DEBUG - running missing check
-2025-09-05 00:03:53,851 - DEBUG - running phantom zone qc
-2025-09-05 00:03:54,318 - DEBUG - running missing check
-2025-09-05 00:03:54,327 - DEBUG - running phantom zone qc
-2025-09-05 00:03:54,565 - DEBUG - running missing check
-2025-09-05 00:03:54,575 - DEBUG - running phantom zone qc
-2025-09-05 00:03:54,655 - DEBUG - running missing check
-2025-09-05 00:03:54,665 - DEBUG - running phantom zone qc
-2025-09-05 00:03:54,835 - DEBUG - running missing check
-2025-09-05 00:03:54,845 - DEBUG - running phantom zone qc
-2025-09-05 00:03:55,023 - DEBUG - running missing check
-2025-09-05 00:03:55,033 - DEBUG - running phantom zone qc
-2025-09-05 00:03:55,210 - DEBUG - running missing check
-2025-09-05 00:03:55,221 - DEBUG - running phantom zone qc
-2025-09-05 00:03:55,300 - DEBUG - running missing check
-2025-09-05 00:03:55,309 - DEBUG - running phantom zone qc
-2025-09-05 00:03:55,414 - DEBUG - running missing check
-2025-09-05 00:03:55,424 - DEBUG - running phantom zone qc
-2025-09-05 00:03:55,744 - DEBUG - running missing check
-2025-09-05 00:03:55,754 - DEBUG - running phantom zone qc
-2025-09-05 00:03:55,932 - DEBUG - running missing check
-2025-09-05 00:03:55,942 - DEBUG - running phantom zone qc
-2025-09-05 00:03:56,102 - DEBUG - running missing check
-2025-09-05 00:03:56,111 - DEBUG - running phantom zone qc
-2025-09-05 00:03:56,271 - DEBUG - running missing check
-2025-09-05 00:03:56,281 - DEBUG - running phantom zone qc
-2025-09-05 00:03:56,450 - DEBUG - running missing check
-2025-09-05 00:03:56,461 - DEBUG - running phantom zone qc
-2025-09-05 00:03:56,790 - DEBUG - running missing check
-2025-09-05 00:03:56,800 - DEBUG - running phantom zone qc
-2025-09-05 00:03:57,013 - DEBUG - running missing check
-2025-09-05 00:03:57,022 - DEBUG - running phantom zone qc
-2025-09-05 00:03:57,157 - DEBUG - running missing check
-2025-09-05 00:03:57,182 - DEBUG - running phantom zone qc
-2025-09-05 00:03:57,249 - DEBUG - running missing check
-2025-09-05 00:03:57,259 - DEBUG - running phantom zone qc
-2025-09-05 00:03:57,331 - DEBUG - running missing check
-2025-09-05 00:03:57,341 - DEBUG - running phantom zone qc
-2025-09-05 00:03:57,519 - DEBUG - running missing check
-2025-09-05 00:03:57,529 - DEBUG - running phantom zone qc
-2025-09-05 00:03:57,868 - DEBUG - running missing check
-2025-09-05 00:03:57,879 - DEBUG - running phantom zone qc
-2025-09-05 00:03:58,046 - DEBUG - running missing check
-2025-09-05 00:03:58,057 - DEBUG - running phantom zone qc
-2025-09-05 00:03:58,174 - DEBUG - running missing check
-2025-09-05 00:03:58,184 - DEBUG - running phantom zone qc
-2025-09-05 00:03:58,300 - DEBUG - running missing check
-2025-09-05 00:03:58,310 - DEBUG - running phantom zone qc
-2025-09-05 00:03:58,479 - DEBUG - running missing check
-2025-09-05 00:03:58,490 - DEBUG - running phantom zone qc
-2025-09-05 00:03:58,649 - DEBUG - running missing check
-2025-09-05 00:03:58,659 - DEBUG - running phantom zone qc
-2025-09-05 00:03:59,041 - DEBUG - running missing check
-2025-09-05 00:03:59,052 - DEBUG - running phantom zone qc
-2025-09-05 00:03:59,106 - DEBUG - running missing check
-2025-09-05 00:03:59,118 - DEBUG - running phantom zone qc
-2025-09-05 00:03:59,174 - DEBUG - running missing check
-2025-09-05 00:03:59,185 - DEBUG - running phantom zone qc
-2025-09-05 00:03:59,524 - DEBUG - running missing check
-2025-09-05 00:03:59,537 - DEBUG - running phantom zone qc
-2025-09-05 00:03:59,712 - DEBUG - running missing check
-2025-09-05 00:03:59,724 - DEBUG - running phantom zone qc
-2025-09-05 00:04:00,051 - DEBUG - running missing check
-2025-09-05 00:04:00,064 - DEBUG - running phantom zone qc
-2025-09-05 00:04:00,394 - DEBUG - running missing check
-2025-09-05 00:04:00,407 - DEBUG - running phantom zone qc
-2025-09-05 00:04:00,617 - DEBUG - running missing check
-2025-09-05 00:04:00,630 - DEBUG - running phantom zone qc
-2025-09-05 00:04:00,814 - DEBUG - running missing check
-2025-09-05 00:04:00,827 - DEBUG - running phantom zone qc
-2025-09-05 00:04:01,684 - DEBUG - running missing check
-2025-09-05 00:04:01,696 - DEBUG - running phantom zone qc
-2025-09-05 00:04:02,311 - DEBUG - running missing check
-2025-09-05 00:04:02,323 - DEBUG - running phantom zone qc
-2025-09-05 00:04:03,201 - DEBUG - running missing check
-2025-09-05 00:04:03,213 - DEBUG - running phantom zone qc
-2025-09-05 00:04:03,981 - DEBUG - running missing check
-2025-09-05 00:04:03,993 - DEBUG - running phantom zone qc
-2025-09-05 00:04:04,792 - DEBUG - running missing check
-2025-09-05 00:04:04,804 - DEBUG - running phantom zone qc
-2025-09-05 00:04:05,543 - DEBUG - running missing check
-2025-09-05 00:04:05,555 - DEBUG - running phantom zone qc
-2025-09-05 00:04:06,502 - DEBUG - running missing check
-2025-09-05 00:04:06,516 - DEBUG - running phantom zone qc
-2025-09-05 00:04:07,190 - DEBUG - running missing check
-2025-09-05 00:04:07,204 - DEBUG - running phantom zone qc
-2025-09-05 00:04:07,530 - DEBUG - running missing check
-2025-09-05 00:04:07,542 - DEBUG - running phantom zone qc
-2025-09-05 00:04:07,588 - DEBUG - running missing check
-2025-09-05 00:04:07,600 - DEBUG - running phantom zone qc
-2025-09-05 00:04:07,825 - DEBUG - running missing check
-2025-09-05 00:04:07,838 - DEBUG - running phantom zone qc
-2025-09-05 00:04:07,891 - DEBUG - running missing check
-2025-09-05 00:04:07,904 - DEBUG - running phantom zone qc
-2025-09-05 00:04:07,971 - DEBUG - running missing check
-2025-09-05 00:04:07,984 - DEBUG - running phantom zone qc
-2025-09-05 00:04:08,030 - DEBUG - running missing check
-2025-09-05 00:04:08,043 - DEBUG - running phantom zone qc
-2025-09-05 00:04:08,091 - DEBUG - running missing check
-2025-09-05 00:04:08,104 - DEBUG - running phantom zone qc
-2025-09-05 00:04:08,152 - DEBUG - running missing check
-2025-09-05 00:04:08,165 - DEBUG - running phantom zone qc
-2025-09-05 00:04:08,216 - DEBUG - running missing check
-2025-09-05 00:04:08,229 - DEBUG - running phantom zone qc
-2025-09-05 00:04:08,276 - DEBUG - running missing check
-2025-09-05 00:04:08,289 - DEBUG - running phantom zone qc
-2025-09-05 00:04:08,337 - DEBUG - running missing check
-2025-09-05 00:04:08,350 - DEBUG - running phantom zone qc
-2025-09-05 00:04:08,403 - DEBUG - running missing check
-2025-09-05 00:04:08,416 - DEBUG - running phantom zone qc
-2025-09-05 00:04:08,465 - DEBUG - running missing check
-2025-09-05 00:04:08,478 - DEBUG - running phantom zone qc
-2025-09-05 00:04:08,529 - DEBUG - running missing check
-2025-09-05 00:04:08,543 - DEBUG - running phantom zone qc
-2025-09-05 00:04:08,595 - DEBUG - running missing check
-2025-09-05 00:04:08,609 - DEBUG - running phantom zone qc
-2025-09-05 00:04:08,669 - DEBUG - running missing check
-2025-09-05 00:04:08,678 - DEBUG - running phantom zone qc
-2025-09-05 00:04:08,714 - DEBUG - running missing check
-2025-09-05 00:04:08,723 - DEBUG - running phantom zone qc
-2025-09-05 00:04:08,759 - DEBUG - running missing check
-2025-09-05 00:04:08,782 - DEBUG - running phantom zone qc
-2025-09-05 00:04:08,822 - DEBUG - running missing check
-2025-09-05 00:04:08,832 - DEBUG - running phantom zone qc
-2025-09-05 00:04:08,866 - DEBUG - running missing check
-2025-09-05 00:04:08,877 - DEBUG - running phantom zone qc
-2025-09-05 00:04:08,916 - DEBUG - running missing check
-2025-09-05 00:04:08,926 - DEBUG - running phantom zone qc
-2025-09-05 00:04:08,960 - DEBUG - running missing check
-2025-09-05 00:04:08,970 - DEBUG - running phantom zone qc
-2025-09-05 00:04:09,006 - DEBUG - running missing check
-2025-09-05 00:04:09,015 - DEBUG - running phantom zone qc
-2025-09-05 00:04:09,048 - DEBUG - running missing check
-2025-09-05 00:04:09,058 - DEBUG - running phantom zone qc
-2025-09-05 00:04:09,097 - DEBUG - running missing check
-2025-09-05 00:04:09,106 - DEBUG - running phantom zone qc
-2025-09-05 00:04:09,142 - DEBUG - running missing check
-2025-09-05 00:04:09,151 - DEBUG - running phantom zone qc
-2025-09-05 00:04:09,189 - DEBUG - running missing check
-2025-09-05 00:04:09,198 - DEBUG - running phantom zone qc
-2025-09-05 00:04:09,237 - DEBUG - running missing check
-2025-09-05 00:04:09,246 - DEBUG - running phantom zone qc
-2025-09-05 00:04:09,289 - DEBUG - running missing check
-2025-09-05 00:04:09,298 - DEBUG - running phantom zone qc
-2025-09-05 00:04:09,336 - DEBUG - running missing check
-2025-09-05 00:04:09,346 - DEBUG - running phantom zone qc
-2025-09-05 00:04:09,382 - DEBUG - running missing check
-2025-09-05 00:04:09,391 - DEBUG - running phantom zone qc
-2025-09-05 00:04:09,432 - DEBUG - running missing check
-2025-09-05 00:04:09,441 - DEBUG - running phantom zone qc
-2025-09-05 00:04:09,482 - DEBUG - running missing check
-2025-09-05 00:04:09,491 - DEBUG - running phantom zone qc
-2025-09-05 00:04:09,539 - DEBUG - running missing check
-2025-09-05 00:04:09,549 - DEBUG - running phantom zone qc
-2025-09-05 00:04:10,111 - DEBUG - running missing check
-2025-09-05 00:04:10,137 - DEBUG - running phantom zone qc
-2025-09-05 00:04:10,466 - DEBUG - running missing check
-2025-09-05 00:04:10,484 - DEBUG - running phantom zone qc
-2025-09-05 00:04:10,779 - DEBUG - running missing check
-2025-09-05 00:04:10,794 - DEBUG - running phantom zone qc
-2025-09-05 00:04:11,023 - DEBUG - running missing check
-2025-09-05 00:04:11,040 - DEBUG - running phantom zone qc
-2025-09-05 00:04:11,269 - DEBUG - running missing check
-2025-09-05 00:04:11,286 - DEBUG - running phantom zone qc
-2025-09-05 00:04:11,471 - DEBUG - running missing check
-2025-09-05 00:04:11,481 - DEBUG - running phantom zone qc
-2025-09-05 00:04:11,632 - INFO - QC summary written: ../qc_out.csv (85 rows)
-2025-09-05 00:04:12,260 - DEBUG - Subject sub8000: sup_n=27, sup_den=30, unsup_n=24, unsup_den=25
-2025-09-05 00:04:12,273 - DEBUG - Subject sub8001: sup_n=0, sup_den=0, unsup_n=0, unsup_den=0
-2025-09-05 00:04:12,294 - DEBUG - Subject sub8002: sup_n=20, sup_den=30, unsup_n=27, unsup_den=30
-2025-09-05 00:04:12,313 - DEBUG - Subject sub8003: sup_n=29, sup_den=30, unsup_n=30, unsup_den=30
-2025-09-05 00:04:12,357 - DEBUG - Subject sub8004: sup_n=30, sup_den=30, unsup_n=18, unsup_den=25
-2025-09-05 00:04:12,388 - DEBUG - Subject sub8005: sup_n=30, sup_den=30, unsup_n=30, unsup_den=30
-2025-09-05 00:04:12,418 - DEBUG - Subject sub8006: sup_n=30, sup_den=30, unsup_n=25, unsup_den=30
-2025-09-05 00:04:12,447 - DEBUG - Subject sub8007: sup_n=0, sup_den=0, unsup_n=0, unsup_den=0
-2025-09-05 00:04:12,477 - DEBUG - Subject sub8008: sup_n=25, sup_den=30, unsup_n=16, unsup_den=30
-2025-09-05 00:04:12,502 - DEBUG - Subject sub8009: sup_n=0, sup_den=0, unsup_n=0, unsup_den=0
-2025-09-05 00:04:12,516 - DEBUG - Subject sub8010: sup_n=0, sup_den=0, unsup_n=0, unsup_den=0
-2025-09-05 00:04:12,542 - DEBUG - Subject sub8011: sup_n=18, sup_den=20, unsup_n=13, unsup_den=0
-2025-09-05 00:04:12,560 - DEBUG - Subject sub8014: sup_n=0, sup_den=0, unsup_n=0, unsup_den=0
-2025-09-05 00:04:12,811 - DEBUG - Subject sub8016: sup_n=30, sup_den=30, unsup_n=0, unsup_den=0
-2025-09-05 00:04:12,842 - DEBUG - Subject sub8017: sup_n=29, sup_den=30, unsup_n=0, unsup_den=0
-2025-09-05 00:04:12,857 - DEBUG - Subject sub8018: sup_n=0, sup_den=0, unsup_n=0, unsup_den=0
-2025-09-05 00:04:12,873 - DEBUG - Subject sub8019: sup_n=26, sup_den=27, unsup_n=0, unsup_den=0
-2025-09-05 00:04:12,889 - DEBUG - Subject sub8020: sup_n=30, sup_den=30, unsup_n=0, unsup_den=0
-2025-09-05 00:04:12,897 - DEBUG - Subject sub8021: sup_n=0, sup_den=0, unsup_n=0, unsup_den=0
-2025-09-05 00:04:12,914 - DEBUG - Subject sub8022: sup_n=27, sup_den=28, unsup_n=0, unsup_den=0
-2025-09-05 00:04:12,927 - DEBUG - Subject sub8024: sup_n=0, sup_den=0, unsup_n=0, unsup_den=0
-2025-09-05 00:04:12,941 - DEBUG - Subject sub8026: sup_n=9, sup_den=15, unsup_n=0, unsup_den=0
-2025-09-05 00:04:12,967 - DEBUG - Subject sub8030: sup_n=30, sup_den=30, unsup_n=0, unsup_den=0
-2025-09-05 00:04:12,991 - DEBUG - Subject sub8035: sup_n=1, sup_den=2, unsup_n=0, unsup_den=0
+2025-09-06 00:01:03,843 - INFO - NumExpr defaulting to 4 threads.
+2025-09-06 00:01:04,598 - DEBUG - Processing session: /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-Experiment/data/polarhrcsv/Supervised
+2025-09-06 00:01:14,934 - DEBUG - running missing check
+2025-09-06 00:01:14,993 - DEBUG - running phantom zone qc
+2025-09-06 00:01:15,028 - DEBUG - running missing check
+2025-09-06 00:01:15,038 - DEBUG - running phantom zone qc
+2025-09-06 00:01:15,068 - DEBUG - running missing check
+2025-09-06 00:01:15,076 - DEBUG - running phantom zone qc
+2025-09-06 00:01:15,104 - DEBUG - running missing check
+2025-09-06 00:01:15,114 - DEBUG - running phantom zone qc
+2025-09-06 00:01:15,140 - DEBUG - running missing check
+2025-09-06 00:01:15,149 - DEBUG - running phantom zone qc
+2025-09-06 00:01:15,189 - DEBUG - running missing check
+2025-09-06 00:01:15,208 - DEBUG - running phantom zone qc
+2025-09-06 00:01:15,248 - DEBUG - running missing check
+2025-09-06 00:01:15,257 - DEBUG - running phantom zone qc
+2025-09-06 00:01:15,287 - DEBUG - running missing check
+2025-09-06 00:01:15,296 - DEBUG - running phantom zone qc
+2025-09-06 00:01:15,325 - DEBUG - running missing check
+2025-09-06 00:01:15,333 - DEBUG - running phantom zone qc
+2025-09-06 00:01:15,364 - DEBUG - running missing check
+2025-09-06 00:01:15,372 - DEBUG - running phantom zone qc
+2025-09-06 00:01:15,401 - DEBUG - running missing check
+2025-09-06 00:01:15,410 - DEBUG - running phantom zone qc
+2025-09-06 00:01:15,453 - DEBUG - running missing check
+2025-09-06 00:01:15,462 - DEBUG - running phantom zone qc
+2025-09-06 00:01:15,503 - DEBUG - running missing check
+2025-09-06 00:01:15,512 - DEBUG - running phantom zone qc
+2025-09-06 00:01:15,554 - DEBUG - running missing check
+2025-09-06 00:01:15,563 - DEBUG - running phantom zone qc
+2025-09-06 00:01:15,590 - DEBUG - running missing check
+2025-09-06 00:01:15,599 - DEBUG - running phantom zone qc
+2025-09-06 00:01:15,633 - DEBUG - running missing check
+2025-09-06 00:01:15,641 - DEBUG - running phantom zone qc
+2025-09-06 00:01:15,671 - DEBUG - running missing check
+2025-09-06 00:01:15,679 - DEBUG - running phantom zone qc
+2025-09-06 00:01:15,710 - DEBUG - running missing check
+2025-09-06 00:01:15,718 - DEBUG - running phantom zone qc
+2025-09-06 00:01:15,748 - DEBUG - running missing check
+2025-09-06 00:01:15,756 - DEBUG - running phantom zone qc
+2025-09-06 00:01:15,825 - DEBUG - running missing check
+2025-09-06 00:01:15,835 - DEBUG - running phantom zone qc
+2025-09-06 00:01:15,877 - DEBUG - running missing check
+2025-09-06 00:01:15,886 - DEBUG - running phantom zone qc
+2025-09-06 00:01:15,916 - DEBUG - running missing check
+2025-09-06 00:01:15,924 - DEBUG - running phantom zone qc
+2025-09-06 00:01:15,952 - DEBUG - running missing check
+2025-09-06 00:01:15,960 - DEBUG - running phantom zone qc
+2025-09-06 00:01:15,989 - DEBUG - running missing check
+2025-09-06 00:01:16,010 - DEBUG - running phantom zone qc
+2025-09-06 00:01:16,038 - DEBUG - running missing check
+2025-09-06 00:01:16,046 - DEBUG - running phantom zone qc
+2025-09-06 00:01:16,077 - DEBUG - running missing check
+2025-09-06 00:01:16,086 - DEBUG - running phantom zone qc
+2025-09-06 00:01:16,135 - DEBUG - running missing check
+2025-09-06 00:01:16,145 - DEBUG - running phantom zone qc
+2025-09-06 00:01:16,173 - DEBUG - running missing check
+2025-09-06 00:01:16,182 - DEBUG - running phantom zone qc
+2025-09-06 00:01:16,210 - DEBUG - running missing check
+2025-09-06 00:01:16,218 - DEBUG - running phantom zone qc
+2025-09-06 00:01:16,247 - DEBUG - running missing check
+2025-09-06 00:01:16,255 - DEBUG - running phantom zone qc
+2025-09-06 00:01:16,640 - DEBUG - running missing check
+2025-09-06 00:01:16,651 - DEBUG - running phantom zone qc
+2025-09-06 00:01:16,714 - DEBUG - running missing check
+2025-09-06 00:01:16,725 - DEBUG - running phantom zone qc
+2025-09-06 00:01:16,753 - DEBUG - running missing check
+2025-09-06 00:01:16,762 - DEBUG - running phantom zone qc
+2025-09-06 00:01:16,802 - DEBUG - running missing check
+2025-09-06 00:01:16,812 - DEBUG - running phantom zone qc
+2025-09-06 00:01:16,852 - DEBUG - running missing check
+2025-09-06 00:01:16,861 - DEBUG - running phantom zone qc
+2025-09-06 00:01:16,905 - DEBUG - running missing check
+2025-09-06 00:01:16,916 - DEBUG - running phantom zone qc
+2025-09-06 00:01:16,957 - DEBUG - running missing check
+2025-09-06 00:01:16,967 - DEBUG - running phantom zone qc
+2025-09-06 00:01:16,994 - DEBUG - running missing check
+2025-09-06 00:01:17,003 - DEBUG - running phantom zone qc
+2025-09-06 00:01:17,030 - DEBUG - running missing check
+2025-09-06 00:01:17,039 - DEBUG - running phantom zone qc
+2025-09-06 00:01:17,069 - DEBUG - running missing check
+2025-09-06 00:01:17,078 - DEBUG - running phantom zone qc
+2025-09-06 00:01:17,117 - DEBUG - running missing check
+2025-09-06 00:01:17,127 - DEBUG - running phantom zone qc
+2025-09-06 00:01:17,156 - DEBUG - running missing check
+2025-09-06 00:01:17,166 - DEBUG - running phantom zone qc
+2025-09-06 00:01:17,207 - DEBUG - running missing check
+2025-09-06 00:01:17,217 - DEBUG - running phantom zone qc
+2025-09-06 00:01:17,258 - DEBUG - running missing check
+2025-09-06 00:01:17,268 - DEBUG - running phantom zone qc
+2025-09-06 00:01:17,313 - DEBUG - running missing check
+2025-09-06 00:01:17,323 - DEBUG - running phantom zone qc
+2025-09-06 00:01:17,354 - DEBUG - running missing check
+2025-09-06 00:01:17,363 - DEBUG - running phantom zone qc
+2025-09-06 00:01:17,391 - DEBUG - running missing check
+2025-09-06 00:01:17,400 - DEBUG - running phantom zone qc
+2025-09-06 00:01:17,446 - DEBUG - running missing check
+2025-09-06 00:01:17,456 - DEBUG - running phantom zone qc
+2025-09-06 00:01:17,496 - DEBUG - running missing check
+2025-09-06 00:01:17,506 - DEBUG - running phantom zone qc
+2025-09-06 00:01:17,547 - DEBUG - running missing check
+2025-09-06 00:01:17,557 - DEBUG - running phantom zone qc
+2025-09-06 00:01:17,597 - DEBUG - running missing check
+2025-09-06 00:01:17,606 - DEBUG - running phantom zone qc
+2025-09-06 00:01:17,655 - DEBUG - running missing check
+2025-09-06 00:01:17,666 - DEBUG - running phantom zone qc
+2025-09-06 00:01:17,726 - DEBUG - running missing check
+2025-09-06 00:01:17,736 - DEBUG - running phantom zone qc
+2025-09-06 00:01:17,764 - DEBUG - running missing check
+2025-09-06 00:01:17,773 - DEBUG - running phantom zone qc
+2025-09-06 00:01:17,803 - DEBUG - running missing check
+2025-09-06 00:01:17,812 - DEBUG - running phantom zone qc
+2025-09-06 00:01:17,841 - DEBUG - running missing check
+2025-09-06 00:01:17,851 - DEBUG - running phantom zone qc
+2025-09-06 00:01:17,892 - DEBUG - running missing check
+2025-09-06 00:01:17,902 - DEBUG - running phantom zone qc
+2025-09-06 00:01:17,942 - DEBUG - running missing check
+2025-09-06 00:01:17,952 - DEBUG - running phantom zone qc
+2025-09-06 00:01:17,992 - DEBUG - running missing check
+2025-09-06 00:01:18,002 - DEBUG - running phantom zone qc
+2025-09-06 00:01:18,030 - DEBUG - running missing check
+2025-09-06 00:01:18,040 - DEBUG - running phantom zone qc
+2025-09-06 00:01:18,175 - DEBUG - running missing check
+2025-09-06 00:01:18,185 - DEBUG - running phantom zone qc
+2025-09-06 00:01:18,213 - DEBUG - running missing check
+2025-09-06 00:01:18,222 - DEBUG - running phantom zone qc
+2025-09-06 00:01:18,250 - DEBUG - running missing check
+2025-09-06 00:01:18,259 - DEBUG - running phantom zone qc
+2025-09-06 00:01:18,289 - DEBUG - running missing check
+2025-09-06 00:01:18,298 - DEBUG - running phantom zone qc
+2025-09-06 00:01:18,325 - DEBUG - running missing check
+2025-09-06 00:01:18,334 - DEBUG - running phantom zone qc
+2025-09-06 00:01:18,363 - DEBUG - running missing check
+2025-09-06 00:01:18,372 - DEBUG - running phantom zone qc
+2025-09-06 00:01:18,402 - DEBUG - running missing check
+2025-09-06 00:01:18,411 - DEBUG - running phantom zone qc
+2025-09-06 00:01:18,439 - DEBUG - running missing check
+2025-09-06 00:01:18,462 - DEBUG - running phantom zone qc
+2025-09-06 00:01:18,489 - DEBUG - running missing check
+2025-09-06 00:01:18,499 - DEBUG - running phantom zone qc
+2025-09-06 00:01:18,527 - DEBUG - running missing check
+2025-09-06 00:01:18,535 - DEBUG - running phantom zone qc
+2025-09-06 00:01:18,564 - DEBUG - running missing check
+2025-09-06 00:01:18,573 - DEBUG - running phantom zone qc
+2025-09-06 00:01:18,604 - DEBUG - running missing check
+2025-09-06 00:01:18,614 - DEBUG - running phantom zone qc
+2025-09-06 00:01:18,660 - DEBUG - running missing check
+2025-09-06 00:01:18,669 - DEBUG - running phantom zone qc
+2025-09-06 00:01:18,709 - DEBUG - running missing check
+2025-09-06 00:01:18,719 - DEBUG - running phantom zone qc
+2025-09-06 00:01:18,773 - DEBUG - running missing check
+2025-09-06 00:01:18,783 - DEBUG - running phantom zone qc
+2025-09-06 00:01:18,810 - DEBUG - running missing check
+2025-09-06 00:01:18,819 - DEBUG - running phantom zone qc
+2025-09-06 00:01:18,846 - DEBUG - running missing check
+2025-09-06 00:01:18,855 - DEBUG - running phantom zone qc
+2025-09-06 00:01:18,883 - DEBUG - running missing check
+2025-09-06 00:01:18,892 - DEBUG - running phantom zone qc
+2025-09-06 00:01:18,921 - DEBUG - running missing check
+2025-09-06 00:01:18,930 - DEBUG - running phantom zone qc
+2025-09-06 00:01:18,960 - DEBUG - running missing check
+2025-09-06 00:01:18,969 - DEBUG - running phantom zone qc
+2025-09-06 00:01:18,997 - DEBUG - running missing check
+2025-09-06 00:01:19,006 - DEBUG - running phantom zone qc
+2025-09-06 00:01:19,035 - DEBUG - running missing check
+2025-09-06 00:01:19,044 - DEBUG - running phantom zone qc
+2025-09-06 00:01:19,073 - DEBUG - running missing check
+2025-09-06 00:01:19,082 - DEBUG - running phantom zone qc
+2025-09-06 00:01:19,113 - DEBUG - running missing check
+2025-09-06 00:01:19,122 - DEBUG - running phantom zone qc
+2025-09-06 00:01:19,151 - DEBUG - running missing check
+2025-09-06 00:01:19,160 - DEBUG - running phantom zone qc
+2025-09-06 00:01:19,188 - DEBUG - running missing check
+2025-09-06 00:01:19,197 - DEBUG - running phantom zone qc
+2025-09-06 00:01:19,226 - DEBUG - running missing check
+2025-09-06 00:01:19,235 - DEBUG - running phantom zone qc
+2025-09-06 00:01:19,262 - DEBUG - running missing check
+2025-09-06 00:01:19,271 - DEBUG - running phantom zone qc
+2025-09-06 00:01:19,300 - DEBUG - running missing check
+2025-09-06 00:01:19,309 - DEBUG - running phantom zone qc
+2025-09-06 00:01:19,337 - DEBUG - running missing check
+2025-09-06 00:01:19,346 - DEBUG - running phantom zone qc
+2025-09-06 00:01:19,450 - DEBUG - running missing check
+2025-09-06 00:01:19,460 - DEBUG - running phantom zone qc
+2025-09-06 00:01:19,488 - DEBUG - running missing check
+2025-09-06 00:01:19,497 - DEBUG - running phantom zone qc
+2025-09-06 00:01:19,525 - DEBUG - running missing check
+2025-09-06 00:01:19,534 - DEBUG - running phantom zone qc
+2025-09-06 00:01:19,563 - DEBUG - running missing check
+2025-09-06 00:01:19,572 - DEBUG - running phantom zone qc
+2025-09-06 00:01:19,601 - DEBUG - running missing check
+2025-09-06 00:01:19,609 - DEBUG - running phantom zone qc
+2025-09-06 00:01:19,644 - DEBUG - running missing check
+2025-09-06 00:01:19,653 - DEBUG - running phantom zone qc
+2025-09-06 00:01:19,682 - DEBUG - running missing check
+2025-09-06 00:01:19,691 - DEBUG - running phantom zone qc
+2025-09-06 00:01:19,719 - DEBUG - running missing check
+2025-09-06 00:01:19,727 - DEBUG - running phantom zone qc
+2025-09-06 00:01:19,772 - DEBUG - running missing check
+2025-09-06 00:01:19,781 - DEBUG - running phantom zone qc
+2025-09-06 00:01:19,808 - DEBUG - running missing check
+2025-09-06 00:01:19,817 - DEBUG - running phantom zone qc
+2025-09-06 00:01:19,846 - DEBUG - running missing check
+2025-09-06 00:01:19,855 - DEBUG - running phantom zone qc
+2025-09-06 00:01:19,882 - DEBUG - running missing check
+2025-09-06 00:01:19,890 - DEBUG - running phantom zone qc
+2025-09-06 00:01:19,919 - DEBUG - running missing check
+2025-09-06 00:01:19,928 - DEBUG - running phantom zone qc
+2025-09-06 00:01:19,955 - DEBUG - running missing check
+2025-09-06 00:01:19,964 - DEBUG - running phantom zone qc
+2025-09-06 00:01:20,240 - DEBUG - running missing check
+2025-09-06 00:01:20,251 - DEBUG - running phantom zone qc
+2025-09-06 00:01:20,281 - DEBUG - running missing check
+2025-09-06 00:01:20,289 - DEBUG - running phantom zone qc
+2025-09-06 00:01:20,322 - DEBUG - running missing check
+2025-09-06 00:01:20,331 - DEBUG - running phantom zone qc
+2025-09-06 00:01:20,358 - DEBUG - running missing check
+2025-09-06 00:01:20,367 - DEBUG - running phantom zone qc
+2025-09-06 00:01:20,396 - DEBUG - running missing check
+2025-09-06 00:01:20,405 - DEBUG - running phantom zone qc
+2025-09-06 00:01:20,433 - DEBUG - running missing check
+2025-09-06 00:01:20,442 - DEBUG - running phantom zone qc
+2025-09-06 00:01:20,469 - DEBUG - running missing check
+2025-09-06 00:01:20,478 - DEBUG - running phantom zone qc
+2025-09-06 00:01:20,506 - DEBUG - running missing check
+2025-09-06 00:01:20,528 - DEBUG - running phantom zone qc
+2025-09-06 00:01:20,557 - DEBUG - running missing check
+2025-09-06 00:01:20,565 - DEBUG - running phantom zone qc
+2025-09-06 00:01:20,596 - DEBUG - running missing check
+2025-09-06 00:01:20,605 - DEBUG - running phantom zone qc
+2025-09-06 00:01:20,644 - DEBUG - running missing check
+2025-09-06 00:01:20,653 - DEBUG - running phantom zone qc
+2025-09-06 00:01:20,688 - DEBUG - running missing check
+2025-09-06 00:01:20,697 - DEBUG - running phantom zone qc
+2025-09-06 00:01:20,726 - DEBUG - running missing check
+2025-09-06 00:01:20,734 - DEBUG - running phantom zone qc
+2025-09-06 00:01:20,790 - DEBUG - running missing check
+2025-09-06 00:01:20,800 - DEBUG - running phantom zone qc
+2025-09-06 00:01:20,842 - DEBUG - running missing check
+2025-09-06 00:01:20,851 - DEBUG - running phantom zone qc
+2025-09-06 00:01:20,883 - DEBUG - running missing check
+2025-09-06 00:01:20,892 - DEBUG - running phantom zone qc
+2025-09-06 00:01:21,058 - DEBUG - running missing check
+2025-09-06 00:01:21,068 - DEBUG - running phantom zone qc
+2025-09-06 00:01:21,098 - DEBUG - running missing check
+2025-09-06 00:01:21,107 - DEBUG - running phantom zone qc
+2025-09-06 00:01:21,136 - DEBUG - running missing check
+2025-09-06 00:01:21,146 - DEBUG - running phantom zone qc
+2025-09-06 00:01:21,176 - DEBUG - running missing check
+2025-09-06 00:01:21,186 - DEBUG - running phantom zone qc
+2025-09-06 00:01:21,215 - DEBUG - running missing check
+2025-09-06 00:01:21,226 - DEBUG - running phantom zone qc
+2025-09-06 00:01:21,256 - DEBUG - running missing check
+2025-09-06 00:01:21,265 - DEBUG - running phantom zone qc
+2025-09-06 00:01:21,295 - DEBUG - running missing check
+2025-09-06 00:01:21,304 - DEBUG - running phantom zone qc
+2025-09-06 00:01:21,333 - DEBUG - running missing check
+2025-09-06 00:01:21,342 - DEBUG - running phantom zone qc
+2025-09-06 00:01:21,373 - DEBUG - running missing check
+2025-09-06 00:01:21,382 - DEBUG - running phantom zone qc
+2025-09-06 00:01:21,411 - DEBUG - running missing check
+2025-09-06 00:01:21,420 - DEBUG - running phantom zone qc
+2025-09-06 00:01:21,450 - DEBUG - running missing check
+2025-09-06 00:01:21,461 - DEBUG - running phantom zone qc
+2025-09-06 00:01:21,503 - DEBUG - running missing check
+2025-09-06 00:01:21,513 - DEBUG - running phantom zone qc
+2025-09-06 00:01:21,541 - DEBUG - running missing check
+2025-09-06 00:01:21,550 - DEBUG - running phantom zone qc
+2025-09-06 00:01:21,580 - DEBUG - running missing check
+2025-09-06 00:01:21,589 - DEBUG - running phantom zone qc
+2025-09-06 00:01:21,622 - DEBUG - running missing check
+2025-09-06 00:01:21,631 - DEBUG - running phantom zone qc
+2025-09-06 00:01:21,660 - DEBUG - running missing check
+2025-09-06 00:01:21,669 - DEBUG - running phantom zone qc
+2025-09-06 00:01:21,704 - DEBUG - running missing check
+2025-09-06 00:01:21,714 - DEBUG - running phantom zone qc
+2025-09-06 00:01:21,746 - DEBUG - running missing check
+2025-09-06 00:01:21,756 - DEBUG - running phantom zone qc
+2025-09-06 00:01:21,801 - DEBUG - running missing check
+2025-09-06 00:01:21,810 - DEBUG - running phantom zone qc
+2025-09-06 00:01:21,839 - DEBUG - running missing check
+2025-09-06 00:01:21,849 - DEBUG - running phantom zone qc
+2025-09-06 00:01:22,094 - DEBUG - running missing check
+2025-09-06 00:01:22,109 - DEBUG - running phantom zone qc
+2025-09-06 00:01:22,148 - DEBUG - running missing check
+2025-09-06 00:01:22,161 - DEBUG - running phantom zone qc
+2025-09-06 00:01:22,211 - DEBUG - running missing check
+2025-09-06 00:01:22,225 - DEBUG - running phantom zone qc
+2025-09-06 00:01:22,261 - DEBUG - running missing check
+2025-09-06 00:01:22,274 - DEBUG - running phantom zone qc
+2025-09-06 00:01:22,335 - DEBUG - running missing check
+2025-09-06 00:01:22,353 - DEBUG - running phantom zone qc
+2025-09-06 00:01:22,391 - DEBUG - running missing check
+2025-09-06 00:01:22,404 - DEBUG - running phantom zone qc
+2025-09-06 00:01:22,441 - DEBUG - running missing check
+2025-09-06 00:01:22,454 - DEBUG - running phantom zone qc
+2025-09-06 00:01:22,491 - DEBUG - running missing check
+2025-09-06 00:01:22,504 - DEBUG - running phantom zone qc
+2025-09-06 00:01:22,540 - DEBUG - running missing check
+2025-09-06 00:01:22,553 - DEBUG - running phantom zone qc
+2025-09-06 00:01:22,603 - DEBUG - running missing check
+2025-09-06 00:01:22,616 - DEBUG - running phantom zone qc
+2025-09-06 00:01:22,655 - DEBUG - running missing check
+2025-09-06 00:01:22,667 - DEBUG - running phantom zone qc
+2025-09-06 00:01:22,729 - DEBUG - running missing check
+2025-09-06 00:01:22,743 - DEBUG - running phantom zone qc
+2025-09-06 00:01:22,791 - DEBUG - running missing check
+2025-09-06 00:01:22,805 - DEBUG - running phantom zone qc
+2025-09-06 00:01:22,869 - DEBUG - running missing check
+2025-09-06 00:01:22,883 - DEBUG - running phantom zone qc
+2025-09-06 00:01:22,924 - DEBUG - running missing check
+2025-09-06 00:01:22,937 - DEBUG - running phantom zone qc
+2025-09-06 00:01:22,990 - DEBUG - running missing check
+2025-09-06 00:01:23,017 - DEBUG - running phantom zone qc
+2025-09-06 00:01:23,066 - DEBUG - running missing check
+2025-09-06 00:01:23,080 - DEBUG - running phantom zone qc
+2025-09-06 00:01:23,130 - DEBUG - running missing check
+2025-09-06 00:01:23,144 - DEBUG - running phantom zone qc
+2025-09-06 00:01:23,181 - DEBUG - running missing check
+2025-09-06 00:01:23,193 - DEBUG - running phantom zone qc
+2025-09-06 00:01:23,243 - DEBUG - running missing check
+2025-09-06 00:01:23,257 - DEBUG - running phantom zone qc
+2025-09-06 00:01:23,306 - DEBUG - running missing check
+2025-09-06 00:01:23,319 - DEBUG - running phantom zone qc
+2025-09-06 00:01:23,359 - DEBUG - running missing check
+2025-09-06 00:01:23,372 - DEBUG - running phantom zone qc
+2025-09-06 00:01:23,409 - DEBUG - running missing check
+2025-09-06 00:01:23,422 - DEBUG - running phantom zone qc
+2025-09-06 00:01:23,462 - DEBUG - running missing check
+2025-09-06 00:01:23,475 - DEBUG - running phantom zone qc
+2025-09-06 00:01:23,513 - DEBUG - running missing check
+2025-09-06 00:01:23,525 - DEBUG - running phantom zone qc
+2025-09-06 00:01:23,574 - DEBUG - running missing check
+2025-09-06 00:01:23,584 - DEBUG - running phantom zone qc
+2025-09-06 00:01:23,618 - DEBUG - running missing check
+2025-09-06 00:01:23,627 - DEBUG - running phantom zone qc
+2025-09-06 00:01:23,658 - DEBUG - running missing check
+2025-09-06 00:01:23,668 - DEBUG - running phantom zone qc
+2025-09-06 00:01:23,701 - DEBUG - running missing check
+2025-09-06 00:01:23,710 - DEBUG - running phantom zone qc
+2025-09-06 00:01:23,747 - DEBUG - running missing check
+2025-09-06 00:01:23,756 - DEBUG - running phantom zone qc
+2025-09-06 00:01:23,788 - DEBUG - running missing check
+2025-09-06 00:01:23,797 - DEBUG - running phantom zone qc
+2025-09-06 00:01:23,830 - DEBUG - running missing check
+2025-09-06 00:01:23,839 - DEBUG - running phantom zone qc
+2025-09-06 00:01:23,906 - DEBUG - running missing check
+2025-09-06 00:01:23,917 - DEBUG - running phantom zone qc
+2025-09-06 00:01:23,947 - DEBUG - running missing check
+2025-09-06 00:01:23,956 - DEBUG - running phantom zone qc
+2025-09-06 00:01:23,986 - DEBUG - running missing check
+2025-09-06 00:01:23,995 - DEBUG - running phantom zone qc
+2025-09-06 00:01:24,025 - DEBUG - running missing check
+2025-09-06 00:01:24,034 - DEBUG - running phantom zone qc
+2025-09-06 00:01:24,066 - DEBUG - running missing check
+2025-09-06 00:01:24,075 - DEBUG - running phantom zone qc
+2025-09-06 00:01:24,105 - DEBUG - running missing check
+2025-09-06 00:01:24,114 - DEBUG - running phantom zone qc
+2025-09-06 00:01:24,146 - DEBUG - running missing check
+2025-09-06 00:01:24,155 - DEBUG - running phantom zone qc
+2025-09-06 00:01:24,202 - DEBUG - running missing check
+2025-09-06 00:01:24,212 - DEBUG - running phantom zone qc
+2025-09-06 00:01:24,244 - DEBUG - running missing check
+2025-09-06 00:01:24,254 - DEBUG - running phantom zone qc
+2025-09-06 00:01:24,284 - DEBUG - running missing check
+2025-09-06 00:01:24,294 - DEBUG - running phantom zone qc
+2025-09-06 00:01:24,324 - DEBUG - running missing check
+2025-09-06 00:01:24,333 - DEBUG - running phantom zone qc
+2025-09-06 00:01:24,364 - DEBUG - running missing check
+2025-09-06 00:01:24,373 - DEBUG - running phantom zone qc
+2025-09-06 00:01:24,406 - DEBUG - running missing check
+2025-09-06 00:01:24,415 - DEBUG - running phantom zone qc
+2025-09-06 00:01:24,462 - DEBUG - running missing check
+2025-09-06 00:01:24,472 - DEBUG - running phantom zone qc
+2025-09-06 00:01:24,508 - DEBUG - running missing check
+2025-09-06 00:01:24,517 - DEBUG - running phantom zone qc
+2025-09-06 00:01:24,548 - DEBUG - running missing check
+2025-09-06 00:01:24,557 - DEBUG - running phantom zone qc
+2025-09-06 00:01:24,591 - DEBUG - running missing check
+2025-09-06 00:01:24,600 - DEBUG - running phantom zone qc
+2025-09-06 00:01:24,631 - DEBUG - running missing check
+2025-09-06 00:01:24,640 - DEBUG - running phantom zone qc
+2025-09-06 00:01:24,671 - DEBUG - running missing check
+2025-09-06 00:01:24,681 - DEBUG - running phantom zone qc
+2025-09-06 00:01:24,712 - DEBUG - running missing check
+2025-09-06 00:01:24,722 - DEBUG - running phantom zone qc
+2025-09-06 00:01:24,781 - DEBUG - running missing check
+2025-09-06 00:01:24,791 - DEBUG - running phantom zone qc
+2025-09-06 00:01:24,834 - DEBUG - running missing check
+2025-09-06 00:01:24,844 - DEBUG - running phantom zone qc
+2025-09-06 00:01:24,885 - DEBUG - running missing check
+2025-09-06 00:01:24,895 - DEBUG - running phantom zone qc
+2025-09-06 00:01:25,009 - DEBUG - running missing check
+2025-09-06 00:01:25,019 - DEBUG - running phantom zone qc
+2025-09-06 00:01:25,057 - DEBUG - running missing check
+2025-09-06 00:01:25,066 - DEBUG - running phantom zone qc
+2025-09-06 00:01:25,095 - DEBUG - running missing check
+2025-09-06 00:01:25,104 - DEBUG - running phantom zone qc
+2025-09-06 00:01:25,145 - DEBUG - running missing check
+2025-09-06 00:01:25,155 - DEBUG - running phantom zone qc
+2025-09-06 00:01:25,184 - DEBUG - running missing check
+2025-09-06 00:01:25,206 - DEBUG - running phantom zone qc
+2025-09-06 00:01:25,234 - DEBUG - running missing check
+2025-09-06 00:01:25,242 - DEBUG - running phantom zone qc
+2025-09-06 00:01:25,285 - DEBUG - running missing check
+2025-09-06 00:01:25,294 - DEBUG - running phantom zone qc
+2025-09-06 00:01:25,325 - DEBUG - running missing check
+2025-09-06 00:01:25,333 - DEBUG - running phantom zone qc
+2025-09-06 00:01:25,363 - DEBUG - running missing check
+2025-09-06 00:01:25,372 - DEBUG - running phantom zone qc
+2025-09-06 00:01:25,402 - DEBUG - running missing check
+2025-09-06 00:01:25,410 - DEBUG - running phantom zone qc
+2025-09-06 00:01:25,441 - DEBUG - running missing check
+2025-09-06 00:01:25,450 - DEBUG - running phantom zone qc
+2025-09-06 00:01:25,479 - DEBUG - running missing check
+2025-09-06 00:01:25,488 - DEBUG - running phantom zone qc
+2025-09-06 00:01:25,516 - DEBUG - running missing check
+2025-09-06 00:01:25,525 - DEBUG - running phantom zone qc
+2025-09-06 00:01:25,566 - DEBUG - running missing check
+2025-09-06 00:01:25,575 - DEBUG - running phantom zone qc
+2025-09-06 00:01:25,603 - DEBUG - running missing check
+2025-09-06 00:01:25,612 - DEBUG - running phantom zone qc
+2025-09-06 00:01:25,640 - DEBUG - running missing check
+2025-09-06 00:01:25,649 - DEBUG - running phantom zone qc
+2025-09-06 00:01:25,691 - DEBUG - running missing check
+2025-09-06 00:01:25,701 - DEBUG - running phantom zone qc
+2025-09-06 00:01:25,741 - DEBUG - running missing check
+2025-09-06 00:01:25,750 - DEBUG - running phantom zone qc
+2025-09-06 00:01:25,817 - DEBUG - running missing check
+2025-09-06 00:01:25,826 - DEBUG - running phantom zone qc
+2025-09-06 00:01:25,856 - DEBUG - running missing check
+2025-09-06 00:01:25,865 - DEBUG - running phantom zone qc
+2025-09-06 00:01:25,894 - DEBUG - running missing check
+2025-09-06 00:01:25,904 - DEBUG - running phantom zone qc
+2025-09-06 00:01:25,944 - DEBUG - running missing check
+2025-09-06 00:01:25,953 - DEBUG - running phantom zone qc
+2025-09-06 00:01:25,984 - DEBUG - running missing check
+2025-09-06 00:01:25,993 - DEBUG - running phantom zone qc
+2025-09-06 00:01:26,027 - DEBUG - running missing check
+2025-09-06 00:01:26,036 - DEBUG - running phantom zone qc
+2025-09-06 00:01:26,064 - DEBUG - running missing check
+2025-09-06 00:01:26,074 - DEBUG - running phantom zone qc
+2025-09-06 00:01:26,102 - DEBUG - running missing check
+2025-09-06 00:01:26,111 - DEBUG - running phantom zone qc
+2025-09-06 00:01:26,153 - DEBUG - running missing check
+2025-09-06 00:01:26,162 - DEBUG - running phantom zone qc
+2025-09-06 00:01:26,191 - DEBUG - running missing check
+2025-09-06 00:01:26,200 - DEBUG - running phantom zone qc
+2025-09-06 00:01:26,230 - DEBUG - running missing check
+2025-09-06 00:01:26,240 - DEBUG - running phantom zone qc
+2025-09-06 00:01:26,271 - DEBUG - running missing check
+2025-09-06 00:01:26,280 - DEBUG - running phantom zone qc
+2025-09-06 00:01:26,310 - DEBUG - running missing check
+2025-09-06 00:01:26,320 - DEBUG - running phantom zone qc
+2025-09-06 00:01:26,350 - DEBUG - running missing check
+2025-09-06 00:01:26,359 - DEBUG - running phantom zone qc
+2025-09-06 00:01:26,394 - DEBUG - running missing check
+2025-09-06 00:01:26,403 - DEBUG - running phantom zone qc
+2025-09-06 00:01:26,435 - DEBUG - running missing check
+2025-09-06 00:01:26,444 - DEBUG - running phantom zone qc
+2025-09-06 00:01:26,475 - DEBUG - running missing check
+2025-09-06 00:01:26,485 - DEBUG - running phantom zone qc
+2025-09-06 00:01:26,514 - DEBUG - running missing check
+2025-09-06 00:01:26,523 - DEBUG - running phantom zone qc
+2025-09-06 00:01:26,564 - DEBUG - running missing check
+2025-09-06 00:01:26,574 - DEBUG - running phantom zone qc
+2025-09-06 00:01:26,604 - DEBUG - running missing check
+2025-09-06 00:01:26,613 - DEBUG - running phantom zone qc
+2025-09-06 00:01:26,641 - DEBUG - running missing check
+2025-09-06 00:01:26,650 - DEBUG - running phantom zone qc
+2025-09-06 00:01:26,682 - DEBUG - running missing check
+2025-09-06 00:01:26,691 - DEBUG - running phantom zone qc
+2025-09-06 00:01:26,720 - DEBUG - running missing check
+2025-09-06 00:01:26,729 - DEBUG - running phantom zone qc
+2025-09-06 00:01:26,759 - DEBUG - running missing check
+2025-09-06 00:01:26,767 - DEBUG - running phantom zone qc
+2025-09-06 00:01:27,047 - DEBUG - running missing check
+2025-09-06 00:01:27,059 - DEBUG - running phantom zone qc
+2025-09-06 00:01:27,119 - DEBUG - running missing check
+2025-09-06 00:01:27,129 - DEBUG - running phantom zone qc
+2025-09-06 00:01:27,201 - DEBUG - running missing check
+2025-09-06 00:01:27,210 - DEBUG - running phantom zone qc
+2025-09-06 00:01:27,254 - DEBUG - running missing check
+2025-09-06 00:01:27,264 - DEBUG - running phantom zone qc
+2025-09-06 00:01:27,295 - DEBUG - running missing check
+2025-09-06 00:01:27,304 - DEBUG - running phantom zone qc
+2025-09-06 00:01:27,333 - DEBUG - running missing check
+2025-09-06 00:01:27,342 - DEBUG - running phantom zone qc
+2025-09-06 00:01:27,376 - DEBUG - running missing check
+2025-09-06 00:01:27,398 - DEBUG - running phantom zone qc
+2025-09-06 00:01:27,428 - DEBUG - running missing check
+2025-09-06 00:01:27,437 - DEBUG - running phantom zone qc
+2025-09-06 00:01:27,480 - DEBUG - running missing check
+2025-09-06 00:01:27,489 - DEBUG - running phantom zone qc
+2025-09-06 00:01:27,519 - DEBUG - running missing check
+2025-09-06 00:01:27,528 - DEBUG - running phantom zone qc
+2025-09-06 00:01:27,560 - DEBUG - running missing check
+2025-09-06 00:01:27,569 - DEBUG - running phantom zone qc
+2025-09-06 00:01:27,601 - DEBUG - running missing check
+2025-09-06 00:01:27,610 - DEBUG - running phantom zone qc
+2025-09-06 00:01:27,651 - DEBUG - running missing check
+2025-09-06 00:01:27,660 - DEBUG - running phantom zone qc
+2025-09-06 00:01:27,694 - DEBUG - running missing check
+2025-09-06 00:01:27,703 - DEBUG - running phantom zone qc
+2025-09-06 00:01:27,735 - DEBUG - running missing check
+2025-09-06 00:01:27,745 - DEBUG - running phantom zone qc
+2025-09-06 00:01:27,778 - DEBUG - running missing check
+2025-09-06 00:01:27,786 - DEBUG - running phantom zone qc
+2025-09-06 00:01:27,824 - DEBUG - running missing check
+2025-09-06 00:01:27,833 - DEBUG - running phantom zone qc
+2025-09-06 00:01:27,864 - DEBUG - running missing check
+2025-09-06 00:01:27,873 - DEBUG - running phantom zone qc
+2025-09-06 00:01:27,904 - DEBUG - running missing check
+2025-09-06 00:01:27,913 - DEBUG - running phantom zone qc
+2025-09-06 00:01:27,944 - DEBUG - running missing check
+2025-09-06 00:01:27,953 - DEBUG - running phantom zone qc
+2025-09-06 00:01:27,983 - DEBUG - running missing check
+2025-09-06 00:01:27,992 - DEBUG - running phantom zone qc
+2025-09-06 00:01:28,024 - DEBUG - running missing check
+2025-09-06 00:01:28,033 - DEBUG - running phantom zone qc
+2025-09-06 00:01:28,065 - DEBUG - running missing check
+2025-09-06 00:01:28,075 - DEBUG - running phantom zone qc
+2025-09-06 00:01:28,118 - DEBUG - running missing check
+2025-09-06 00:01:28,127 - DEBUG - running phantom zone qc
+2025-09-06 00:01:28,157 - DEBUG - running missing check
+2025-09-06 00:01:28,166 - DEBUG - running phantom zone qc
+2025-09-06 00:01:28,199 - DEBUG - running missing check
+2025-09-06 00:01:28,208 - DEBUG - running phantom zone qc
+2025-09-06 00:01:28,240 - DEBUG - running missing check
+2025-09-06 00:01:28,251 - DEBUG - running phantom zone qc
+2025-09-06 00:01:28,282 - DEBUG - running missing check
+2025-09-06 00:01:28,291 - DEBUG - running phantom zone qc
+2025-09-06 00:01:28,322 - DEBUG - running missing check
+2025-09-06 00:01:28,331 - DEBUG - running phantom zone qc
+2025-09-06 00:01:28,411 - DEBUG - running missing check
+2025-09-06 00:01:28,420 - DEBUG - running phantom zone qc
+2025-09-06 00:01:28,517 - DEBUG - running missing check
+2025-09-06 00:01:28,528 - DEBUG - running phantom zone qc
+2025-09-06 00:01:28,562 - DEBUG - running missing check
+2025-09-06 00:01:28,571 - DEBUG - running phantom zone qc
+2025-09-06 00:01:28,604 - DEBUG - running missing check
+2025-09-06 00:01:28,613 - DEBUG - running phantom zone qc
+2025-09-06 00:01:28,646 - DEBUG - running missing check
+2025-09-06 00:01:28,656 - DEBUG - running phantom zone qc
+2025-09-06 00:01:28,700 - DEBUG - running missing check
+2025-09-06 00:01:28,718 - DEBUG - running phantom zone qc
+2025-09-06 00:01:28,748 - DEBUG - running missing check
+2025-09-06 00:01:28,757 - DEBUG - running phantom zone qc
+2025-09-06 00:01:28,786 - DEBUG - running missing check
+2025-09-06 00:01:28,795 - DEBUG - running phantom zone qc
+2025-09-06 00:01:28,832 - DEBUG - running missing check
+2025-09-06 00:01:28,841 - DEBUG - running phantom zone qc
+2025-09-06 00:01:28,885 - DEBUG - running missing check
+2025-09-06 00:01:28,894 - DEBUG - running phantom zone qc
+2025-09-06 00:01:29,039 - DEBUG - running missing check
+2025-09-06 00:01:29,049 - DEBUG - running phantom zone qc
+2025-09-06 00:01:29,079 - DEBUG - running missing check
+2025-09-06 00:01:29,087 - DEBUG - running phantom zone qc
+2025-09-06 00:01:29,138 - DEBUG - running missing check
+2025-09-06 00:01:29,147 - DEBUG - running phantom zone qc
+2025-09-06 00:01:29,176 - DEBUG - running missing check
+2025-09-06 00:01:29,185 - DEBUG - running phantom zone qc
+2025-09-06 00:01:29,216 - DEBUG - running missing check
+2025-09-06 00:01:29,225 - DEBUG - running phantom zone qc
+2025-09-06 00:01:29,255 - DEBUG - running missing check
+2025-09-06 00:01:29,264 - DEBUG - running phantom zone qc
+2025-09-06 00:01:29,297 - DEBUG - running missing check
+2025-09-06 00:01:29,305 - DEBUG - running phantom zone qc
+2025-09-06 00:01:29,347 - DEBUG - running missing check
+2025-09-06 00:01:29,356 - DEBUG - running phantom zone qc
+2025-09-06 00:01:29,390 - DEBUG - running missing check
+2025-09-06 00:01:29,399 - DEBUG - running phantom zone qc
+2025-09-06 00:01:29,432 - DEBUG - running missing check
+2025-09-06 00:01:29,441 - DEBUG - running phantom zone qc
+2025-09-06 00:01:29,471 - DEBUG - running missing check
+2025-09-06 00:01:29,480 - DEBUG - running phantom zone qc
+2025-09-06 00:01:29,509 - DEBUG - running missing check
+2025-09-06 00:01:29,531 - DEBUG - running phantom zone qc
+2025-09-06 00:01:29,562 - DEBUG - running missing check
+2025-09-06 00:01:29,571 - DEBUG - running phantom zone qc
+2025-09-06 00:01:29,600 - DEBUG - running missing check
+2025-09-06 00:01:29,609 - DEBUG - running phantom zone qc
+2025-09-06 00:01:29,638 - DEBUG - running missing check
+2025-09-06 00:01:29,647 - DEBUG - running phantom zone qc
+2025-09-06 00:01:29,676 - DEBUG - running missing check
+2025-09-06 00:01:29,685 - DEBUG - running phantom zone qc
+2025-09-06 00:01:29,715 - DEBUG - running missing check
+2025-09-06 00:01:29,724 - DEBUG - running phantom zone qc
+2025-09-06 00:01:29,753 - DEBUG - running missing check
+2025-09-06 00:01:29,761 - DEBUG - running phantom zone qc
+2025-09-06 00:01:29,790 - DEBUG - running missing check
+2025-09-06 00:01:29,798 - DEBUG - running phantom zone qc
+2025-09-06 00:01:29,833 - DEBUG - running missing check
+2025-09-06 00:01:29,842 - DEBUG - running phantom zone qc
+2025-09-06 00:01:29,875 - DEBUG - running missing check
+2025-09-06 00:01:29,883 - DEBUG - running phantom zone qc
+2025-09-06 00:01:29,912 - DEBUG - running missing check
+2025-09-06 00:01:29,920 - DEBUG - running phantom zone qc
+2025-09-06 00:01:29,951 - DEBUG - running missing check
+2025-09-06 00:01:29,959 - DEBUG - running phantom zone qc
+2025-09-06 00:01:29,990 - DEBUG - running missing check
+2025-09-06 00:01:29,998 - DEBUG - running phantom zone qc
+2025-09-06 00:01:30,027 - DEBUG - running missing check
+2025-09-06 00:01:30,036 - DEBUG - running phantom zone qc
+2025-09-06 00:01:30,065 - DEBUG - running missing check
+2025-09-06 00:01:30,073 - DEBUG - running phantom zone qc
+2025-09-06 00:01:30,103 - DEBUG - running missing check
+2025-09-06 00:01:30,112 - DEBUG - running phantom zone qc
+2025-09-06 00:01:30,559 - DEBUG - running missing check
+2025-09-06 00:01:30,571 - DEBUG - running phantom zone qc
+2025-09-06 00:01:30,614 - DEBUG - running missing check
+2025-09-06 00:01:30,622 - DEBUG - running phantom zone qc
+2025-09-06 00:01:30,652 - DEBUG - running missing check
+2025-09-06 00:01:30,661 - DEBUG - running phantom zone qc
+2025-09-06 00:01:30,690 - DEBUG - running missing check
+2025-09-06 00:01:30,699 - DEBUG - running phantom zone qc
+2025-09-06 00:01:30,730 - DEBUG - running missing check
+2025-09-06 00:01:30,739 - DEBUG - running phantom zone qc
+2025-09-06 00:01:30,773 - DEBUG - running missing check
+2025-09-06 00:01:30,782 - DEBUG - running phantom zone qc
+2025-09-06 00:01:30,814 - DEBUG - running missing check
+2025-09-06 00:01:30,823 - DEBUG - running phantom zone qc
+2025-09-06 00:01:30,858 - DEBUG - running missing check
+2025-09-06 00:01:30,867 - DEBUG - running phantom zone qc
+2025-09-06 00:01:30,899 - DEBUG - running missing check
+2025-09-06 00:01:30,908 - DEBUG - running phantom zone qc
+2025-09-06 00:01:30,938 - DEBUG - running missing check
+2025-09-06 00:01:30,947 - DEBUG - running phantom zone qc
+2025-09-06 00:01:30,977 - DEBUG - running missing check
+2025-09-06 00:01:30,986 - DEBUG - running phantom zone qc
+2025-09-06 00:01:31,015 - DEBUG - running missing check
+2025-09-06 00:01:31,024 - DEBUG - running phantom zone qc
+2025-09-06 00:01:31,052 - DEBUG - running missing check
+2025-09-06 00:01:31,062 - DEBUG - running phantom zone qc
+2025-09-06 00:01:31,091 - DEBUG - running missing check
+2025-09-06 00:01:31,100 - DEBUG - running phantom zone qc
+2025-09-06 00:01:31,141 - DEBUG - running missing check
+2025-09-06 00:01:31,151 - DEBUG - running phantom zone qc
+2025-09-06 00:01:31,195 - DEBUG - running missing check
+2025-09-06 00:01:31,204 - DEBUG - running phantom zone qc
+2025-09-06 00:01:31,236 - DEBUG - running missing check
+2025-09-06 00:01:31,246 - DEBUG - running phantom zone qc
+2025-09-06 00:01:31,277 - DEBUG - running missing check
+2025-09-06 00:01:31,286 - DEBUG - running phantom zone qc
+2025-09-06 00:01:31,317 - DEBUG - running missing check
+2025-09-06 00:01:31,326 - DEBUG - running phantom zone qc
+2025-09-06 00:01:31,358 - DEBUG - running missing check
+2025-09-06 00:01:31,368 - DEBUG - running phantom zone qc
+2025-09-06 00:01:31,400 - DEBUG - running missing check
+2025-09-06 00:01:31,409 - DEBUG - running phantom zone qc
+2025-09-06 00:01:31,440 - DEBUG - running missing check
+2025-09-06 00:01:31,449 - DEBUG - running phantom zone qc
+2025-09-06 00:01:31,481 - DEBUG - running missing check
+2025-09-06 00:01:31,490 - DEBUG - running phantom zone qc
+2025-09-06 00:01:31,519 - DEBUG - running missing check
+2025-09-06 00:01:31,528 - DEBUG - running phantom zone qc
+2025-09-06 00:01:31,805 - DEBUG - running missing check
+2025-09-06 00:01:31,817 - DEBUG - running phantom zone qc
+2025-09-06 00:01:31,853 - DEBUG - running missing check
+2025-09-06 00:01:31,862 - DEBUG - running phantom zone qc
+2025-09-06 00:01:31,893 - DEBUG - running missing check
+2025-09-06 00:01:31,902 - DEBUG - running phantom zone qc
+2025-09-06 00:01:31,934 - DEBUG - running missing check
+2025-09-06 00:01:31,943 - DEBUG - running phantom zone qc
+2025-09-06 00:01:31,975 - DEBUG - running missing check
+2025-09-06 00:01:31,998 - DEBUG - running phantom zone qc
+2025-09-06 00:01:32,055 - DEBUG - running missing check
+2025-09-06 00:01:32,064 - DEBUG - running phantom zone qc
+2025-09-06 00:01:32,093 - DEBUG - running missing check
+2025-09-06 00:01:32,102 - DEBUG - running phantom zone qc
+2025-09-06 00:01:32,133 - DEBUG - running missing check
+2025-09-06 00:01:32,142 - DEBUG - running phantom zone qc
+2025-09-06 00:01:32,173 - DEBUG - running missing check
+2025-09-06 00:01:32,182 - DEBUG - running phantom zone qc
+2025-09-06 00:01:32,220 - DEBUG - running missing check
+2025-09-06 00:01:32,229 - DEBUG - running phantom zone qc
+2025-09-06 00:01:32,271 - DEBUG - running missing check
+2025-09-06 00:01:32,280 - DEBUG - running phantom zone qc
+2025-09-06 00:01:32,310 - DEBUG - running missing check
+2025-09-06 00:01:32,319 - DEBUG - running phantom zone qc
+2025-09-06 00:01:32,349 - DEBUG - running missing check
+2025-09-06 00:01:32,358 - DEBUG - running phantom zone qc
+2025-09-06 00:01:32,388 - DEBUG - running missing check
+2025-09-06 00:01:32,397 - DEBUG - running phantom zone qc
+2025-09-06 00:01:32,428 - DEBUG - running missing check
+2025-09-06 00:01:32,437 - DEBUG - running phantom zone qc
+2025-09-06 00:01:32,468 - DEBUG - running missing check
+2025-09-06 00:01:32,476 - DEBUG - running phantom zone qc
+2025-09-06 00:01:32,509 - DEBUG - running missing check
+2025-09-06 00:01:32,518 - DEBUG - running phantom zone qc
+2025-09-06 00:01:32,568 - DEBUG - running missing check
+2025-09-06 00:01:32,578 - DEBUG - running phantom zone qc
+2025-09-06 00:01:32,621 - DEBUG - running missing check
+2025-09-06 00:01:32,630 - DEBUG - running phantom zone qc
+2025-09-06 00:01:32,661 - DEBUG - running missing check
+2025-09-06 00:01:32,670 - DEBUG - running phantom zone qc
+2025-09-06 00:01:32,712 - DEBUG - running missing check
+2025-09-06 00:01:32,722 - DEBUG - running phantom zone qc
+2025-09-06 00:01:32,762 - DEBUG - running missing check
+2025-09-06 00:01:32,771 - DEBUG - running phantom zone qc
+2025-09-06 00:01:32,810 - DEBUG - running missing check
+2025-09-06 00:01:32,819 - DEBUG - running phantom zone qc
+2025-09-06 00:01:32,884 - DEBUG - running missing check
+2025-09-06 00:01:32,897 - DEBUG - running phantom zone qc
+2025-09-06 00:01:32,934 - DEBUG - running missing check
+2025-09-06 00:01:32,943 - DEBUG - running phantom zone qc
+2025-09-06 00:01:32,977 - DEBUG - running missing check
+2025-09-06 00:01:32,986 - DEBUG - running phantom zone qc
+2025-09-06 00:01:33,016 - DEBUG - running missing check
+2025-09-06 00:01:33,025 - DEBUG - running phantom zone qc
+2025-09-06 00:01:33,057 - DEBUG - running missing check
+2025-09-06 00:01:33,065 - DEBUG - running phantom zone qc
+2025-09-06 00:01:33,095 - DEBUG - running missing check
+2025-09-06 00:01:33,104 - DEBUG - running phantom zone qc
+2025-09-06 00:01:33,373 - DEBUG - running missing check
+2025-09-06 00:01:33,384 - DEBUG - running phantom zone qc
+2025-09-06 00:01:33,443 - DEBUG - running missing check
+2025-09-06 00:01:33,452 - DEBUG - running phantom zone qc
+2025-09-06 00:01:33,497 - DEBUG - running missing check
+2025-09-06 00:01:33,506 - DEBUG - running phantom zone qc
+2025-09-06 00:01:33,535 - DEBUG - running missing check
+2025-09-06 00:01:33,544 - DEBUG - running phantom zone qc
+2025-09-06 00:01:33,573 - DEBUG - running missing check
+2025-09-06 00:01:33,582 - DEBUG - running phantom zone qc
+2025-09-06 00:01:33,611 - DEBUG - running missing check
+2025-09-06 00:01:33,619 - DEBUG - running phantom zone qc
+2025-09-06 00:01:33,710 - DEBUG - running missing check
+2025-09-06 00:01:33,721 - DEBUG - running phantom zone qc
+2025-09-06 00:01:33,761 - DEBUG - running missing check
+2025-09-06 00:01:33,770 - DEBUG - running phantom zone qc
+2025-09-06 00:01:33,814 - DEBUG - running missing check
+2025-09-06 00:01:33,824 - DEBUG - running phantom zone qc
+2025-09-06 00:01:33,876 - DEBUG - running missing check
+2025-09-06 00:01:33,886 - DEBUG - running phantom zone qc
+2025-09-06 00:01:33,914 - DEBUG - running missing check
+2025-09-06 00:01:33,923 - DEBUG - running phantom zone qc
+2025-09-06 00:01:33,970 - DEBUG - running missing check
+2025-09-06 00:01:33,979 - DEBUG - running phantom zone qc
+2025-09-06 00:01:34,024 - DEBUG - running missing check
+2025-09-06 00:01:34,033 - DEBUG - running phantom zone qc
+2025-09-06 00:01:34,066 - DEBUG - running missing check
+2025-09-06 00:01:34,074 - DEBUG - running phantom zone qc
+2025-09-06 00:01:34,106 - DEBUG - running missing check
+2025-09-06 00:01:34,115 - DEBUG - running phantom zone qc
+2025-09-06 00:01:34,148 - DEBUG - running missing check
+2025-09-06 00:01:34,157 - DEBUG - running phantom zone qc
+2025-09-06 00:01:34,185 - DEBUG - running missing check
+2025-09-06 00:01:34,193 - DEBUG - running phantom zone qc
+2025-09-06 00:01:34,220 - DEBUG - running missing check
+2025-09-06 00:01:34,228 - DEBUG - running phantom zone qc
+2025-09-06 00:01:34,257 - DEBUG - running missing check
+2025-09-06 00:01:34,265 - DEBUG - running phantom zone qc
+2025-09-06 00:01:34,294 - DEBUG - running missing check
+2025-09-06 00:01:34,316 - DEBUG - running phantom zone qc
+2025-09-06 00:01:34,344 - DEBUG - running missing check
+2025-09-06 00:01:34,352 - DEBUG - running phantom zone qc
+2025-09-06 00:01:34,380 - DEBUG - running missing check
+2025-09-06 00:01:34,389 - DEBUG - running phantom zone qc
+2025-09-06 00:01:34,430 - DEBUG - running missing check
+2025-09-06 00:01:34,439 - DEBUG - running phantom zone qc
+2025-09-06 00:01:34,475 - DEBUG - running missing check
+2025-09-06 00:01:34,484 - DEBUG - running phantom zone qc
+2025-09-06 00:01:34,515 - DEBUG - running missing check
+2025-09-06 00:01:34,524 - DEBUG - running phantom zone qc
+2025-09-06 00:01:34,552 - DEBUG - running missing check
+2025-09-06 00:01:34,561 - DEBUG - running phantom zone qc
+2025-09-06 00:01:34,602 - DEBUG - running missing check
+2025-09-06 00:01:34,611 - DEBUG - running phantom zone qc
+2025-09-06 00:01:34,651 - DEBUG - running missing check
+2025-09-06 00:01:34,661 - DEBUG - running phantom zone qc
+2025-09-06 00:01:34,701 - DEBUG - running missing check
+2025-09-06 00:01:34,711 - DEBUG - running phantom zone qc
+2025-09-06 00:01:34,739 - DEBUG - running missing check
+2025-09-06 00:01:34,748 - DEBUG - running phantom zone qc
+2025-09-06 00:01:34,776 - DEBUG - running missing check
+2025-09-06 00:01:34,785 - DEBUG - running phantom zone qc
+2025-09-06 00:01:34,817 - DEBUG - running missing check
+2025-09-06 00:01:34,826 - DEBUG - running phantom zone qc
+2025-09-06 00:01:34,855 - DEBUG - running missing check
+2025-09-06 00:01:34,863 - DEBUG - running phantom zone qc
+2025-09-06 00:01:34,898 - DEBUG - running missing check
+2025-09-06 00:01:34,906 - DEBUG - running phantom zone qc
+2025-09-06 00:01:34,935 - DEBUG - running missing check
+2025-09-06 00:01:34,944 - DEBUG - running phantom zone qc
+2025-09-06 00:01:34,944 - DEBUG - Processing session: /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-Experiment/data/polarhrcsv/Unsupervised
+2025-09-06 00:01:43,559 - DEBUG - running missing check
+2025-09-06 00:01:43,572 - DEBUG - running phantom zone qc
+2025-09-06 00:01:43,612 - DEBUG - running missing check
+2025-09-06 00:01:43,621 - DEBUG - running phantom zone qc
+2025-09-06 00:01:43,654 - DEBUG - running missing check
+2025-09-06 00:01:43,663 - DEBUG - running phantom zone qc
+2025-09-06 00:01:43,932 - DEBUG - running missing check
+2025-09-06 00:01:43,945 - DEBUG - running phantom zone qc
+2025-09-06 00:01:43,979 - DEBUG - running missing check
+2025-09-06 00:01:43,988 - DEBUG - running phantom zone qc
+2025-09-06 00:01:44,021 - DEBUG - running missing check
+2025-09-06 00:01:44,030 - DEBUG - running phantom zone qc
+2025-09-06 00:01:44,061 - DEBUG - running missing check
+2025-09-06 00:01:44,070 - DEBUG - running phantom zone qc
+2025-09-06 00:01:44,102 - DEBUG - running missing check
+2025-09-06 00:01:44,111 - DEBUG - running phantom zone qc
+2025-09-06 00:01:44,142 - DEBUG - running missing check
+2025-09-06 00:01:44,152 - DEBUG - running phantom zone qc
+2025-09-06 00:01:44,184 - DEBUG - running missing check
+2025-09-06 00:01:44,193 - DEBUG - running phantom zone qc
+2025-09-06 00:01:44,229 - DEBUG - running missing check
+2025-09-06 00:01:44,238 - DEBUG - running phantom zone qc
+2025-09-06 00:01:44,269 - DEBUG - running missing check
+2025-09-06 00:01:44,278 - DEBUG - running phantom zone qc
+2025-09-06 00:01:44,311 - DEBUG - running missing check
+2025-09-06 00:01:44,321 - DEBUG - running phantom zone qc
+2025-09-06 00:01:44,367 - DEBUG - running missing check
+2025-09-06 00:01:44,377 - DEBUG - running phantom zone qc
+2025-09-06 00:01:44,409 - DEBUG - running missing check
+2025-09-06 00:01:44,418 - DEBUG - running phantom zone qc
+2025-09-06 00:01:44,451 - DEBUG - running missing check
+2025-09-06 00:01:44,460 - DEBUG - running phantom zone qc
+2025-09-06 00:01:44,490 - DEBUG - running missing check
+2025-09-06 00:01:44,499 - DEBUG - running phantom zone qc
+2025-09-06 00:01:44,537 - DEBUG - running missing check
+2025-09-06 00:01:44,546 - DEBUG - running phantom zone qc
+2025-09-06 00:01:44,587 - DEBUG - running missing check
+2025-09-06 00:01:44,596 - DEBUG - running phantom zone qc
+2025-09-06 00:01:44,636 - DEBUG - running missing check
+2025-09-06 00:01:44,645 - DEBUG - running phantom zone qc
+2025-09-06 00:01:44,676 - DEBUG - running missing check
+2025-09-06 00:01:44,685 - DEBUG - running phantom zone qc
+2025-09-06 00:01:44,719 - DEBUG - running missing check
+2025-09-06 00:01:44,728 - DEBUG - running phantom zone qc
+2025-09-06 00:01:44,761 - DEBUG - running missing check
+2025-09-06 00:01:44,770 - DEBUG - running phantom zone qc
+2025-09-06 00:01:44,805 - DEBUG - running missing check
+2025-09-06 00:01:44,814 - DEBUG - running phantom zone qc
+2025-09-06 00:01:44,845 - DEBUG - running missing check
+2025-09-06 00:01:44,855 - DEBUG - running phantom zone qc
+2025-09-06 00:01:44,889 - DEBUG - running missing check
+2025-09-06 00:01:44,898 - DEBUG - running phantom zone qc
+2025-09-06 00:01:44,931 - DEBUG - running missing check
+2025-09-06 00:01:44,940 - DEBUG - running phantom zone qc
+2025-09-06 00:01:44,972 - DEBUG - running missing check
+2025-09-06 00:01:44,981 - DEBUG - running phantom zone qc
+2025-09-06 00:01:45,013 - DEBUG - running missing check
+2025-09-06 00:01:45,036 - DEBUG - running phantom zone qc
+2025-09-06 00:01:45,065 - DEBUG - running missing check
+2025-09-06 00:01:45,074 - DEBUG - running phantom zone qc
+2025-09-06 00:01:45,305 - DEBUG - running missing check
+2025-09-06 00:01:45,315 - DEBUG - running phantom zone qc
+2025-09-06 00:01:45,346 - DEBUG - running missing check
+2025-09-06 00:01:45,354 - DEBUG - running phantom zone qc
+2025-09-06 00:01:45,384 - DEBUG - running missing check
+2025-09-06 00:01:45,393 - DEBUG - running phantom zone qc
+2025-09-06 00:01:45,422 - DEBUG - running missing check
+2025-09-06 00:01:45,430 - DEBUG - running phantom zone qc
+2025-09-06 00:01:45,458 - DEBUG - running missing check
+2025-09-06 00:01:45,466 - DEBUG - running phantom zone qc
+2025-09-06 00:01:45,500 - DEBUG - running missing check
+2025-09-06 00:01:45,509 - DEBUG - running phantom zone qc
+2025-09-06 00:01:45,545 - DEBUG - running missing check
+2025-09-06 00:01:45,554 - DEBUG - running phantom zone qc
+2025-09-06 00:01:45,587 - DEBUG - running missing check
+2025-09-06 00:01:45,596 - DEBUG - running phantom zone qc
+2025-09-06 00:01:45,628 - DEBUG - running missing check
+2025-09-06 00:01:45,636 - DEBUG - running phantom zone qc
+2025-09-06 00:01:45,917 - DEBUG - running missing check
+2025-09-06 00:01:45,929 - DEBUG - running phantom zone qc
+2025-09-06 00:01:45,962 - DEBUG - running missing check
+2025-09-06 00:01:45,970 - DEBUG - running phantom zone qc
+2025-09-06 00:01:46,004 - DEBUG - running missing check
+2025-09-06 00:01:46,012 - DEBUG - running phantom zone qc
+2025-09-06 00:01:46,044 - DEBUG - running missing check
+2025-09-06 00:01:46,053 - DEBUG - running phantom zone qc
+2025-09-06 00:01:46,084 - DEBUG - running missing check
+2025-09-06 00:01:46,092 - DEBUG - running phantom zone qc
+2025-09-06 00:01:46,127 - DEBUG - running missing check
+2025-09-06 00:01:46,136 - DEBUG - running phantom zone qc
+2025-09-06 00:01:46,170 - DEBUG - running missing check
+2025-09-06 00:01:46,178 - DEBUG - running phantom zone qc
+2025-09-06 00:01:46,207 - DEBUG - running missing check
+2025-09-06 00:01:46,216 - DEBUG - running phantom zone qc
+2025-09-06 00:01:46,248 - DEBUG - running missing check
+2025-09-06 00:01:46,256 - DEBUG - running phantom zone qc
+2025-09-06 00:01:46,328 - DEBUG - running missing check
+2025-09-06 00:01:46,338 - DEBUG - running phantom zone qc
+2025-09-06 00:01:46,371 - DEBUG - running missing check
+2025-09-06 00:01:46,381 - DEBUG - running phantom zone qc
+2025-09-06 00:01:46,414 - DEBUG - running missing check
+2025-09-06 00:01:46,424 - DEBUG - running phantom zone qc
+2025-09-06 00:01:46,457 - DEBUG - running missing check
+2025-09-06 00:01:46,468 - DEBUG - running phantom zone qc
+2025-09-06 00:01:46,500 - DEBUG - running missing check
+2025-09-06 00:01:46,510 - DEBUG - running phantom zone qc
+2025-09-06 00:01:46,541 - DEBUG - running missing check
+2025-09-06 00:01:46,550 - DEBUG - running phantom zone qc
+2025-09-06 00:01:46,587 - DEBUG - running missing check
+2025-09-06 00:01:46,596 - DEBUG - running phantom zone qc
+2025-09-06 00:01:46,627 - DEBUG - running missing check
+2025-09-06 00:01:46,636 - DEBUG - running phantom zone qc
+2025-09-06 00:01:46,666 - DEBUG - running missing check
+2025-09-06 00:01:46,675 - DEBUG - running phantom zone qc
+2025-09-06 00:01:46,741 - DEBUG - running missing check
+2025-09-06 00:01:46,753 - DEBUG - running phantom zone qc
+2025-09-06 00:01:46,783 - DEBUG - running missing check
+2025-09-06 00:01:46,792 - DEBUG - running phantom zone qc
+2025-09-06 00:01:46,822 - DEBUG - running missing check
+2025-09-06 00:01:46,831 - DEBUG - running phantom zone qc
+2025-09-06 00:01:46,877 - DEBUG - running missing check
+2025-09-06 00:01:46,887 - DEBUG - running phantom zone qc
+2025-09-06 00:01:46,932 - DEBUG - running missing check
+2025-09-06 00:01:46,942 - DEBUG - running phantom zone qc
+2025-09-06 00:01:46,984 - DEBUG - running missing check
+2025-09-06 00:01:46,993 - DEBUG - running phantom zone qc
+2025-09-06 00:01:47,037 - DEBUG - running missing check
+2025-09-06 00:01:47,047 - DEBUG - running phantom zone qc
+2025-09-06 00:01:47,078 - DEBUG - running missing check
+2025-09-06 00:01:47,087 - DEBUG - running phantom zone qc
+2025-09-06 00:01:47,115 - DEBUG - running missing check
+2025-09-06 00:01:47,124 - DEBUG - running phantom zone qc
+2025-09-06 00:01:47,164 - DEBUG - running missing check
+2025-09-06 00:01:47,173 - DEBUG - running phantom zone qc
+2025-09-06 00:01:47,214 - DEBUG - running missing check
+2025-09-06 00:01:47,223 - DEBUG - running phantom zone qc
+2025-09-06 00:01:47,265 - DEBUG - running missing check
+2025-09-06 00:01:47,274 - DEBUG - running phantom zone qc
+2025-09-06 00:01:47,318 - DEBUG - running missing check
+2025-09-06 00:01:47,327 - DEBUG - running phantom zone qc
+2025-09-06 00:01:47,359 - DEBUG - running missing check
+2025-09-06 00:01:47,368 - DEBUG - running phantom zone qc
+2025-09-06 00:01:47,399 - DEBUG - running missing check
+2025-09-06 00:01:47,408 - DEBUG - running phantom zone qc
+2025-09-06 00:01:47,473 - DEBUG - running missing check
+2025-09-06 00:01:47,495 - DEBUG - running phantom zone qc
+2025-09-06 00:01:47,526 - DEBUG - running missing check
+2025-09-06 00:01:47,534 - DEBUG - running phantom zone qc
+2025-09-06 00:01:47,565 - DEBUG - running missing check
+2025-09-06 00:01:47,573 - DEBUG - running phantom zone qc
+2025-09-06 00:01:47,614 - DEBUG - running missing check
+2025-09-06 00:01:47,622 - DEBUG - running phantom zone qc
+2025-09-06 00:01:47,657 - DEBUG - running missing check
+2025-09-06 00:01:47,666 - DEBUG - running phantom zone qc
+2025-09-06 00:01:47,699 - DEBUG - running missing check
+2025-09-06 00:01:47,708 - DEBUG - running phantom zone qc
+2025-09-06 00:01:47,750 - DEBUG - running missing check
+2025-09-06 00:01:47,758 - DEBUG - running phantom zone qc
+2025-09-06 00:01:47,791 - DEBUG - running missing check
+2025-09-06 00:01:47,799 - DEBUG - running phantom zone qc
+2025-09-06 00:01:47,832 - DEBUG - running missing check
+2025-09-06 00:01:47,840 - DEBUG - running phantom zone qc
+2025-09-06 00:01:47,873 - DEBUG - running missing check
+2025-09-06 00:01:47,881 - DEBUG - running phantom zone qc
+2025-09-06 00:01:47,913 - DEBUG - running missing check
+2025-09-06 00:01:47,922 - DEBUG - running phantom zone qc
+2025-09-06 00:01:47,952 - DEBUG - running missing check
+2025-09-06 00:01:47,961 - DEBUG - running phantom zone qc
+2025-09-06 00:01:47,990 - DEBUG - running missing check
+2025-09-06 00:01:47,999 - DEBUG - running phantom zone qc
+2025-09-06 00:01:48,030 - DEBUG - running missing check
+2025-09-06 00:01:48,039 - DEBUG - running phantom zone qc
+2025-09-06 00:01:48,082 - DEBUG - running missing check
+2025-09-06 00:01:48,092 - DEBUG - running phantom zone qc
+2025-09-06 00:01:48,121 - DEBUG - running missing check
+2025-09-06 00:01:48,130 - DEBUG - running phantom zone qc
+2025-09-06 00:01:48,158 - DEBUG - running missing check
+2025-09-06 00:01:48,167 - DEBUG - running phantom zone qc
+2025-09-06 00:01:48,196 - DEBUG - running missing check
+2025-09-06 00:01:48,205 - DEBUG - running phantom zone qc
+2025-09-06 00:01:48,234 - DEBUG - running missing check
+2025-09-06 00:01:48,243 - DEBUG - running phantom zone qc
+2025-09-06 00:01:48,275 - DEBUG - running missing check
+2025-09-06 00:01:48,284 - DEBUG - running phantom zone qc
+2025-09-06 00:01:48,315 - DEBUG - running missing check
+2025-09-06 00:01:48,324 - DEBUG - running phantom zone qc
+2025-09-06 00:01:48,357 - DEBUG - running missing check
+2025-09-06 00:01:48,365 - DEBUG - running phantom zone qc
+2025-09-06 00:01:48,400 - DEBUG - running missing check
+2025-09-06 00:01:48,409 - DEBUG - running phantom zone qc
+2025-09-06 00:01:48,439 - DEBUG - running missing check
+2025-09-06 00:01:48,448 - DEBUG - running phantom zone qc
+2025-09-06 00:01:48,481 - DEBUG - running missing check
+2025-09-06 00:01:48,490 - DEBUG - running phantom zone qc
+2025-09-06 00:01:48,522 - DEBUG - running missing check
+2025-09-06 00:01:48,531 - DEBUG - running phantom zone qc
+2025-09-06 00:01:48,563 - DEBUG - running missing check
+2025-09-06 00:01:48,571 - DEBUG - running phantom zone qc
+2025-09-06 00:01:48,604 - DEBUG - running missing check
+2025-09-06 00:01:48,612 - DEBUG - running phantom zone qc
+2025-09-06 00:01:48,863 - DEBUG - running missing check
+2025-09-06 00:01:48,872 - DEBUG - running phantom zone qc
+2025-09-06 00:01:48,930 - DEBUG - running missing check
+2025-09-06 00:01:48,939 - DEBUG - running phantom zone qc
+2025-09-06 00:01:49,059 - DEBUG - running missing check
+2025-09-06 00:01:49,069 - DEBUG - running phantom zone qc
+2025-09-06 00:01:49,103 - DEBUG - running missing check
+2025-09-06 00:01:49,112 - DEBUG - running phantom zone qc
+2025-09-06 00:01:49,145 - DEBUG - running missing check
+2025-09-06 00:01:49,154 - DEBUG - running phantom zone qc
+2025-09-06 00:01:49,201 - DEBUG - running missing check
+2025-09-06 00:01:49,211 - DEBUG - running phantom zone qc
+2025-09-06 00:01:49,252 - DEBUG - running missing check
+2025-09-06 00:01:49,262 - DEBUG - running phantom zone qc
+2025-09-06 00:01:49,303 - DEBUG - running missing check
+2025-09-06 00:01:49,313 - DEBUG - running phantom zone qc
+2025-09-06 00:01:49,345 - DEBUG - running missing check
+2025-09-06 00:01:49,354 - DEBUG - running phantom zone qc
+2025-09-06 00:01:49,385 - DEBUG - running missing check
+2025-09-06 00:01:49,394 - DEBUG - running phantom zone qc
+2025-09-06 00:01:49,427 - DEBUG - running missing check
+2025-09-06 00:01:49,436 - DEBUG - running phantom zone qc
+2025-09-06 00:01:49,466 - DEBUG - running missing check
+2025-09-06 00:01:49,476 - DEBUG - running phantom zone qc
+2025-09-06 00:01:49,506 - DEBUG - running missing check
+2025-09-06 00:01:49,515 - DEBUG - running phantom zone qc
+2025-09-06 00:01:49,548 - DEBUG - running missing check
+2025-09-06 00:01:49,557 - DEBUG - running phantom zone qc
+2025-09-06 00:01:49,588 - DEBUG - running missing check
+2025-09-06 00:01:49,597 - DEBUG - running phantom zone qc
+2025-09-06 00:01:49,636 - DEBUG - running missing check
+2025-09-06 00:01:49,645 - DEBUG - running phantom zone qc
+2025-09-06 00:01:49,686 - DEBUG - running missing check
+2025-09-06 00:01:49,709 - DEBUG - running phantom zone qc
+2025-09-06 00:01:49,742 - DEBUG - running missing check
+2025-09-06 00:01:49,751 - DEBUG - running phantom zone qc
+2025-09-06 00:01:49,785 - DEBUG - running missing check
+2025-09-06 00:01:49,794 - DEBUG - running phantom zone qc
+2025-09-06 00:01:49,827 - DEBUG - running missing check
+2025-09-06 00:01:49,836 - DEBUG - running phantom zone qc
+2025-09-06 00:01:49,870 - DEBUG - running missing check
+2025-09-06 00:01:49,880 - DEBUG - running phantom zone qc
+2025-09-06 00:01:49,922 - DEBUG - running missing check
+2025-09-06 00:01:49,931 - DEBUG - running phantom zone qc
+2025-09-06 00:01:49,962 - DEBUG - running missing check
+2025-09-06 00:01:49,971 - DEBUG - running phantom zone qc
+2025-09-06 00:01:50,003 - DEBUG - running missing check
+2025-09-06 00:01:50,012 - DEBUG - running phantom zone qc
+2025-09-06 00:01:50,042 - DEBUG - running missing check
+2025-09-06 00:01:50,052 - DEBUG - running phantom zone qc
+2025-09-06 00:01:50,086 - DEBUG - running missing check
+2025-09-06 00:01:50,096 - DEBUG - running phantom zone qc
+2025-09-06 00:01:50,368 - DEBUG - running missing check
+2025-09-06 00:01:50,381 - DEBUG - running phantom zone qc
+2025-09-06 00:01:50,414 - DEBUG - running missing check
+2025-09-06 00:01:50,423 - DEBUG - running phantom zone qc
+2025-09-06 00:01:50,456 - DEBUG - running missing check
+2025-09-06 00:01:50,465 - DEBUG - running phantom zone qc
+2025-09-06 00:01:50,584 - DEBUG - running missing check
+2025-09-06 00:01:50,596 - DEBUG - running phantom zone qc
+2025-09-06 00:01:50,637 - DEBUG - running missing check
+2025-09-06 00:01:50,649 - DEBUG - running phantom zone qc
+2025-09-06 00:01:50,692 - DEBUG - running missing check
+2025-09-06 00:01:50,704 - DEBUG - running phantom zone qc
+2025-09-06 00:01:50,741 - DEBUG - running missing check
+2025-09-06 00:01:50,753 - DEBUG - running phantom zone qc
+2025-09-06 00:01:50,791 - DEBUG - running missing check
+2025-09-06 00:01:50,803 - DEBUG - running phantom zone qc
+2025-09-06 00:01:50,840 - DEBUG - running missing check
+2025-09-06 00:01:50,851 - DEBUG - running phantom zone qc
+2025-09-06 00:01:50,886 - DEBUG - running missing check
+2025-09-06 00:01:50,898 - DEBUG - running phantom zone qc
+2025-09-06 00:01:51,188 - DEBUG - running missing check
+2025-09-06 00:01:51,204 - DEBUG - running phantom zone qc
+2025-09-06 00:01:51,240 - DEBUG - running missing check
+2025-09-06 00:01:51,251 - DEBUG - running phantom zone qc
+2025-09-06 00:01:51,289 - DEBUG - running missing check
+2025-09-06 00:01:51,300 - DEBUG - running phantom zone qc
+2025-09-06 00:01:51,340 - DEBUG - running missing check
+2025-09-06 00:01:51,351 - DEBUG - running phantom zone qc
+2025-09-06 00:01:51,393 - DEBUG - running missing check
+2025-09-06 00:01:51,404 - DEBUG - running phantom zone qc
+2025-09-06 00:01:51,443 - DEBUG - running missing check
+2025-09-06 00:01:51,455 - DEBUG - running phantom zone qc
+2025-09-06 00:01:51,491 - DEBUG - running missing check
+2025-09-06 00:01:51,503 - DEBUG - running phantom zone qc
+2025-09-06 00:01:51,544 - DEBUG - running missing check
+2025-09-06 00:01:51,556 - DEBUG - running phantom zone qc
+2025-09-06 00:01:51,597 - DEBUG - running missing check
+2025-09-06 00:01:51,609 - DEBUG - running phantom zone qc
+2025-09-06 00:01:51,788 - DEBUG - running missing check
+2025-09-06 00:01:51,803 - DEBUG - running phantom zone qc
+2025-09-06 00:01:51,845 - DEBUG - running missing check
+2025-09-06 00:01:51,858 - DEBUG - running phantom zone qc
+2025-09-06 00:01:51,898 - DEBUG - running missing check
+2025-09-06 00:01:51,911 - DEBUG - running phantom zone qc
+2025-09-06 00:01:51,960 - DEBUG - running missing check
+2025-09-06 00:01:51,973 - DEBUG - running phantom zone qc
+2025-09-06 00:01:52,016 - DEBUG - running missing check
+2025-09-06 00:01:52,028 - DEBUG - running phantom zone qc
+2025-09-06 00:01:52,069 - DEBUG - running missing check
+2025-09-06 00:01:52,082 - DEBUG - running phantom zone qc
+2025-09-06 00:01:52,124 - DEBUG - running missing check
+2025-09-06 00:01:52,136 - DEBUG - running phantom zone qc
+2025-09-06 00:01:52,178 - DEBUG - running missing check
+2025-09-06 00:01:52,191 - DEBUG - running phantom zone qc
+2025-09-06 00:01:52,229 - DEBUG - running missing check
+2025-09-06 00:01:52,241 - DEBUG - running phantom zone qc
+2025-09-06 00:01:52,281 - DEBUG - running missing check
+2025-09-06 00:01:52,294 - DEBUG - running phantom zone qc
+2025-09-06 00:01:52,333 - DEBUG - running missing check
+2025-09-06 00:01:52,345 - DEBUG - running phantom zone qc
+2025-09-06 00:01:52,383 - DEBUG - running missing check
+2025-09-06 00:01:52,395 - DEBUG - running phantom zone qc
+2025-09-06 00:01:52,440 - DEBUG - running missing check
+2025-09-06 00:01:52,453 - DEBUG - running phantom zone qc
+2025-09-06 00:01:52,531 - DEBUG - running missing check
+2025-09-06 00:01:52,541 - DEBUG - running phantom zone qc
+2025-09-06 00:01:52,572 - DEBUG - running missing check
+2025-09-06 00:01:52,581 - DEBUG - running phantom zone qc
+2025-09-06 00:01:52,614 - DEBUG - running missing check
+2025-09-06 00:01:52,636 - DEBUG - running phantom zone qc
+2025-09-06 00:01:52,891 - DEBUG - running missing check
+2025-09-06 00:01:52,900 - DEBUG - running phantom zone qc
+2025-09-06 00:01:52,951 - DEBUG - running missing check
+2025-09-06 00:01:52,961 - DEBUG - running phantom zone qc
+2025-09-06 00:01:53,010 - DEBUG - running missing check
+2025-09-06 00:01:53,019 - DEBUG - running phantom zone qc
+2025-09-06 00:01:53,060 - DEBUG - running missing check
+2025-09-06 00:01:53,070 - DEBUG - running phantom zone qc
+2025-09-06 00:01:53,114 - DEBUG - running missing check
+2025-09-06 00:01:53,124 - DEBUG - running phantom zone qc
+2025-09-06 00:01:53,170 - DEBUG - running missing check
+2025-09-06 00:01:53,179 - DEBUG - running phantom zone qc
+2025-09-06 00:01:53,222 - DEBUG - running missing check
+2025-09-06 00:01:53,232 - DEBUG - running phantom zone qc
+2025-09-06 00:01:53,263 - DEBUG - running missing check
+2025-09-06 00:01:53,272 - DEBUG - running phantom zone qc
+2025-09-06 00:01:53,300 - DEBUG - running missing check
+2025-09-06 00:01:53,309 - DEBUG - running phantom zone qc
+2025-09-06 00:01:53,354 - DEBUG - running missing check
+2025-09-06 00:01:53,364 - DEBUG - running phantom zone qc
+2025-09-06 00:01:53,393 - DEBUG - running missing check
+2025-09-06 00:01:53,402 - DEBUG - running phantom zone qc
+2025-09-06 00:01:53,436 - DEBUG - running missing check
+2025-09-06 00:01:53,445 - DEBUG - running phantom zone qc
+2025-09-06 00:01:53,477 - DEBUG - running missing check
+2025-09-06 00:01:53,486 - DEBUG - running phantom zone qc
+2025-09-06 00:01:53,535 - DEBUG - running missing check
+2025-09-06 00:01:53,545 - DEBUG - running phantom zone qc
+2025-09-06 00:01:53,574 - DEBUG - running missing check
+2025-09-06 00:01:53,582 - DEBUG - running phantom zone qc
+2025-09-06 00:01:53,613 - DEBUG - running missing check
+2025-09-06 00:01:53,622 - DEBUG - running phantom zone qc
+2025-09-06 00:01:53,650 - DEBUG - running missing check
+2025-09-06 00:01:53,659 - DEBUG - running phantom zone qc
+2025-09-06 00:01:53,691 - DEBUG - running missing check
+2025-09-06 00:01:53,700 - DEBUG - running phantom zone qc
+2025-09-06 00:01:53,742 - DEBUG - running missing check
+2025-09-06 00:01:53,751 - DEBUG - running phantom zone qc
+2025-09-06 00:01:53,795 - DEBUG - running missing check
+2025-09-06 00:01:53,805 - DEBUG - running phantom zone qc
+2025-09-06 00:01:53,846 - DEBUG - running missing check
+2025-09-06 00:01:53,856 - DEBUG - running phantom zone qc
+2025-09-06 00:01:53,905 - DEBUG - running missing check
+2025-09-06 00:01:53,915 - DEBUG - running phantom zone qc
+2025-09-06 00:01:54,066 - INFO - QC summary written: ../qc_out.csv (85 rows)
+2025-09-06 00:01:54,515 - DEBUG - Subject sub8000: sup_n=27, sup_den=30, unsup_n=24, unsup_den=25
+2025-09-06 00:01:54,532 - DEBUG - Subject sub8001: sup_n=0, sup_den=0, unsup_n=0, unsup_den=0
+2025-09-06 00:01:54,561 - DEBUG - Subject sub8002: sup_n=20, sup_den=30, unsup_n=27, unsup_den=30
+2025-09-06 00:01:54,784 - DEBUG - Subject sub8003: sup_n=29, sup_den=30, unsup_n=30, unsup_den=30
+2025-09-06 00:01:54,804 - DEBUG - Subject sub8004: sup_n=30, sup_den=30, unsup_n=18, unsup_den=25
+2025-09-06 00:01:54,827 - DEBUG - Subject sub8005: sup_n=30, sup_den=30, unsup_n=30, unsup_den=30
+2025-09-06 00:01:54,850 - DEBUG - Subject sub8006: sup_n=30, sup_den=30, unsup_n=25, unsup_den=30
+2025-09-06 00:01:54,866 - DEBUG - Subject sub8007: sup_n=0, sup_den=0, unsup_n=0, unsup_den=0
+2025-09-06 00:01:54,887 - DEBUG - Subject sub8008: sup_n=25, sup_den=30, unsup_n=16, unsup_den=30
+2025-09-06 00:01:54,904 - DEBUG - Subject sub8009: sup_n=0, sup_den=0, unsup_n=0, unsup_den=0
+2025-09-06 00:01:54,919 - DEBUG - Subject sub8010: sup_n=0, sup_den=0, unsup_n=0, unsup_den=0
+2025-09-06 00:01:54,938 - DEBUG - Subject sub8011: sup_n=18, sup_den=20, unsup_n=13, unsup_den=0
+2025-09-06 00:01:54,949 - DEBUG - Subject sub8014: sup_n=0, sup_den=0, unsup_n=0, unsup_den=0
+2025-09-06 00:01:54,966 - DEBUG - Subject sub8016: sup_n=30, sup_den=30, unsup_n=0, unsup_den=0
+2025-09-06 00:01:54,986 - DEBUG - Subject sub8017: sup_n=29, sup_den=30, unsup_n=0, unsup_den=0
+2025-09-06 00:01:54,998 - DEBUG - Subject sub8018: sup_n=0, sup_den=0, unsup_n=0, unsup_den=0
+2025-09-06 00:01:55,015 - DEBUG - Subject sub8019: sup_n=26, sup_den=27, unsup_n=0, unsup_den=0
+2025-09-06 00:01:55,037 - DEBUG - Subject sub8020: sup_n=30, sup_den=30, unsup_n=0, unsup_den=0
+2025-09-06 00:01:55,046 - DEBUG - Subject sub8021: sup_n=0, sup_den=0, unsup_n=0, unsup_den=0
+2025-09-06 00:01:55,061 - DEBUG - Subject sub8022: sup_n=27, sup_den=28, unsup_n=0, unsup_den=0
+2025-09-06 00:01:55,072 - DEBUG - Subject sub8024: sup_n=0, sup_den=0, unsup_n=0, unsup_den=0
+2025-09-06 00:01:55,089 - DEBUG - Subject sub8026: sup_n=9, sup_den=15, unsup_n=0, unsup_den=0
+2025-09-06 00:01:55,109 - DEBUG - Subject sub8030: sup_n=30, sup_den=30, unsup_n=0, unsup_den=0
+2025-09-06 00:01:55,119 - DEBUG - Subject sub8035: sup_n=1, sup_den=2, unsup_n=0, unsup_den=0
