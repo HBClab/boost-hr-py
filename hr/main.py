@@ -1,9 +1,14 @@
 import os
 import sys
 import logging
+import pandas as pd
+
 class Main:
 
     def __init__(self, system):
+        import os
+
+        # Set the base path dependent on system
         if system is None:
             raise ValueError("System cannot be None")
         if system == "Argon":
@@ -12,9 +17,23 @@ class Main:
             self.base_path = "/mnt/lss/Projects/BOOST/"
         elif system == "vosslnx":
             self.base_path = "/mnt/nfs/lss/vosslabhpc/Projects/BOOST/"
-        self.zone_path = f"{self.base_path}InterventionStudy/1-projectManagement/participants/ExerciseSessionMaterials/Intervention Materials/BOOST HR ranges.xlsx"
+        else:
+            raise ValueError(f"Unknown system: {system}")
 
-        self.out_path = '../qc_out.csv'
+        # Ensure base_path is an absolute path and exists
+        self.base_path = os.path.abspath(self.base_path)
+        if not os.path.isdir(self.base_path):
+            raise FileNotFoundError(f"Base path does not exist: {self.base_path}")
+
+        # add zone path to class 
+        self.zone_path = os.path.join(
+            self.base_path,
+            "InterventionStudy/1-projectManagement/participants/ExerciseSessionMaterials/Intervention Materials/BOOST HR ranges.xlsx"
+        )
+        if not os.path.isfile(self.zone_path):
+            raise FileNotFoundError(f"Zone path does not exist: {self.zone_path}")
+
+        self.out_path = os.path.abspath('../qc_out.csv')
 
 
         # add logging configuration
@@ -32,16 +51,12 @@ class Main:
         """
         Main function to run the script.
         """
-        err_master = {}
-        # Example usage of the base_path
-        if not hasattr(self, 'base_path'):
-            raise AttributeError("Base path is not set. Please initialize the class with a valid system.")
-        # Here you can add more functionality as needed
+        err_master = {} # dict to hold all errors
         from util.get_files import get_files
-        from util.hr.extract_hr import extract_hr
+        from util.hr.extract_hr import extract_hr, recording_window
         from util.zone.extract_zones import extract_zones
         from qc.sup import QC_Sup
-        project_path = os.path.join(self.base_path, "InterventionStudy", "3-Experiment", "data", "polarhrcsv")
+        project_path = os.path.join(self.base_path, "InterventionStudy", "3-experiment", "data", "polarhrcsv")
         if os.path.exists(project_path):
             for session in ["Supervised", "Unsupervised"]:
                 session_path = os.path.join(project_path, session)
@@ -53,7 +68,31 @@ class Main:
                     for subject, subject_files in files.items():
                         for file in subject_files:
                             if file.lower().endswith('.csv'):
-                                hr = extract_hr(subject_files)
+                                hr = extract_hr(file)
+                                window = recording_window(hr)
+                                if window is not None:
+                                    start_time, end_time, duration = window
+                                    if duration > pd.Timedelta(hours=4):
+                                        logging.warning(
+                                            "Skipping file with long duration (%s): %s",
+                                            duration,
+                                            file,
+                                        )
+                                        err = {
+                                            "duration": [
+                                                "recording longer than 4 hours; file ignored",
+                                                pd.DataFrame({
+                                                    "start_time": [start_time],
+                                                    "end_time": [end_time],
+                                                    "duration": [duration],
+                                                }),
+                                            ]
+                                        }
+                                        if subject not in err_master:
+                                            err_master[subject] = [[file, err]]
+                                        else:
+                                            err_master[subject].append([file, err])
+                                        continue
                                 zones = extract_zones(self.zone_path, subject)
                                 err = QC_Sup(hr, zones).main()
 
@@ -104,4 +143,3 @@ if __name__ == '__main__':
 
 
         
-

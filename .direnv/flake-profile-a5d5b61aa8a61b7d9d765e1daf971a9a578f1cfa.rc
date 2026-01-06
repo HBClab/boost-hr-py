@@ -35,7 +35,7 @@ LD='ld'
 export LD
 LD_FOR_BUILD='ld'
 export LD_FOR_BUILD
-LINENO='76'
+LINENO='79'
 MACHTYPE='x86_64-pc-linux-gnu'
 NIX_BINTOOLS='/nix/store/vrkxj51s4a1awh7m4p4f1w29wad5s20m-binutils-wrapper-2.43.1'
 export NIX_BINTOOLS
@@ -55,7 +55,7 @@ NIX_CC_WRAPPER_TARGET_BUILD_x86_64_unknown_linux_gnu='1'
 export NIX_CC_WRAPPER_TARGET_BUILD_x86_64_unknown_linux_gnu
 NIX_CC_WRAPPER_TARGET_HOST_x86_64_unknown_linux_gnu='1'
 export NIX_CC_WRAPPER_TARGET_HOST_x86_64_unknown_linux_gnu
-NIX_CFLAGS_COMPILE=' -frandom-seed=lx87nq6aqz -isystem /nix/store/4nj4l3scr96gcx4jirb3kfv24c4ay1z7-python3-3.13.1/include -isystem /nix/store/zgbn7c77c40zv9vaakvhynkjq8qnrn1y-openssl-3.3.2-dev/include -isystem /nix/store/4nj4l3scr96gcx4jirb3kfv24c4ay1z7-python3-3.13.1/include -isystem /nix/store/zgbn7c77c40zv9vaakvhynkjq8qnrn1y-openssl-3.3.2-dev/include'
+NIX_CFLAGS_COMPILE=' -frandom-seed=74pks3magn -isystem /nix/store/4nj4l3scr96gcx4jirb3kfv24c4ay1z7-python3-3.13.1/include -isystem /nix/store/zgbn7c77c40zv9vaakvhynkjq8qnrn1y-openssl-3.3.2-dev/include -isystem /nix/store/4nj4l3scr96gcx4jirb3kfv24c4ay1z7-python3-3.13.1/include -isystem /nix/store/zgbn7c77c40zv9vaakvhynkjq8qnrn1y-openssl-3.3.2-dev/include'
 export NIX_CFLAGS_COMPILE
 NIX_CFLAGS_COMPILE_FOR_BUILD=' -isystem /nix/store/4nj4l3scr96gcx4jirb3kfv24c4ay1z7-python3-3.13.1/include -isystem /nix/store/zgbn7c77c40zv9vaakvhynkjq8qnrn1y-openssl-3.3.2-dev/include -isystem /nix/store/4nj4l3scr96gcx4jirb3kfv24c4ay1z7-python3-3.13.1/include -isystem /nix/store/zgbn7c77c40zv9vaakvhynkjq8qnrn1y-openssl-3.3.2-dev/include -isystem /nix/store/4nj4l3scr96gcx4jirb3kfv24c4ay1z7-python3-3.13.1/include -isystem /nix/store/zgbn7c77c40zv9vaakvhynkjq8qnrn1y-openssl-3.3.2-dev/include'
 export NIX_CFLAGS_COMPILE_FOR_BUILD
@@ -185,7 +185,6 @@ declare -a envHostHostHooks=('ccWrapper_addCVars' 'bintoolsWrapper_addLDVars' 'p
 declare -a envHostTargetHooks=('ccWrapper_addCVars' 'bintoolsWrapper_addLDVars' 'pkgConfigWrapper_addPkgConfigPath' )
 declare -a envTargetTargetHooks=()
 declare -a fixupOutputHooks=('if [ -z "${dontPatchELF-}" ]; then patchELF "$prefix"; fi' 'if [[ -z "${noAuditTmpdir-}" && -e "$prefix" ]]; then auditTmpdir "$prefix"; fi' 'if [ -z "${dontGzipMan-}" ]; then compressManPages "$prefix"; fi' '_moveLib64' '_moveSbin' '_moveSystemdUserUnits' 'patchShebangsAuto' '_pruneLibtoolFiles' '_doStrip' )
-guess='16'
 initialPath='/nix/store/wdap4cr3bnm685f27y9bb6q5b6q18msl-coreutils-9.5 /nix/store/032xw8dchwjipwqh6b3h70yc3mcmsqld-findutils-4.10.0 /nix/store/dd7xqz1qwl0di4zb8rzj7r1ds8np9xqs-diffutils-3.10 /nix/store/bffnm1211li6y431irplzbjbccr0k884-gnused-4.9 /nix/store/4lbfasv335vpk8rbcf3pgkag4rhg8jx8-gnugrep-3.11 /nix/store/xpzl2sf58fqfpl64b1fy1ihxay7k71li-gawk-5.3.1 /nix/store/zlmk040fc3jax9s3gldwp5rfwc1hhajc-gnutar-1.35 /nix/store/chwdy9qaxd13q8zvl0zd5r7ql2q116di-gzip-1.13 /nix/store/hpppxlcfvjzrvvcvhcm47divp65gbwq1-bzip2-1.0.8-bin /nix/store/y0akgyz13jgxwm968bs8kay47zbxx638-gnumake-4.4.1 /nix/store/fd118hwh7d1ncib4mdw56ylv3g9k0iyj-bash-5.2p37 /nix/store/apqwjgbjj646wk2jkzr67l26djamn481-patch-2.7.6 /nix/store/rrv4bd5i7rp2m7j8ix4kl8bzijhh8gd3-xz-5.6.3-bin /nix/store/qraqns84wjffzd8d3dgbdcyxg41czbd6-file-5.46'
 mesonFlags=''
 export mesonFlags
