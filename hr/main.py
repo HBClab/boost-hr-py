@@ -68,7 +68,7 @@ class Main:
                     for subject, subject_files in files.items():
                         for file in subject_files:
                             if file.lower().endswith('.csv'):
-                                hr = extract_hr(file)
+                                hr, week = extract_hr(file)
                                 window = recording_window(hr)
                                 if window is not None:
                                     start_time, end_time, duration = window
@@ -94,7 +94,7 @@ class Main:
                                             err_master[subject].append([file, err])
                                         continue
                                 zones = extract_zones(self.zone_path, subject)
-                                err = QC_Sup(hr, zones).main()
+                                err = QC_Sup(hr, zones, week).main()
 
                                 if subject not in err_master:
                                     # first time: create a list with this one error

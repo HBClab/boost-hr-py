@@ -14,6 +14,7 @@ def extract_hr(file):
 
     for path in file_list:
         if str(path).lower().endswith(".csv"):
+            week = path.split('/')[-1].split('_')[3]
             df = pd.read_csv(path, skiprows=2)
             df = df[["Time", "HR (bpm)"]].rename(columns={"Time": "time", "HR (bpm)": "hr"})
             # Normalize invalid >=24:MM:SS to HH%24:MM:SS before parsing, and log when it occurs
@@ -34,7 +35,7 @@ def extract_hr(file):
                     parts[0] = hours.fillna(0).astype(int).astype(str).str.zfill(2)
                     time_str = parts[0] + ":" + parts[1].str.zfill(2) + ":" + parts[2].str.zfill(2)
             df["time"] = pd.to_datetime(time_str, format="%H:%M:%S")
-            return df
+            return df, week
 
 
 def recording_window(df: pd.DataFrame) -> tuple[pd.Timestamp, pd.Timestamp, pd.Timedelta] | None:

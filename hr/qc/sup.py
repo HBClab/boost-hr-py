@@ -7,9 +7,10 @@ logger = logging.getLogger(__name__)
 
 class QC_Sup:
 
-    def __init__(self, hr, zones):
+    def __init__(self, hr, zones, week):
         self.hr = hr
         self.zones = zones
+        self.week = week
         self.err = {}
 
     def main(self):
@@ -40,7 +41,9 @@ class QC_Sup:
         """
         logger.debug("running phantom zone qc")
 
-        qc_zone = QC_Zone(self.hr, self.zones)
+        # load subject level zones here and pass to QC_zone instead of all zones
+
+        qc_zone = QC_Zone(self.hr, self.zones, self.week)
         qc_zone.supervised()
 
         return None
