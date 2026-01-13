@@ -25,3 +25,4 @@ time_above_s: Seconds above the allowed zone.
 time_below_s: Seconds below the allowed zone.
 longest_bounded_bout_s: Duration in seconds of the longest continuous bout within the allowed zone (bounded by excursions).
 bounded_met: Boolean flag indicating whether the bounded-zone adherence criterion was met.
+mazd: Mean Absolute Zone Deviation = (1/T) * sum(|z_i - z_target|); lower values indicate tighter adherence to target zone(s).

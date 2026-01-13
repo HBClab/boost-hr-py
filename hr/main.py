@@ -132,7 +132,7 @@ class Main:
         gd = Get_Data(sup_path=os.path.join(path, "Supervised"), unsup_path=os.path.join(path, "Unsupervised"), study="InterventionStudy")
         meta = gd.get_meta()
         df_master = gd.build_master_df()
-        gd.save_for_rust("../rust-ols-adherence-cli/data.csv")
+        gd.save_for_rust("./rust-ols-adherence-cli/data.csv")
 
 
 

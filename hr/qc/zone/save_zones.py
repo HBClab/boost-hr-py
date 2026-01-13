@@ -25,6 +25,7 @@ def save_zones(zone_master: dict[str, list[list[Any]]], out_csv: str | os.PathLi
             "time_below_s": 45.0,
             "longest_bounded_bout_s": 1650.0,
             "bounded_met": True,
+            "mazd": 0.25,
         }
     out_csv : str | PathLike
         Destination CSV path.
@@ -34,7 +35,7 @@ def save_zones(zone_master: dict[str, list[list[Any]]], out_csv: str | os.PathLi
     pd.DataFrame
         One row per file, columns: group, subject, week, session,
         time_in_allowed_s, time_above_s, time_below_s,
-        longest_bounded_bout_s, bounded_met.
+        longest_bounded_bout_s, bounded_met, mazd.
     """
     rows: list[dict[str, Any]] = []
 
@@ -80,6 +81,7 @@ def save_zones(zone_master: dict[str, list[list[Any]]], out_csv: str | os.PathLi
                 "time_below_s": metrics.get("time_below_s"),
                 "longest_bounded_bout_s": metrics.get("longest_bounded_bout_s"),
                 "bounded_met": metrics.get("bounded_met"),
+                "mazd": metrics.get("mazd"),
             }
             rows.append(row)
 
@@ -93,6 +95,7 @@ def save_zones(zone_master: dict[str, list[list[Any]]], out_csv: str | os.PathLi
         "time_below_s",
         "longest_bounded_bout_s",
         "bounded_met",
+        "mazd",
     ])
 
     if not df_out.empty:
@@ -102,6 +105,7 @@ def save_zones(zone_master: dict[str, list[list[Any]]], out_csv: str | os.PathLi
             "time_above_s",
             "time_below_s",
             "longest_bounded_bout_s",
+            "mazd",
         ]
         for col in numeric_cols:
             df_out[col] = pd.to_numeric(df_out[col], errors="coerce")
