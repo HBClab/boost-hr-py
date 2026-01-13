@@ -12,6 +12,7 @@ class QC_Zone:
         self.zones = zones
         self.week = int(week)
         self.err = {}
+        self.zone_metrics = None
 
     def supervised(self):
         """
@@ -63,27 +64,93 @@ class QC_Zone:
             },
         }
 
-        weekly_plan = zone_info[self.week]
+        weekly_plan = zone_info.get(self.week)
+        if weekly_plan is None:
+            self.err["zone_summary"] = [f"no supervised plan for week {self.week}", None]
+            return None
 
-        # things to extract
-        # 1. Time spent in zones
-        #    - Use subject-level zone bounds from hr/util/zone/extract_zones.py
-        #      (columns z1_start/z1_end...z5_start/z5_end after midpoint_snap)
-        #      to map each hr sample to a zone bucket based on its bpm.
-        #    - Ignore warmup/cooldown entirely; only tally time in the
-        #      designated weekly_plan["zones"] plus time above the top zone or
-        #      below the bottom zone.
-        # 2. Time spent above/below zones
-        #    - Above: hr > highest end of the highest zone in weekly_plan["zones"].
-        #    - Below: hr < lowest start of the lowest zone in weekly_plan["zones"].
-        #    - Calculate durations using the subject’s hr file (time, hr) that
-        #      extract_hr() produces.
-        # 3. Longest bounded bout and target flag
-        #    - Find the longest continuous bout where hr stays within or above
-        #      the allowed zones (never dropping below the lowest allowed start).
-        #    - Boolean flag: True if a single continuous bounded bout meets or
-        #      exceeds weekly_plan["bounded_min"] minutes without dipping below
-        #      that lower bound (going above is acceptable); False otherwise.
+        return self._run_zone_qc(weekly_plan)
+
+    def unsupervised(self):
+
+        training_plan = {
+            7: {
+                "zones": [3, 4],
+                "warmup_min": 5,
+                "bounded_min": 30,
+                "unbounded_min": 0,
+                "cooldown_min": 5,
+            },
+            8: {
+                "zones": [3, 4],
+                "warmup_min": 5,
+                "bounded_min": 30,
+                "unbounded_min": 0,
+                "cooldown_min": 5,
+            },
+            9: {
+                "zones": [3, 4],
+                "warmup_min": 5,
+                "bounded_min": 30,
+                "unbounded_min": 0,
+                "cooldown_min": 5,
+            },
+            10: {
+                "zones": [3, 4, 5],
+                "warmup_min": 5,
+                "bounded_min": 30,
+                "unbounded_min": 0,
+                "cooldown_min": 5,
+            },
+            11: {
+                "zones": [4, 5],
+                "warmup_min": 5,
+                "bounded_min": 30,
+                "unbounded_min": 0,
+                "cooldown_min": 5,
+            },
+            12: {
+                "zones": [4, 5],
+                "warmup_min": 5,
+                "bounded_min": 30,
+                "unbounded_min": 0,
+                "cooldown_min": 5,
+            },
+        }
+
+        weekly_plan = training_plan.get(self.week)
+        if weekly_plan is None:
+            self.err["zone_summary"] = [f"no unsupervised plan for week {self.week}", None]
+            return None
+
+        return self._run_zone_qc(weekly_plan)
+
+    def _run_zone_qc(self, weekly_plan: dict):
+        """
+        Shared helper implementing the zone QC calculations.
+
+        things to extract
+        1. Time spent in zones
+           - Use subject-level zone bounds from hr/util/zone/extract_zones.py
+             (columns z1_start/z1_end...z5_start/z5_end after midpoint_snap)
+             to map each hr sample to a zone bucket based on its bpm.
+           - Ignore warmup/cooldown entirely; only tally time in the
+             designated weekly_plan["zones"] plus time above the top zone or
+             below the bottom zone.
+        2. Time spent above/below zones
+           - Above: hr > highest end of the highest zone in weekly_plan["zones"].
+           - Below: hr < lowest start of the lowest zone in weekly_plan["zones"].
+           - Calculate durations using the subject’s hr file (time, hr) that
+             extract_hr() produces.
+        3. Longest bounded bout and target flag
+           - Find the longest continuous bout where hr stays within or above
+             the allowed zones (never dropping below the lowest allowed start).
+           - Boolean flag: True if a single continuous bounded bout meets or
+             exceeds weekly_plan["bounded_min"] minutes without dipping below
+             that lower bound (going above is acceptable); False otherwise.
+
+        Returns a dict of summary metrics and populates self.err with messages.
+        """
 
         if self.hr is None or self.hr.empty:
             self.err["zone_summary"] = ["hr data missing for zone QC", None]
@@ -139,9 +206,18 @@ class QC_Zone:
             .groupby("run")
             .agg(is_good=("good", "first"), duration_s=("dur", "sum"))
         )
-        longest_bout = bout_lengths.loc[bout_lengths["is_good"], "duration_s"].max(initial=0)
+        good_bouts = bout_lengths.loc[bout_lengths["is_good"], "duration_s"]
+        longest_bout = good_bouts.max() if not good_bouts.empty else 0
         bounded_met = longest_bout >= weekly_plan["bounded_min"] * 60
 
+        self.zone_metrics = {
+            "week": self.week,
+            "time_in_allowed_s": float(time_in_allowed),
+            "time_above_s": float(time_above),
+            "time_below_s": float(time_below),
+            "longest_bounded_bout_s": float(longest_bout),
+            "bounded_met": bool(bounded_met),
+        }
         summary_msg = (
             f"time_in_allowed_s={time_in_allowed:.1f}; "
             f"time_above_s={time_above:.1f}; "
@@ -156,6 +232,4 @@ class QC_Zone:
                 None,
             ]
 
-
-
-
+        return self.zone_metrics

@@ -1,6 +1,7 @@
 import os
 import sys
 import logging
+from pathlib import Path
 import pandas as pd
 
 class Main:
@@ -33,7 +34,9 @@ class Main:
         if not os.path.isfile(self.zone_path):
             raise FileNotFoundError(f"Zone path does not exist: {self.zone_path}")
 
-        self.out_path = os.path.abspath('../qc_out.csv')
+        home_dir = Path.home()
+        self.out_path = home_dir / "qc_out.csv"
+        self.zone_out_path = home_dir / "zone_out.csv"
 
 
         # add logging configuration
@@ -52,6 +55,7 @@ class Main:
         Main function to run the script.
         """
         err_master = {} # dict to hold all errors
+        zone_master = {} # dict to hold all zone metrics
         from util.get_files import get_files
         from util.hr.extract_hr import extract_hr, recording_window
         from util.zone.extract_zones import extract_zones
@@ -69,6 +73,14 @@ class Main:
                         for file in subject_files:
                             if file.lower().endswith('.csv'):
                                 hr, week = extract_hr(file)
+                                if hr is None or week is None:
+                                    logging.warning("Skipping file with unparseable week: %s", file)
+                                    err = {"week_parse": ["could not parse week from filename; file skipped", None]}
+                                    if subject not in err_master:
+                                        err_master[subject] = [[file, err]]
+                                    else:
+                                        err_master[subject].append([file, err])
+                                    continue
                                 window = recording_window(hr)
                                 if window is not None:
                                     start_time, end_time, duration = window
@@ -94,7 +106,7 @@ class Main:
                                             err_master[subject].append([file, err])
                                         continue
                                 zones = extract_zones(self.zone_path, subject)
-                                err = QC_Sup(hr, zones, week).main()
+                                err, zone_metrics = QC_Sup(hr, zones, week, session).main()
 
                                 if subject not in err_master:
                                     # first time: create a list with this one error
@@ -102,12 +114,19 @@ class Main:
                                 else:
                                     # append to the existing list
                                     err_master[subject].append([file,err])
+                                if zone_metrics is not None:
+                                    if subject not in zone_master:
+                                        zone_master[subject] = [[file, zone_metrics]]
+                                    else:
+                                        zone_master[subject].append([file, zone_metrics])
         err_master = {
             subject: [e for e in errs if e]
             for subject, errs in err_master.items()
         }
         from qc.save_qc import save_qc
         save_qc(err_master, self.out_path)
+        from qc.zone.save_zones import save_zones
+        save_zones(zone_master, self.zone_out_path)
         from plot.get_data import Get_Data
         path = os.path.join(self.base_path, "InterventionStudy", "3-Experiment", "data", "polarhrcsv")
         gd = Get_Data(sup_path=os.path.join(path, "Supervised"), unsup_path=os.path.join(path, "Unsupervised"), study="InterventionStudy")

@@ -1,7 +1,22 @@
 import logging
+import os
+import re
 import pandas as pd
 
 logger = logging.getLogger(__name__)
+
+
+def _get_week_from_path(path: str) -> int | None:
+    """
+    Extract the week number from a filename pattern containing `_wkXX`.
+    Returns None if no week segment can be found, allowing caller to skip.
+    """
+    filename = os.path.basename(str(path))
+    match = re.search(r"_wk(\d+)", filename, re.IGNORECASE)
+    if not match:
+        logger.warning("Could not parse week from filename: %s; skipping", filename)
+        return None
+    return int(match.group(1))
 
 
 def extract_hr(file):
@@ -14,7 +29,9 @@ def extract_hr(file):
 
     for path in file_list:
         if str(path).lower().endswith(".csv"):
-            week = path.split('/')[-1].split('_')[3]
+            week = _get_week_from_path(path)
+            if week is None:
+                continue
             df = pd.read_csv(path, skiprows=2)
             df = df[["Time", "HR (bpm)"]].rename(columns={"Time": "time", "HR (bpm)": "hr"})
             # Normalize invalid >=24:MM:SS to HH%24:MM:SS before parsing, and log when it occurs
@@ -36,6 +53,7 @@ def extract_hr(file):
                     time_str = parts[0] + ":" + parts[1].str.zfill(2) + ":" + parts[2].str.zfill(2)
             df["time"] = pd.to_datetime(time_str, format="%H:%M:%S")
             return df, week
+    return None, None
 
 
 def recording_window(df: pd.DataFrame) -> tuple[pd.Timestamp, pd.Timestamp, pd.Timedelta] | None:

@@ -1,23 +1,25 @@
 import pandas as pd
 import logging
 
-from hr.qc.zone.zone_qc import QC_Zone
+from qc.zone.zone_qc import QC_Zone
 
 logger = logging.getLogger(__name__)
 
 class QC_Sup:
 
-    def __init__(self, hr, zones, week):
+    def __init__(self, hr, zones, week, session_type: str):
         self.hr = hr
         self.zones = zones
         self.week = week
         self.err = {}
+        self.session_type = session_type.lower()
+        self.zone_metrics = None
 
     def main(self):
         self.qc_data()
-        self.qc_zones()
+        self.zone_metrics = self.qc_zones()
 
-        return self.err
+        return self.err, self.zone_metrics
 
     def qc_data(self):
         """
@@ -41,12 +43,15 @@ class QC_Sup:
         """
         logger.debug("running phantom zone qc")
 
-        # load subject level zones here and pass to QC_zone instead of all zones
-
         qc_zone = QC_Zone(self.hr, self.zones, self.week)
-        qc_zone.supervised()
+        if self.session_type.startswith("super"):
+            qc_zone.supervised()
+        else:
+            qc_zone.unsupervised()
 
-        return None
+        # Merge any zone errors into the overall error dictionary
+        self.err.update(qc_zone.err)
+        return qc_zone.zone_metrics
 
 
 
@@ -116,4 +121,3 @@ class QC_Sup:
         long_runs = long_runs.copy()
         long_runs['duration'] = long_runs['end_time'] - long_runs['start_time']
         return long_runs[['start_time', 'end_time', 'duration', 'length']]
-

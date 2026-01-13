@@ -102,6 +102,9 @@ def save_qc(err_master: dict, out_csv: str | os.PathLike) -> pd.DataFrame:
                 continue
 
             for err_type, payload in err_dict.items():
+                # Skip zone-related summaries except bounded_short
+                if err_type.startswith("zone") and err_type != "bounded_short":
+                    continue
                 # payload is commonly [message, details_df]
                 msg = None
                 details_df = None
@@ -170,7 +173,6 @@ def save_qc(err_master: dict, out_csv: str | os.PathLike) -> pd.DataFrame:
     df_out.to_csv(out_csv, index=False)
     log.info("QC summary written: %s (%d rows)", out_csv, len(df_out))
     return df_out
-
 
 
 
