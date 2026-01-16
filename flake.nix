@@ -72,6 +72,7 @@
               python.pkgs.ipython
               python.pkgs.scipy
               python.pkgs.pyyaml
+              python.pkgs.pytest
 
               # ---- Rust toolchain + helpers ----
               rustToolchain

@@ -34,9 +34,9 @@ class Main:
         if not os.path.isfile(self.zone_path):
             raise FileNotFoundError(f"Zone path does not exist: {self.zone_path}")
 
-        home_dir = Path.home()
-        self.out_path = home_dir / "qc_out.csv"
-        self.zone_out_path = home_dir / "zone_out.csv"
+        project_root = Path(__file__).resolve().parents[1]
+        self.out_path = project_root / "qc_out.csv"
+        self.zone_out_path = project_root / "zone_out.csv"
 
 
         # add logging configuration
@@ -132,7 +132,7 @@ class Main:
         gd = Get_Data(sup_path=os.path.join(path, "Supervised"), unsup_path=os.path.join(path, "Unsupervised"), study="InterventionStudy")
         meta = gd.get_meta()
         df_master = gd.build_master_df()
-        gd.save_for_rust("../rust-ols-adherence-cli/data.csv")
+        gd.save_for_rust("./rust-ols-adherence-cli/data.csv")
 
 
 
