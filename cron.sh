@@ -17,7 +17,7 @@ git pull --ff-only origin main
 
 # === run the python script ===
 
-cd hr && python main.py 'vosslnx'
+python hr.main.py 'vosslnx'
 cd ..
 
 
