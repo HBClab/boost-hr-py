@@ -41,7 +41,7 @@ class Main:
 
         # add logging configuration
         logging.basicConfig(
-            level=logging.DEBUG,
+            level=logging.INFO,
             format='%(asctime)s - %(levelname)s - %(message)s',
             handlers=[
                 logging.FileHandler("main.log", mode="w", encoding="utf-8"), # mode = w will allow for logging to NOT APPEND - then we don't have crazy logs

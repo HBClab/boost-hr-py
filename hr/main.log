@@ -1,166 +1,58 @@
-2026-01-16 12:16:08,848 - DEBUG - Processing session: /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Supervised
-2026-01-16 12:16:09,032 - DEBUG - running missing check
-2026-01-16 12:16:09,043 - DEBUG - running phantom zone qc
-2026-01-16 12:16:09,098 - DEBUG - running missing check
-2026-01-16 12:16:09,110 - DEBUG - running phantom zone qc
-2026-01-16 12:16:09,164 - DEBUG - running missing check
-2026-01-16 12:16:09,174 - DEBUG - running phantom zone qc
-2026-01-16 12:16:09,227 - DEBUG - running missing check
-2026-01-16 12:16:09,238 - DEBUG - running phantom zone qc
-2026-01-16 12:16:09,291 - DEBUG - running missing check
-2026-01-16 12:16:09,302 - DEBUG - running phantom zone qc
-2026-01-16 12:16:09,355 - DEBUG - running missing check
-2026-01-16 12:16:09,365 - DEBUG - running phantom zone qc
-2026-01-16 12:16:09,415 - DEBUG - running missing check
-2026-01-16 12:16:09,425 - DEBUG - running phantom zone qc
-2026-01-16 12:16:09,487 - DEBUG - running missing check
-2026-01-16 12:16:09,497 - DEBUG - running phantom zone qc
-2026-01-16 12:16:09,548 - DEBUG - running missing check
-2026-01-16 12:16:09,558 - DEBUG - running phantom zone qc
-2026-01-16 12:16:09,608 - DEBUG - running missing check
-2026-01-16 12:16:09,618 - DEBUG - running phantom zone qc
-2026-01-16 12:16:09,672 - DEBUG - running missing check
-2026-01-16 12:16:09,695 - DEBUG - running phantom zone qc
-2026-01-16 12:16:09,746 - DEBUG - running missing check
-2026-01-16 12:16:09,756 - DEBUG - running phantom zone qc
-2026-01-16 12:16:09,809 - DEBUG - running missing check
-2026-01-16 12:16:09,818 - DEBUG - running phantom zone qc
-2026-01-16 12:16:09,878 - DEBUG - running missing check
-2026-01-16 12:16:09,888 - DEBUG - running phantom zone qc
-2026-01-16 12:16:09,949 - DEBUG - running missing check
-2026-01-16 12:16:09,959 - DEBUG - running phantom zone qc
-2026-01-16 12:16:10,013 - DEBUG - running missing check
-2026-01-16 12:16:10,023 - DEBUG - running phantom zone qc
-2026-01-16 12:16:10,077 - DEBUG - running missing check
-2026-01-16 12:16:10,087 - DEBUG - running phantom zone qc
-2026-01-16 12:16:10,138 - DEBUG - running missing check
-2026-01-16 12:16:10,147 - DEBUG - running phantom zone qc
-2026-01-16 12:16:10,197 - DEBUG - running missing check
-2026-01-16 12:16:10,206 - DEBUG - running phantom zone qc
-2026-01-16 12:16:10,348 - WARNING - Skipping file with long duration (0 days 09:51:35): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Supervised/sub8006/8006_wk6_ses29.CSV
-2026-01-16 12:16:10,384 - DEBUG - running missing check
-2026-01-16 12:16:10,393 - DEBUG - running phantom zone qc
-2026-01-16 12:16:10,450 - DEBUG - running missing check
-2026-01-16 12:16:10,459 - DEBUG - running phantom zone qc
-2026-01-16 12:16:10,509 - DEBUG - running missing check
-2026-01-16 12:16:10,519 - DEBUG - running phantom zone qc
-2026-01-16 12:16:10,569 - DEBUG - running missing check
-2026-01-16 12:16:10,578 - DEBUG - running phantom zone qc
-2026-01-16 12:16:10,630 - DEBUG - running missing check
-2026-01-16 12:16:10,640 - DEBUG - running phantom zone qc
-2026-01-16 12:16:10,692 - DEBUG - running missing check
-2026-01-16 12:16:10,702 - DEBUG - running phantom zone qc
-2026-01-16 12:16:10,753 - DEBUG - running missing check
-2026-01-16 12:16:10,762 - DEBUG - running phantom zone qc
-2026-01-16 12:16:10,814 - DEBUG - running missing check
-2026-01-16 12:16:10,823 - DEBUG - running phantom zone qc
-2026-01-16 12:16:10,903 - DEBUG - running missing check
-2026-01-16 12:16:10,912 - DEBUG - running phantom zone qc
-2026-01-16 12:16:10,971 - DEBUG - running missing check
-2026-01-16 12:16:10,981 - DEBUG - running phantom zone qc
-2026-01-16 12:16:11,035 - DEBUG - running missing check
-2026-01-16 12:16:11,045 - DEBUG - running phantom zone qc
-2026-01-16 12:16:11,101 - DEBUG - running missing check
-2026-01-16 12:16:11,112 - DEBUG - running phantom zone qc
-2026-01-16 12:16:11,159 - DEBUG - running missing check
-2026-01-16 12:16:11,167 - DEBUG - running phantom zone qc
-2026-01-16 12:16:11,216 - DEBUG - running missing check
-2026-01-16 12:16:11,226 - DEBUG - running phantom zone qc
-2026-01-16 12:16:11,287 - DEBUG - running missing check
-2026-01-16 12:16:11,300 - DEBUG - running phantom zone qc
-2026-01-16 12:16:11,353 - DEBUG - running missing check
-2026-01-16 12:16:11,362 - DEBUG - running phantom zone qc
-2026-01-16 12:16:11,427 - DEBUG - running missing check
-2026-01-16 12:16:11,440 - DEBUG - running phantom zone qc
-2026-01-16 12:16:11,495 - DEBUG - running missing check
-2026-01-16 12:16:11,504 - DEBUG - running phantom zone qc
-2026-01-16 12:16:11,585 - WARNING - Skipping file with long duration (0 days 04:44:14): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Supervised/sub8020/8020_wk6_ses30.CSV
-2026-01-16 12:16:11,622 - DEBUG - running missing check
-2026-01-16 12:16:11,631 - DEBUG - running phantom zone qc
-2026-01-16 12:16:11,683 - DEBUG - running missing check
-2026-01-16 12:16:11,692 - DEBUG - running phantom zone qc
-2026-01-16 12:16:11,785 - WARNING - Skipping file with long duration (0 days 05:52:09): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Supervised/sub8020/8020_wk5_ses21.CSV
-2026-01-16 12:16:11,832 - DEBUG - running missing check
-2026-01-16 12:16:11,844 - DEBUG - running phantom zone qc
-2026-01-16 12:16:11,917 - DEBUG - running missing check
-2026-01-16 12:16:11,929 - DEBUG - running phantom zone qc
-2026-01-16 12:16:11,988 - DEBUG - running missing check
-2026-01-16 12:16:11,998 - DEBUG - running phantom zone qc
-2026-01-16 12:16:12,057 - DEBUG - running missing check
-2026-01-16 12:16:12,067 - DEBUG - running phantom zone qc
-2026-01-16 12:16:12,136 - DEBUG - running missing check
-2026-01-16 12:16:12,146 - DEBUG - running phantom zone qc
-2026-01-16 12:16:12,196 - DEBUG - running missing check
-2026-01-16 12:16:12,206 - DEBUG - running phantom zone qc
-2026-01-16 12:16:12,255 - DEBUG - running missing check
-2026-01-16 12:16:12,264 - DEBUG - running phantom zone qc
-2026-01-16 12:16:12,323 - DEBUG - running missing check
-2026-01-16 12:16:12,334 - DEBUG - running phantom zone qc
-2026-01-16 12:16:12,493 - WARNING - Skipping file with long duration (0 days 11:04:25): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Supervised/sub8020/8020_wk5_ses23.CSV
-2026-01-16 12:16:12,526 - DEBUG - running missing check
-2026-01-16 12:16:12,533 - DEBUG - running phantom zone qc
-2026-01-16 12:16:12,675 - WARNING - Skipping file with long duration (0 days 10:29:40): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Supervised/sub8020/8020_wk5_ses24.CSV
-2026-01-16 12:16:12,715 - DEBUG - running missing check
-2026-01-16 12:16:12,724 - DEBUG - running phantom zone qc
-2026-01-16 12:16:12,791 - DEBUG - running missing check
-2026-01-16 12:16:12,804 - DEBUG - running phantom zone qc
-2026-01-16 12:16:12,860 - DEBUG - running missing check
-2026-01-16 12:16:12,869 - DEBUG - running phantom zone qc
-2026-01-16 12:16:12,932 - DEBUG - running missing check
-2026-01-16 12:16:12,942 - DEBUG - running phantom zone qc
-2026-01-16 12:16:13,004 - DEBUG - running missing check
-2026-01-16 12:16:13,014 - DEBUG - running phantom zone qc
-2026-01-16 12:16:13,070 - DEBUG - running missing check
-2026-01-16 12:16:13,081 - DEBUG - running phantom zone qc
-2026-01-16 12:16:13,133 - DEBUG - running missing check
-2026-01-16 12:16:13,142 - DEBUG - running phantom zone qc
-2026-01-16 12:16:13,196 - DEBUG - running missing check
-2026-01-16 12:16:13,205 - DEBUG - running phantom zone qc
-2026-01-16 12:16:13,256 - DEBUG - running missing check
-2026-01-16 12:16:13,265 - DEBUG - running phantom zone qc
-2026-01-16 12:16:13,330 - DEBUG - running missing check
-2026-01-16 12:16:13,339 - DEBUG - running phantom zone qc
-2026-01-16 12:16:13,390 - DEBUG - running missing check
-2026-01-16 12:16:13,399 - DEBUG - running phantom zone qc
-2026-01-16 12:16:13,450 - DEBUG - running missing check
-2026-01-16 12:16:13,459 - DEBUG - running phantom zone qc
-2026-01-16 12:16:13,511 - DEBUG - running missing check
-2026-01-16 12:16:13,520 - DEBUG - running phantom zone qc
-2026-01-16 12:16:13,574 - DEBUG - running missing check
-2026-01-16 12:16:13,583 - DEBUG - running phantom zone qc
-2026-01-16 12:16:13,635 - DEBUG - running missing check
-2026-01-16 12:16:13,644 - DEBUG - running phantom zone qc
-2026-01-16 12:16:13,695 - DEBUG - running missing check
-2026-01-16 12:16:13,705 - DEBUG - running phantom zone qc
-2026-01-16 12:16:13,769 - DEBUG - running missing check
-2026-01-16 12:16:13,778 - DEBUG - running phantom zone qc
-2026-01-16 12:16:13,830 - DEBUG - running missing check
-2026-01-16 12:16:13,839 - DEBUG - running phantom zone qc
-2026-01-16 12:16:13,891 - DEBUG - running missing check
-2026-01-16 12:16:13,901 - DEBUG - running phantom zone qc
-2026-01-16 12:16:13,964 - DEBUG - running missing check
-2026-01-16 12:16:13,973 - DEBUG - running phantom zone qc
-2026-01-16 12:16:14,041 - DEBUG - running missing check
-2026-01-16 12:16:14,050 - DEBUG - running phantom zone qc
-2026-01-16 12:16:14,103 - DEBUG - running missing check
-2026-01-16 12:16:14,112 - DEBUG - running phantom zone qc
-2026-01-16 12:16:14,167 - DEBUG - running missing check
-2026-01-16 12:16:14,178 - DEBUG - running phantom zone qc
-2026-01-16 12:16:14,232 - DEBUG - running missing check
-2026-01-16 12:16:14,241 - DEBUG - running phantom zone qc
-2026-01-16 12:16:14,294 - DEBUG - running missing check
-2026-01-16 12:16:14,303 - DEBUG - running phantom zone qc
-2026-01-16 12:16:14,355 - DEBUG - running missing check
-2026-01-16 12:16:14,365 - DEBUG - running phantom zone qc
-2026-01-16 12:16:14,435 - DEBUG - running missing check
-2026-01-16 12:16:14,449 - DEBUG - running phantom zone qc
-2026-01-16 12:16:14,505 - DEBUG - running missing check
-2026-01-16 12:16:14,528 - DEBUG - running phantom zone qc
-2026-01-16 12:16:14,579 - DEBUG - running missing check
-2026-01-16 12:16:14,588 - DEBUG - running phantom zone qc
-2026-01-16 12:16:14,639 - DEBUG - running missing check
-2026-01-16 12:16:14,648 - DEBUG - running phantom zone qc
-2026-01-16 12:16:14,720 - DEBUG - running missing check
-2026-01-16 12:16:14,732 - DEBUG - running phantom zone qc
-2026-01-16 12:16:14,786 - DEBUG - running missing check
-2026-01-16 12:16:14,795 - DEBUG - running phantom zone qc
+2026-01-16 12:16:37,728 - WARNING - Skipping file with long duration (0 days 09:51:35): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Supervised/sub8006/8006_wk6_ses29.CSV
+2026-01-16 12:16:38,962 - WARNING - Skipping file with long duration (0 days 04:44:14): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Supervised/sub8020/8020_wk6_ses30.CSV
+2026-01-16 12:16:39,165 - WARNING - Skipping file with long duration (0 days 05:52:09): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Supervised/sub8020/8020_wk5_ses21.CSV
+2026-01-16 12:16:39,878 - WARNING - Skipping file with long duration (0 days 11:04:25): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Supervised/sub8020/8020_wk5_ses23.CSV
+2026-01-16 12:16:40,060 - WARNING - Skipping file with long duration (0 days 10:29:40): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Supervised/sub8020/8020_wk5_ses24.CSV
+2026-01-16 12:16:48,751 - WARNING - Skipping file with long duration (0 days 04:22:21): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Supervised/sub8030/8030_wk1_ses3.CSV
+2026-01-16 12:16:48,806 - WARNING - Skipping file with long duration (0 days 04:08:16): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Supervised/sub8030/8030_wk2_ses10.CSV
+2026-01-16 12:16:48,951 - WARNING - Skipping file with long duration (0 days 11:28:11): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Supervised/sub8030/8030_wk1_ses4.CSV
+2026-01-16 12:16:49,548 - WARNING - Found 1649 time values with hour >= 24 in /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Supervised/sub8030/8030_wk3_ses11.CSV (sample 24:00:00); normalizing to HH%24
+2026-01-16 12:16:49,743 - WARNING - Skipping file with long duration (1 days 00:27:28): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Supervised/sub8030/8030_wk3_ses11.CSV
+2026-01-16 12:16:52,007 - WARNING - Found 18013 time values with hour >= 24 in /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Supervised/sub8019/8019_wk1_ses4.CSV (sample 24:00:00); normalizing to HH%24
+2026-01-16 12:16:52,235 - WARNING - Skipping file with long duration (1 days 05:00:12): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Supervised/sub8019/8019_wk1_ses4.CSV
+2026-01-16 12:16:57,384 - WARNING - Skipping file with long duration (0 days 05:03:49): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Supervised/sub8003/8003_wk2_ses9.CSV
+2026-01-16 12:16:57,827 - WARNING - Skipping file with long duration (0 days 18:46:08): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Supervised/sub8003/8003_wk1_ses3.CSV
+2026-01-16 12:16:58,000 - WARNING - Found 4837 time values with hour >= 24 in /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Supervised/sub8003/8003_wk6_ses27.CSV (sample 24:00:00); normalizing to HH%24
+2026-01-16 12:16:58,193 - WARNING - Skipping file with long duration (1 days 01:20:36): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Supervised/sub8003/8003_wk6_ses27.CSV
+2026-01-16 12:16:59,708 - WARNING - Skipping file with long duration (0 days 21:12:48): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Supervised/sub8003/8003_wk4_ses18.CSV
+2026-01-16 12:17:04,127 - WARNING - Skipping file with long duration (0 days 12:54:07): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8003/8003_wk10_ses17.CSV
+2026-01-16 12:17:04,493 - WARNING - Skipping file with long duration (0 days 23:16:19): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8003/8003_wk9_ses15.CSV
+2026-01-16 12:17:04,705 - WARNING - Skipping file with long duration (0 days 13:50:59): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8003/8003_wk11_ses22.CSV
+2026-01-16 12:17:05,148 - WARNING - Skipping file with long duration (0 days 14:01:11): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8003/8003_wk11_ses24.CSV
+2026-01-16 12:17:05,457 - WARNING - Skipping file with long duration (0 days 14:25:24): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8003/8003_wk10_ses16.CSV
+2026-01-16 12:17:05,643 - WARNING - Skipping file with long duration (0 days 15:05:24): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8003/8003_wk10_ses18.CSV
+2026-01-16 12:17:06,103 - WARNING - Found 176550 time values with hour >= 24 in /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8003/8003_wk8_ses10.CSV (sample 24:00:00); normalizing to HH%24
+2026-01-16 12:17:06,659 - WARNING - Skipping file with long duration (3 days 01:02:29): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8003/8003_wk8_ses10.CSV
+2026-01-16 12:17:06,950 - WARNING - Found 12668 time values with hour >= 24 in /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8003/8003_wk12_ses29.CSV (sample 24:00:00); normalizing to HH%24
+2026-01-16 12:17:07,166 - WARNING - Skipping file with long duration (1 days 03:31:07): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8003/8003_wk12_ses29.CSV
+2026-01-16 12:17:07,360 - WARNING - Skipping file with long duration (0 days 14:54:55): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8003/8003_wk12_ses27.CSV
+2026-01-16 12:17:07,779 - WARNING - Skipping file with long duration (0 days 15:35:06): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8003/8003_wk12_ses28.CSV
+2026-01-16 12:17:14,379 - WARNING - Skipping file with long duration (0 days 21:03:06): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8002/8002_wk9_ses13.CSV
+2026-01-16 12:17:15,656 - WARNING - Could not parse week from filename: Boost_Sub8011_2025-04-16_20-44-30.CSV; skipping
+2026-01-16 12:17:15,656 - WARNING - Skipping file with unparseable week: /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8011/Boost_Sub8011_2025-04-16_20-44-30.CSV
+2026-01-16 12:17:15,656 - WARNING - Could not parse week from filename: Boost_Sub8011_2025-05-16_19-25-57.CSV; skipping
+2026-01-16 12:17:15,656 - WARNING - Skipping file with unparseable week: /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8011/Boost_Sub8011_2025-05-16_19-25-57.CSV
+2026-01-16 12:17:15,656 - WARNING - Could not parse week from filename: Boost_Sub8011_2025-05-01_21-46-48.CSV; skipping
+2026-01-16 12:17:15,656 - WARNING - Skipping file with unparseable week: /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8011/Boost_Sub8011_2025-05-01_21-46-48.CSV
+2026-01-16 12:17:15,656 - WARNING - Could not parse week from filename: Boost_Sub8011_2025-04-19_11-55-39.CSV; skipping
+2026-01-16 12:17:15,656 - WARNING - Skipping file with unparseable week: /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8011/Boost_Sub8011_2025-04-19_11-55-39.CSV
+2026-01-16 12:17:15,656 - WARNING - Could not parse week from filename: Boost_Sub8011_2025-04-18_21-18-40.CSV; skipping
+2026-01-16 12:17:15,656 - WARNING - Skipping file with unparseable week: /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8011/Boost_Sub8011_2025-04-18_21-18-40.CSV
+2026-01-16 12:17:15,656 - WARNING - Could not parse week from filename: Boost_Sub8011_2025-05-14_20-57-57.CSV; skipping
+2026-01-16 12:17:15,656 - WARNING - Skipping file with unparseable week: /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8011/Boost_Sub8011_2025-05-14_20-57-57.CSV
+2026-01-16 12:17:15,656 - WARNING - Could not parse week from filename: Boost_Sub8011_2025-04-30_21-39-18.CSV; skipping
+2026-01-16 12:17:15,656 - WARNING - Skipping file with unparseable week: /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8011/Boost_Sub8011_2025-04-30_21-39-18.CSV
+2026-01-16 12:17:15,657 - WARNING - Could not parse week from filename: Boost_Sub8011_2025-05-11_22-20-13.CSV; skipping
+2026-01-16 12:17:15,657 - WARNING - Skipping file with unparseable week: /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8011/Boost_Sub8011_2025-05-11_22-20-13.CSV
+2026-01-16 12:17:15,657 - WARNING - Could not parse week from filename: Boost_Sub8011_2025-05-09_20-26-57.CSV; skipping
+2026-01-16 12:17:15,657 - WARNING - Skipping file with unparseable week: /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8011/Boost_Sub8011_2025-05-09_20-26-57.CSV
+2026-01-16 12:17:15,657 - WARNING - Could not parse week from filename: Boost_Sub8011_2025-04-23_20-48-32.CSV; skipping
+2026-01-16 12:17:15,657 - WARNING - Skipping file with unparseable week: /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8011/Boost_Sub8011_2025-04-23_20-48-32.CSV
+2026-01-16 12:17:15,657 - WARNING - Could not parse week from filename: Boost_Sub8011_2025-05-24_20-37-26.CSV; skipping
+2026-01-16 12:17:15,657 - WARNING - Skipping file with unparseable week: /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8011/Boost_Sub8011_2025-05-24_20-37-26.CSV
+2026-01-16 12:17:15,657 - WARNING - Could not parse week from filename: Boost_Sub8011_2025-05-08_20-46-27.CSV; skipping
+2026-01-16 12:17:15,657 - WARNING - Skipping file with unparseable week: /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8011/Boost_Sub8011_2025-05-08_20-46-27.CSV
+2026-01-16 12:17:15,657 - WARNING - Could not parse week from filename: Boost_Sub8011_2025-04-27_10-42-51.CSV; skipping
+2026-01-16 12:17:15,657 - WARNING - Skipping file with unparseable week: /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8011/Boost_Sub8011_2025-04-27_10-42-51.CSV
+2026-01-16 12:17:17,421 - INFO - QC summary written: /home/vosslab-svc/boost-hr-py/qc_out.csv (401 rows)
+2026-01-16 12:17:17,429 - INFO - Zone QC summary written: /home/vosslab-svc/boost-hr-py/zone_out.csv (535 rows)
