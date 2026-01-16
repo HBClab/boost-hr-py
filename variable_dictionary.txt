@@ -1,7 +1,7 @@
 Variable Dictionary
 ===================
 
-QC summary (`~/qc_out.csv`)
+QC summary (`./qc_out.csv`)
 ---------------------------
 group: Session grouping derived from file path; "Supervised" or "Unsupervised".
 subject: Participant identifier (e.g., sub01).
@@ -14,7 +14,7 @@ end_time: End time of the flagged interval (HH:MM:SS); NaT if not applicable.
 duration_s: Duration of the flagged interval in seconds; NA if not applicable.
 length: Length of the flagged interval in samples (used for NaN streaks); NA if not applicable.
 
-Zone summary (`~/zone_out.csv`)
+Zone summary (`./zone_out.csv`)
 -------------------------------
 group: Session grouping derived from file path; "Supervised" or "Unsupervised".
 subject: Participant identifier (e.g., sub01).
