@@ -1,1 +1,0 @@
-I'm a founder. I'm writin' the fart bubbles in the bath, we vibe codin' symbiotes, prompting that Whoopie Goldberg, south Egyptian, Furburger deluxe, Mega Millions scratcher, skunkyBubba kush code. We codin' dung beetle. This ain't nothin' to me, man. ha ha. 2 e z

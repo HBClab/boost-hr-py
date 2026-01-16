@@ -14,8 +14,4 @@ def get_files(directory):
                     file_path = os.path.join(dir_path, file)
                     if os.path.isfile(file_path):
                         files[dir].append(file_path)
-
-
-                    
-
     return files

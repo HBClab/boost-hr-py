@@ -8,20 +8,19 @@ def extract_zones(path, subject, snap_to=5):
 
     # 1) Read in only the 5 zones for that subject
     df = pd.read_excel(path, sheet_name='Sheet1')
-# 1) Define exactly which columns you want:
     zone_cols = df.columns[5:15].tolist()   # this is ['Zone 1…', 'Unnamed: 6', … 'Unnamed: 14']
     all_cols  = ['BOOST ID'] + zone_cols     # length = 1 + 10 = 11
 
-# 2) Filter rows AND pick columns in one go:
+    # 2) Filter rows AND pick columns in one go:
     sub = df.loc[df['BOOST ID'] == int(subject), all_cols]
 
     if sub.empty:
         raise ValueError(f"No rows matching ID {subject}")
 
-# 3) Now sub is a DataFrame with exactly 11 cols:
+    # 3) Now sub is a DataFrame with exactly 11 cols:
     row = sub.iloc[0]  # a Series of length 11
 
-# 4) If you really need a new DataFrame with renamed cols:
+    # 4) If you really need a new DataFrame with renamed cols:
     new_names = {
         'BOOST ID': 'boost_id',
         zone_cols[0]: 'z1_start',
@@ -37,6 +36,4 @@ def extract_zones(path, subject, snap_to=5):
     }
 
     zones = sub.rename(columns=new_names).reset_index(drop=True)
-    # 3) Snap the boundaries
     return midpoint_snap(zones, snap_to=snap_to)
-

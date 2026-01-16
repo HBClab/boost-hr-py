@@ -1,23 +1,25 @@
 import pandas as pd
 import logging
-"""
-This file is used to QC the heart rate data for supervised sessions
-"""
+
+from qc.zone.zone_qc import QC_Zone
 
 logger = logging.getLogger(__name__)
 
 class QC_Sup:
 
-    def __init__(self, hr, zones):
+    def __init__(self, hr, zones, week, session_type: str):
         self.hr = hr
         self.zones = zones
+        self.week = week
         self.err = {}
+        self.session_type = session_type.lower()
+        self.zone_metrics = None
 
     def main(self):
         self.qc_data()
-        self.qc_zones()
+        self.zone_metrics = self.qc_zones()
 
-        return self.err
+        return self.err, self.zone_metrics
 
     def qc_data(self):
         """
@@ -36,11 +38,20 @@ class QC_Sup:
 
     def qc_zones(self):
         """
-        Initalize the QC zone rules and ensure they adhere to them
+        Run the qc_zone class
+        This should return the errors found in zone qc for reporting
         """
         logger.debug("running phantom zone qc")
 
-        return None
+        qc_zone = QC_Zone(self.hr, self.zones, self.week)
+        if self.session_type.startswith("super"):
+            qc_zone.supervised()
+        else:
+            qc_zone.unsupervised()
+
+        # Merge any zone errors into the overall error dictionary
+        self.err.update(qc_zone.err)
+        return qc_zone.zone_metrics
 
 
 
@@ -49,7 +60,7 @@ class QC_Sup:
         df = self.hr.copy()
 
         # assume df has columns “time” and “hr”
-        df['time'] = pd.to_datetime(df['time'])
+        df['time'] = pd.to_datetime(df['time'], format='%H:%M:%S')
         df = df.sort_values('time')
 
         # drop any NaNs so we only look at real measurements
@@ -62,9 +73,10 @@ class QC_Sup:
         gaps = delta > pd.Timedelta(seconds=30)
 
         # build a table of missing‐data intervals
+        prev_time = valid['time'].shift()
         missing_periods = pd.DataFrame({
-            'gap_start': valid['time'][gaps].shift(),    # end of last good sample
-            'gap_end':   valid['time'][gaps]             # start of next good sample
+            'gap_start': prev_time[gaps],    # end of last good sample
+            'gap_end':   valid['time'][gaps] # start of next good sample
         })
         missing_periods['duration'] = missing_periods['gap_end'] - missing_periods['gap_start']
         if missing_periods.empty:
@@ -105,8 +117,7 @@ class QC_Sup:
         # 5) Filter to runs that are all-NaN and longer than min_run
         long_runs = summary[(summary['all_nan']) & (summary['length'] > min_run)]
 
-        # 6) Return just start/end/length
-        return long_runs[['start_time', 'end_time', 'length']]
-
-
-
+        # 6) Add duration and return start/end/length/duration
+        long_runs = long_runs.copy()
+        long_runs['duration'] = long_runs['end_time'] - long_runs['start_time']
+        return long_runs[['start_time', 'end_time', 'duration', 'length']]
