@@ -2,23 +2,21 @@
 
 # cron to run the main pipeline on linux machine then use gh cli to start an actions script
 # === setup environment ===
+# set -euo pipefail
 
-# Source the Conda activate script
+REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
 source /opt/anaconda3-2024.10-1/etc/profile.d/conda.sh
+conda activate act
 
-# Activate Conda env
-conda activate boost-hr
-
-# Move to project home dir
-cd "$(dirname "$0")"
+cd "${REPO_ROOT}"
 
 # grab any new code changes, otherwise skip
 git pull --ff-only origin main
 
 # === run the python script ===
 
-python hr.main.py 'vosslnx'
-cd ..
+python hr/main.py 'vosslnx'
 
 
 # === push results to github ===
