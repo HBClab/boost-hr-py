@@ -7,7 +7,7 @@
 REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 source /opt/anaconda3-2024.10-1/etc/profile.d/conda.sh
-conda activate act
+conda activate boost-hr
 
 cd "${REPO_ROOT}"
 
