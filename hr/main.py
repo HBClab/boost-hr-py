@@ -58,7 +58,7 @@ class Main:
         zone_master = {} # dict to hold all zone metrics
         from util.get_files import get_files
         from util.hr.extract_hr import extract_hr, recording_window
-        from util.zone.extract_zones import extract_zones
+        from util.zone.extract_zones import extract_zones, extract_rest_max
         from qc.sup import QC_Sup
         project_path = os.path.join(self.base_path, "InterventionStudy", "3-experiment", "data", "polarhrcsv")
         if os.path.exists(project_path):
@@ -106,7 +106,14 @@ class Main:
                                             err_master[subject].append([file, err])
                                         continue
                                 zones = extract_zones(self.zone_path, subject)
-                                err, zone_metrics = QC_Sup(hr, zones, week, session).main()
+                                rest_max = None
+                                rest_max_err = None
+                                try:
+                                    rest_max = extract_rest_max(self.zone_path, subject)
+                                except Exception as exc:
+                                    logging.warning("Rest/max HR unavailable for %s: %s", subject, exc)
+                                    rest_max_err = f"rest/max HR unavailable: {exc}"
+                                err, zone_metrics = QC_Sup(hr, zones, week, session, rest_max, rest_max_err).main()
 
                                 if subject not in err_master:
                                     # first time: create a list with this one error

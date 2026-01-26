@@ -2,6 +2,7 @@ import pandas as pd
 from util.zone.midpoint import midpoint_snap
 import logging
 logger = logging.getLogger(__name__)
+
 def extract_zones(path, subject, snap_to=5):
     if subject.startswith('sub'):
         subject = subject.removeprefix('sub')
@@ -37,3 +38,36 @@ def extract_zones(path, subject, snap_to=5):
 
     zones = sub.rename(columns=new_names).reset_index(drop=True)
     return midpoint_snap(zones, snap_to=snap_to)
+
+def extract_rest_max(path, subject):
+    """
+    Exists as:
+        Max Hr
+        Rest Hr
+
+    In the sheet as solo columns.
+    """
+
+    if subject.startswith('sub'):
+        subject = subject.removeprefix('sub')
+
+    df = pd.read_excel(path, sheet_name='Sheet1')
+    cols = {c.lower(): c for c in df.columns}
+    try:
+        boost_col = cols['boost id']
+        rest_col = cols['rest hr']
+        max_col = cols['max hr']
+    except KeyError as exc:
+        missing = {"boost id", "rest hr", "max hr"} - set(cols)
+        raise ValueError(f"Missing required columns in HR range sheet: {sorted(missing)}") from exc
+
+    sub = df.loc[df[boost_col] == int(subject), [boost_col, rest_col, max_col]]
+    if sub.empty:
+        raise ValueError(f"No rows matching ID {subject}")
+
+    rest_hr = pd.to_numeric(sub[rest_col].iloc[0], errors="coerce")
+    max_hr = pd.to_numeric(sub[max_col].iloc[0], errors="coerce")
+    if pd.isna(rest_hr) or pd.isna(max_hr):
+        raise ValueError(f"Rest or max HR missing for ID {subject}")
+
+    return {"rest_hr": int(rest_hr), "max_hr": int(max_hr)}

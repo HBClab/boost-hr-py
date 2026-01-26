@@ -2,16 +2,20 @@ import pandas as pd
 import logging
 
 from qc.zone.zone_qc import QC_Zone
+from util.hr.cut_time import cut_time_series
 
 logger = logging.getLogger(__name__)
 
 class QC_Sup:
 
-    def __init__(self, hr, zones, week, session_type: str):
+    def __init__(self, hr, zones, week, session_type: str, rest_max=None, rest_max_err: str | None = None):
         self.hr = hr
         self.zones = zones
         self.week = week
         self.err = {}
+        if rest_max_err:
+            self.err["rest_max"] = [rest_max_err, None]
+        self.rest_max = rest_max or {}
         self.session_type = session_type.lower()
         self.zone_metrics = None
 
@@ -25,6 +29,20 @@ class QC_Sup:
         """
         QC the raw data itself
         """
+        logger.debug("running duration trim check")
+        trimmed, cut_seconds, cut_meta = cut_time_series(self.hr, "time", 40)
+        self.hr = trimmed
+        if cut_seconds > 0 and cut_meta is not None:
+            self.err["duration_trimmed"] = [
+                f"time series longer than 40 minutes; trimmed {int(cut_seconds)} seconds",
+                pd.DataFrame(
+                    {
+                        "start_time": [cut_meta.get("cut_start")],
+                        "end_time": [cut_meta.get("original_end")],
+                        "duration": [pd.Timedelta(seconds=cut_seconds)],
+                    }
+                ),
+            ]
         
         logger.debug("running missing check")
         missing_check, missing_periods = self._missing_periods()
@@ -43,7 +61,7 @@ class QC_Sup:
         """
         logger.debug("running phantom zone qc")
 
-        qc_zone = QC_Zone(self.hr, self.zones, self.week)
+        qc_zone = QC_Zone(self.hr, self.zones, self.week, self.rest_max)
         if self.session_type.startswith("super"):
             qc_zone.supervised()
         else:
