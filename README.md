@@ -3,9 +3,12 @@
 
 ## Useful Files for Reporting
 
-[`./qc_out.csv`] -> Holds all errors and warnings caught from the QC pipeline. 
-[`./zone_out.csv`] -> Contains QC metrics per zone/session.
-[./rust-ols-adherence-cli/data.csv] -> Holds some useful data about adherence **[finish here]**
+## TODO:
+- Forecast modeling with KDE
+- cutoff at 50 or when HR stops
+- add a file that shows when to cut off for hitl deletion
+
+## Project layout
 
 ## Device Specifications
 ---
