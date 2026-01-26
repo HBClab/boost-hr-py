@@ -3,7 +3,7 @@ import pandas as pd
 
 def cut_time_series(
     data: pd.DataFrame, time_column: str, mins: int
-) -> tuple[pd.DataFrame, float, dict | None]:
+    ) -> tuple[pd.DataFrame, float, dict | None]:
     """
     Trim a time series to the first `mins` minutes.
 
