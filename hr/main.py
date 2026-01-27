@@ -58,6 +58,7 @@ class Main:
         zone_master = {} # dict to hold all zone metrics
         from util.get_files import get_files
         from util.hr.extract_hr import extract_hr, recording_window
+        from util.hr.cut_time import cut_time_series
         from util.zone.extract_zones import extract_zones, extract_rest_max
         from qc.sup import QC_Sup
         project_path = os.path.join(self.base_path, "InterventionStudy", "3-experiment", "data", "polarhrcsv")
@@ -113,7 +114,23 @@ class Main:
                                 except Exception as exc:
                                     logging.warning("Rest/max HR unavailable for %s: %s", subject, exc)
                                     rest_max_err = f"rest/max HR unavailable: {exc}"
-                                err, zone_metrics = QC_Sup(hr, zones, week, session, rest_max, rest_max_err).main()
+                                # Trim to first 40 minutes if needed before QC
+                                hr_trimmed, cut_seconds, cut_meta = cut_time_series(hr, "time", 40)
+                                pre_err = {}
+                                if cut_seconds > 0 and cut_meta is not None:
+                                    pre_err["duration_trimmed"] = [
+                                        f"time series longer than 40 minutes; trimmed {int(cut_seconds)} seconds",
+                                        pd.DataFrame(
+                                            {
+                                                "start_time": [cut_meta.get("cut_start")],
+                                                "end_time": [cut_meta.get("original_end")],
+                                                "duration": [pd.Timedelta(seconds=cut_seconds)],
+                                            }
+                                        ),
+                                    ]
+                                err, zone_metrics = QC_Sup(hr_trimmed, zones, week, session, rest_max, rest_max_err).main()
+                                # Merge pre-QC errors (e.g., trimming) with QC results
+                                err = (pre_err or {}) | (err or {})
 
                                 if subject not in err_master:
                                     # first time: create a list with this one error
