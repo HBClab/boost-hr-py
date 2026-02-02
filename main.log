@@ -1,58 +1,58 @@
-2026-02-01 00:01:25,763 - WARNING - Skipping file with long duration (0 days 09:51:35): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Supervised/sub8006/8006_wk6_ses29.CSV
-2026-02-01 00:01:32,944 - WARNING - Skipping file with long duration (0 days 04:44:14): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Supervised/sub8020/8020_wk6_ses30.CSV
-2026-02-01 00:01:33,426 - WARNING - Skipping file with long duration (0 days 05:52:09): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Supervised/sub8020/8020_wk5_ses21.CSV
-2026-02-01 00:01:36,364 - WARNING - Skipping file with long duration (0 days 11:04:25): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Supervised/sub8020/8020_wk5_ses23.CSV
-2026-02-01 00:01:36,932 - WARNING - Skipping file with long duration (0 days 10:29:40): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Supervised/sub8020/8020_wk5_ses24.CSV
-2026-02-01 00:02:06,777 - WARNING - Skipping file with long duration (0 days 04:22:21): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Supervised/sub8030/8030_wk1_ses3.CSV
-2026-02-01 00:02:06,899 - WARNING - Skipping file with long duration (0 days 04:08:16): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Supervised/sub8030/8030_wk2_ses10.CSV
-2026-02-01 00:02:07,167 - WARNING - Skipping file with long duration (0 days 11:28:11): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Supervised/sub8030/8030_wk1_ses4.CSV
-2026-02-01 00:02:08,520 - WARNING - Found 1649 time values with hour >= 24 in /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Supervised/sub8030/8030_wk3_ses11.CSV (sample 24:00:00); normalizing to HH%24
-2026-02-01 00:02:08,717 - WARNING - Skipping file with long duration (1 days 00:27:28): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Supervised/sub8030/8030_wk3_ses11.CSV
-2026-02-01 00:02:11,860 - WARNING - Found 18013 time values with hour >= 24 in /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Supervised/sub8019/8019_wk1_ses4.CSV (sample 24:00:00); normalizing to HH%24
-2026-02-01 00:02:12,098 - WARNING - Skipping file with long duration (1 days 05:00:12): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Supervised/sub8019/8019_wk1_ses4.CSV
-2026-02-01 00:02:28,741 - WARNING - Skipping file with long duration (0 days 05:03:49): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Supervised/sub8003/8003_wk2_ses9.CSV
-2026-02-01 00:02:29,553 - WARNING - Skipping file with long duration (0 days 18:46:08): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Supervised/sub8003/8003_wk1_ses3.CSV
-2026-02-01 00:02:29,996 - WARNING - Found 4837 time values with hour >= 24 in /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Supervised/sub8003/8003_wk6_ses27.CSV (sample 24:00:00); normalizing to HH%24
-2026-02-01 00:02:30,204 - WARNING - Skipping file with long duration (1 days 01:20:36): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Supervised/sub8003/8003_wk6_ses27.CSV
-2026-02-01 00:02:33,418 - WARNING - Skipping file with long duration (0 days 21:12:48): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Supervised/sub8003/8003_wk4_ses18.CSV
-2026-02-01 00:02:59,334 - WARNING - Skipping file with long duration (0 days 12:54:07): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8003/8003_wk10_ses17.CSV
-2026-02-01 00:03:01,242 - WARNING - Skipping file with long duration (0 days 23:16:19): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8003/8003_wk9_ses15.CSV
-2026-02-01 00:03:02,517 - WARNING - Skipping file with long duration (0 days 13:50:59): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8003/8003_wk11_ses22.CSV
-2026-02-01 00:03:03,508 - WARNING - Skipping file with long duration (0 days 14:01:11): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8003/8003_wk11_ses24.CSV
-2026-02-01 00:03:04,211 - WARNING - Skipping file with long duration (0 days 14:25:24): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8003/8003_wk10_ses16.CSV
-2026-02-01 00:03:04,732 - WARNING - Skipping file with long duration (0 days 15:05:24): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8003/8003_wk10_ses18.CSV
-2026-02-01 00:03:05,466 - WARNING - Found 176550 time values with hour >= 24 in /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8003/8003_wk8_ses10.CSV (sample 24:00:00); normalizing to HH%24
-2026-02-01 00:03:06,044 - WARNING - Skipping file with long duration (3 days 01:02:29): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8003/8003_wk8_ses10.CSV
-2026-02-01 00:03:06,699 - WARNING - Found 12668 time values with hour >= 24 in /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8003/8003_wk12_ses29.CSV (sample 24:00:00); normalizing to HH%24
-2026-02-01 00:03:06,920 - WARNING - Skipping file with long duration (1 days 03:31:07): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8003/8003_wk12_ses29.CSV
-2026-02-01 00:03:07,396 - WARNING - Skipping file with long duration (0 days 14:54:55): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8003/8003_wk12_ses27.CSV
-2026-02-01 00:03:10,918 - WARNING - Skipping file with long duration (0 days 15:35:06): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8003/8003_wk12_ses28.CSV
-2026-02-01 00:03:48,195 - WARNING - Skipping file with long duration (0 days 21:03:06): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8002/8002_wk9_ses13.CSV
-2026-02-01 00:03:50,041 - WARNING - Could not parse week from filename: Boost_Sub8011_2025-04-16_20-44-30.CSV; skipping
-2026-02-01 00:03:50,041 - WARNING - Skipping file with unparseable week: /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8011/Boost_Sub8011_2025-04-16_20-44-30.CSV
-2026-02-01 00:03:50,041 - WARNING - Could not parse week from filename: Boost_Sub8011_2025-05-16_19-25-57.CSV; skipping
-2026-02-01 00:03:50,041 - WARNING - Skipping file with unparseable week: /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8011/Boost_Sub8011_2025-05-16_19-25-57.CSV
-2026-02-01 00:03:50,041 - WARNING - Could not parse week from filename: Boost_Sub8011_2025-05-01_21-46-48.CSV; skipping
-2026-02-01 00:03:50,041 - WARNING - Skipping file with unparseable week: /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8011/Boost_Sub8011_2025-05-01_21-46-48.CSV
-2026-02-01 00:03:50,041 - WARNING - Could not parse week from filename: Boost_Sub8011_2025-04-19_11-55-39.CSV; skipping
-2026-02-01 00:03:50,041 - WARNING - Skipping file with unparseable week: /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8011/Boost_Sub8011_2025-04-19_11-55-39.CSV
-2026-02-01 00:03:50,042 - WARNING - Could not parse week from filename: Boost_Sub8011_2025-04-18_21-18-40.CSV; skipping
-2026-02-01 00:03:50,042 - WARNING - Skipping file with unparseable week: /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8011/Boost_Sub8011_2025-04-18_21-18-40.CSV
-2026-02-01 00:03:50,042 - WARNING - Could not parse week from filename: Boost_Sub8011_2025-05-14_20-57-57.CSV; skipping
-2026-02-01 00:03:50,042 - WARNING - Skipping file with unparseable week: /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8011/Boost_Sub8011_2025-05-14_20-57-57.CSV
-2026-02-01 00:03:50,042 - WARNING - Could not parse week from filename: Boost_Sub8011_2025-04-30_21-39-18.CSV; skipping
-2026-02-01 00:03:50,042 - WARNING - Skipping file with unparseable week: /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8011/Boost_Sub8011_2025-04-30_21-39-18.CSV
-2026-02-01 00:03:50,042 - WARNING - Could not parse week from filename: Boost_Sub8011_2025-05-11_22-20-13.CSV; skipping
-2026-02-01 00:03:50,042 - WARNING - Skipping file with unparseable week: /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8011/Boost_Sub8011_2025-05-11_22-20-13.CSV
-2026-02-01 00:03:50,042 - WARNING - Could not parse week from filename: Boost_Sub8011_2025-05-09_20-26-57.CSV; skipping
-2026-02-01 00:03:50,042 - WARNING - Skipping file with unparseable week: /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8011/Boost_Sub8011_2025-05-09_20-26-57.CSV
-2026-02-01 00:03:50,042 - WARNING - Could not parse week from filename: Boost_Sub8011_2025-04-23_20-48-32.CSV; skipping
-2026-02-01 00:03:50,042 - WARNING - Skipping file with unparseable week: /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8011/Boost_Sub8011_2025-04-23_20-48-32.CSV
-2026-02-01 00:03:50,042 - WARNING - Could not parse week from filename: Boost_Sub8011_2025-05-24_20-37-26.CSV; skipping
-2026-02-01 00:03:50,042 - WARNING - Skipping file with unparseable week: /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8011/Boost_Sub8011_2025-05-24_20-37-26.CSV
-2026-02-01 00:03:50,042 - WARNING - Could not parse week from filename: Boost_Sub8011_2025-05-08_20-46-27.CSV; skipping
-2026-02-01 00:03:50,042 - WARNING - Skipping file with unparseable week: /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8011/Boost_Sub8011_2025-05-08_20-46-27.CSV
-2026-02-01 00:03:50,042 - WARNING - Could not parse week from filename: Boost_Sub8011_2025-04-27_10-42-51.CSV; skipping
-2026-02-01 00:03:50,042 - WARNING - Skipping file with unparseable week: /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8011/Boost_Sub8011_2025-04-27_10-42-51.CSV
-2026-02-01 00:04:03,066 - INFO - QC summary written: /home/vosslab-svc/boost-hr-py/qc_out.csv (401 rows)
-2026-02-01 00:04:03,075 - INFO - Zone QC summary written: /home/vosslab-svc/boost-hr-py/zone_out.csv (535 rows)
+2026-02-02 00:01:21,346 - WARNING - Skipping file with long duration (0 days 09:51:35): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Supervised/sub8006/8006_wk6_ses29.CSV
+2026-02-02 00:01:26,361 - WARNING - Skipping file with long duration (0 days 04:44:14): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Supervised/sub8020/8020_wk6_ses30.CSV
+2026-02-02 00:01:26,936 - WARNING - Skipping file with long duration (0 days 05:52:09): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Supervised/sub8020/8020_wk5_ses21.CSV
+2026-02-02 00:01:29,748 - WARNING - Skipping file with long duration (0 days 11:04:25): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Supervised/sub8020/8020_wk5_ses23.CSV
+2026-02-02 00:01:30,674 - WARNING - Skipping file with long duration (0 days 10:29:40): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Supervised/sub8020/8020_wk5_ses24.CSV
+2026-02-02 00:01:56,056 - WARNING - Skipping file with long duration (0 days 04:22:21): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Supervised/sub8030/8030_wk1_ses3.CSV
+2026-02-02 00:01:56,147 - WARNING - Skipping file with long duration (0 days 04:08:16): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Supervised/sub8030/8030_wk2_ses10.CSV
+2026-02-02 00:01:56,409 - WARNING - Skipping file with long duration (0 days 11:28:11): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Supervised/sub8030/8030_wk1_ses4.CSV
+2026-02-02 00:01:57,152 - WARNING - Found 1649 time values with hour >= 24 in /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Supervised/sub8030/8030_wk3_ses11.CSV (sample 24:00:00); normalizing to HH%24
+2026-02-02 00:01:57,352 - WARNING - Skipping file with long duration (1 days 00:27:28): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Supervised/sub8030/8030_wk3_ses11.CSV
+2026-02-02 00:02:06,997 - WARNING - Found 18013 time values with hour >= 24 in /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Supervised/sub8019/8019_wk1_ses4.CSV (sample 24:00:00); normalizing to HH%24
+2026-02-02 00:02:07,234 - WARNING - Skipping file with long duration (1 days 05:00:12): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Supervised/sub8019/8019_wk1_ses4.CSV
+2026-02-02 00:02:18,687 - WARNING - Skipping file with long duration (0 days 05:03:49): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Supervised/sub8003/8003_wk2_ses9.CSV
+2026-02-02 00:02:19,386 - WARNING - Skipping file with long duration (0 days 18:46:08): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Supervised/sub8003/8003_wk1_ses3.CSV
+2026-02-02 00:02:19,960 - WARNING - Found 4837 time values with hour >= 24 in /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Supervised/sub8003/8003_wk6_ses27.CSV (sample 24:00:00); normalizing to HH%24
+2026-02-02 00:02:20,172 - WARNING - Skipping file with long duration (1 days 01:20:36): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Supervised/sub8003/8003_wk6_ses27.CSV
+2026-02-02 00:02:23,970 - WARNING - Skipping file with long duration (0 days 21:12:48): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Supervised/sub8003/8003_wk4_ses18.CSV
+2026-02-02 00:03:08,839 - WARNING - Skipping file with long duration (0 days 12:54:07): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8003/8003_wk10_ses17.CSV
+2026-02-02 00:03:12,366 - WARNING - Skipping file with long duration (0 days 23:16:19): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8003/8003_wk9_ses15.CSV
+2026-02-02 00:03:15,321 - WARNING - Skipping file with long duration (0 days 13:50:59): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8003/8003_wk11_ses22.CSV
+2026-02-02 00:03:19,895 - WARNING - Skipping file with long duration (0 days 14:01:11): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8003/8003_wk11_ses24.CSV
+2026-02-02 00:03:20,634 - WARNING - Skipping file with long duration (0 days 14:25:24): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8003/8003_wk10_ses16.CSV
+2026-02-02 00:03:20,913 - WARNING - Skipping file with long duration (0 days 15:05:24): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8003/8003_wk10_ses18.CSV
+2026-02-02 00:03:21,619 - WARNING - Found 176550 time values with hour >= 24 in /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8003/8003_wk8_ses10.CSV (sample 24:00:00); normalizing to HH%24
+2026-02-02 00:03:22,225 - WARNING - Skipping file with long duration (3 days 01:02:29): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8003/8003_wk8_ses10.CSV
+2026-02-02 00:03:22,692 - WARNING - Found 12668 time values with hour >= 24 in /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8003/8003_wk12_ses29.CSV (sample 24:00:00); normalizing to HH%24
+2026-02-02 00:03:22,918 - WARNING - Skipping file with long duration (1 days 03:31:07): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8003/8003_wk12_ses29.CSV
+2026-02-02 00:03:23,285 - WARNING - Skipping file with long duration (0 days 14:54:55): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8003/8003_wk12_ses27.CSV
+2026-02-02 00:03:29,542 - WARNING - Skipping file with long duration (0 days 15:35:06): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8003/8003_wk12_ses28.CSV
+2026-02-02 00:04:20,884 - WARNING - Skipping file with long duration (0 days 21:03:06): /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8002/8002_wk9_ses13.CSV
+2026-02-02 00:04:39,814 - WARNING - Could not parse week from filename: Boost_Sub8011_2025-04-16_20-44-30.CSV; skipping
+2026-02-02 00:04:39,815 - WARNING - Skipping file with unparseable week: /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8011/Boost_Sub8011_2025-04-16_20-44-30.CSV
+2026-02-02 00:04:39,815 - WARNING - Could not parse week from filename: Boost_Sub8011_2025-05-16_19-25-57.CSV; skipping
+2026-02-02 00:04:39,815 - WARNING - Skipping file with unparseable week: /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8011/Boost_Sub8011_2025-05-16_19-25-57.CSV
+2026-02-02 00:04:39,815 - WARNING - Could not parse week from filename: Boost_Sub8011_2025-05-01_21-46-48.CSV; skipping
+2026-02-02 00:04:39,815 - WARNING - Skipping file with unparseable week: /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8011/Boost_Sub8011_2025-05-01_21-46-48.CSV
+2026-02-02 00:04:39,815 - WARNING - Could not parse week from filename: Boost_Sub8011_2025-04-19_11-55-39.CSV; skipping
+2026-02-02 00:04:39,815 - WARNING - Skipping file with unparseable week: /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8011/Boost_Sub8011_2025-04-19_11-55-39.CSV
+2026-02-02 00:04:39,815 - WARNING - Could not parse week from filename: Boost_Sub8011_2025-04-18_21-18-40.CSV; skipping
+2026-02-02 00:04:39,815 - WARNING - Skipping file with unparseable week: /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8011/Boost_Sub8011_2025-04-18_21-18-40.CSV
+2026-02-02 00:04:39,815 - WARNING - Could not parse week from filename: Boost_Sub8011_2025-05-14_20-57-57.CSV; skipping
+2026-02-02 00:04:39,815 - WARNING - Skipping file with unparseable week: /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8011/Boost_Sub8011_2025-05-14_20-57-57.CSV
+2026-02-02 00:04:39,815 - WARNING - Could not parse week from filename: Boost_Sub8011_2025-04-30_21-39-18.CSV; skipping
+2026-02-02 00:04:39,815 - WARNING - Skipping file with unparseable week: /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8011/Boost_Sub8011_2025-04-30_21-39-18.CSV
+2026-02-02 00:04:39,815 - WARNING - Could not parse week from filename: Boost_Sub8011_2025-05-11_22-20-13.CSV; skipping
+2026-02-02 00:04:39,815 - WARNING - Skipping file with unparseable week: /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8011/Boost_Sub8011_2025-05-11_22-20-13.CSV
+2026-02-02 00:04:39,815 - WARNING - Could not parse week from filename: Boost_Sub8011_2025-05-09_20-26-57.CSV; skipping
+2026-02-02 00:04:39,815 - WARNING - Skipping file with unparseable week: /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8011/Boost_Sub8011_2025-05-09_20-26-57.CSV
+2026-02-02 00:04:39,815 - WARNING - Could not parse week from filename: Boost_Sub8011_2025-04-23_20-48-32.CSV; skipping
+2026-02-02 00:04:39,815 - WARNING - Skipping file with unparseable week: /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8011/Boost_Sub8011_2025-04-23_20-48-32.CSV
+2026-02-02 00:04:39,815 - WARNING - Could not parse week from filename: Boost_Sub8011_2025-05-24_20-37-26.CSV; skipping
+2026-02-02 00:04:39,815 - WARNING - Skipping file with unparseable week: /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8011/Boost_Sub8011_2025-05-24_20-37-26.CSV
+2026-02-02 00:04:39,815 - WARNING - Could not parse week from filename: Boost_Sub8011_2025-05-08_20-46-27.CSV; skipping
+2026-02-02 00:04:39,815 - WARNING - Skipping file with unparseable week: /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8011/Boost_Sub8011_2025-05-08_20-46-27.CSV
+2026-02-02 00:04:39,815 - WARNING - Could not parse week from filename: Boost_Sub8011_2025-04-27_10-42-51.CSV; skipping
+2026-02-02 00:04:39,815 - WARNING - Skipping file with unparseable week: /mnt/nfs/lss/vosslabhpc/Projects/BOOST/InterventionStudy/3-experiment/data/polarhrcsv/Unsupervised/sub8011/Boost_Sub8011_2025-04-27_10-42-51.CSV
+2026-02-02 00:04:42,139 - INFO - QC summary written: /home/vosslab-svc/boost-hr-py/qc_out.csv (401 rows)
+2026-02-02 00:04:42,148 - INFO - Zone QC summary written: /home/vosslab-svc/boost-hr-py/zone_out.csv (535 rows)
