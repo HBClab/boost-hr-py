@@ -34,8 +34,8 @@ class Main:
         if not os.path.isfile(self.zone_path):
             raise FileNotFoundError(f"Zone path does not exist: {self.zone_path}")
 
-        self.out_path = "../qc_out.csv"
-        self.zone_out_path = "../zone_out.csv"
+        self.out_path = "./qc_out.csv"
+        self.zone_out_path = "./zone_out.csv"
 
 
         # add logging configuration
