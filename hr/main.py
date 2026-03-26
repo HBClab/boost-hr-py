@@ -34,9 +34,9 @@ class Main:
         if not os.path.isfile(self.zone_path):
             raise FileNotFoundError(f"Zone path does not exist: {self.zone_path}")
 
-        home_dir = Path.home()
-        self.out_path = home_dir / "qc_out.csv"
-        self.zone_out_path = home_dir / "zone_out.csv"
+        # Write outputs to the current working directory to keep runs self-contained
+        self.out_path = Path("../qc_out.csv")
+        self.zone_out_path = Path("../zone_out.csv")
 
 
         # add logging configuration
@@ -71,6 +71,17 @@ class Main:
                     files = get_files(session_path)
                     # extract hr from each file
                     for subject, subject_files in files.items():
+                        # Extract rest/max once per subject
+                        rest_max = None
+                        rest_max_err = None
+                        try:
+                            rest_max = extract_rest_max(self.zone_path, subject)
+                        except Exception as exc:
+                            logging.warning("Rest/max HR unavailable for %s: %s", subject, exc)
+                            rest_max_err = f"rest/max HR unavailable: {exc}"
+                            err_entry = {"rest_max": [rest_max_err, None]}
+                            err_master.setdefault(subject, []).append([None, err_entry])
+
                         for file in subject_files:
                             if file.lower().endswith('.csv'):
                                 hr, week = extract_hr(file)
@@ -107,13 +118,6 @@ class Main:
                                             err_master[subject].append([file, err])
                                         continue
                                 zones = extract_zones(self.zone_path, subject)
-                                rest_max = None
-                                rest_max_err = None
-                                try:
-                                    rest_max = extract_rest_max(self.zone_path, subject)
-                                except Exception as exc:
-                                    logging.warning("Rest/max HR unavailable for %s: %s", subject, exc)
-                                    rest_max_err = f"rest/max HR unavailable: {exc}"
                                 # Trim to first 40 minutes if needed before QC
                                 hr_trimmed, cut_seconds, cut_meta = cut_time_series(hr, "time", 40)
                                 pre_err = {}
@@ -128,7 +132,7 @@ class Main:
                                             }
                                         ),
                                     ]
-                                err, zone_metrics = QC_Sup(hr_trimmed, zones, week, session, rest_max, rest_max_err).main()
+                                err, zone_metrics = QC_Sup(hr_trimmed, zones, week, session, rest_max).main()
                                 # Merge pre-QC errors (e.g., trimming) with QC results
                                 err = (pre_err or {}) | (err or {})
 

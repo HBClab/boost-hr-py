@@ -2,7 +2,7 @@ import logging
 
 import pandas as pd
 
-logging = logging.getLogger(__name__)
+logger = logging.getLogger(__name__)
 
 
 class QC_Zone:
@@ -252,21 +252,21 @@ class QC_Zone:
             start_col = f"z{i}_start"
             end_col = f"z{i}_end"
             if start_col in self.zones.columns and end_col in self.zones.columns:
-            zone_bounds[i] = (
-                int(self.zones[start_col].iat[0]),
-                int(self.zones[end_col].iat[0]),
-            )
+                zone_bounds[i] = (
+                    int(self.zones[start_col].iat[0]),
+                    int(self.zones[end_col].iat[0]),
+                )
         # Map HR values to zones
         hr_vals = hr_df["hr"]
         zone_labels = []
         for hr in hr_vals:
             zone_label = "below"
             for z, (start, end) in zone_bounds.items():
-            if start <= hr <= end:
-                zone_label = f"z{z}"
-                break
-            if hr > max(end for _, end in zone_bounds.values()):
-            zone_label = "above"
+                if start <= hr <= end:
+                    zone_label = f"z{z}"
+                    break
+            if zone_bounds and hr > max(end for _, end in zone_bounds.values()):
+                zone_label = "above"
             zone_labels.append(zone_label)
         hr_df["zone"] = zone_labels
         # Count transitions
@@ -275,4 +275,3 @@ class QC_Zone:
         transition_counts = transitions.groupby(["prev_zone", "zone"]).size().unstack(fill_value=0)
         self.err["zone_transitions"] = ["zone transition counts calculated", None]
         return transition_counts
-

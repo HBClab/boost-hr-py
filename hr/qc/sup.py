@@ -7,13 +7,11 @@ logger = logging.getLogger(__name__)
 
 class QC_Sup:
 
-    def __init__(self, hr, zones, week, session_type: str, rest_max=None, rest_max_err: str | None = None):
+    def __init__(self, hr, zones, week, session_type: str, rest_max=None):
         self.hr = hr
         self.zones = zones
         self.week = week
         self.err = {}
-        if rest_max_err:
-            self.err["rest_max"] = [rest_max_err, None]
         self.rest_max = rest_max or {}
         self.session_type = session_type.lower()
         self.zone_metrics = None
@@ -28,7 +26,6 @@ class QC_Sup:
         """
         QC the raw data itself
         """
-        logger.debug("running missing check")
         missing_check, missing_periods = self._missing_periods()
         nan_runs = self._nan_check(self.hr.copy())
         if missing_check == 1:
@@ -43,9 +40,8 @@ class QC_Sup:
         Run the qc_zone class
         This should return the errors found in zone qc for reporting
         """
-        logger.debug("running phantom zone qc")
 
-        qc_zone = QC_Zone(self.hr, self.zones, self.week, self.rest_max)
+        qc_zone = QC_Zone(self.hr, self.zones, self.week)
         if self.session_type.startswith("super"):
             qc_zone.supervised()
         else:
